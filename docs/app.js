@@ -4,6 +4,7 @@ let catalog;
 let skills;
 let demos;
 let revealObserver;
+let renderedRoute;
 const filterState = { search: '', category: '' };
 const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const route = (kind, id) => `?${kind}=${encodeURIComponent(id)}`;
@@ -141,6 +142,7 @@ function render(focus = false) {
   else if (skill || demo) {app.innerHTML = '<div class="shell error"><h1 id="page-title">找不到這個項目</h1><p>它可能已更名，請從目錄選擇。</p><a href="./" data-route>回到 Skills 目錄 ↗</a></div>'; document.title = `找不到項目 — ${catalog.site.title}`; showLocation('error');}
   else if (params.get('view') === 'works') {worksPage(); document.title = `作品集 — ${catalog.site.title}`; showLocation('works');}
   else {home(); document.title = `${catalog.site.title} — ${catalog.site.owner}`; showLocation('home');}
+  renderedRoute = location.pathname + location.search;
   app.setAttribute('aria-busy', 'false');
   animate();
   if (focus) {app.focus({preventScroll:true}); window.scrollTo({top:0, behavior:'instant'});}
@@ -155,7 +157,14 @@ document.addEventListener('click', event => {
   history.pushState(null, '', link.href);
   render(true);
 });
-window.addEventListener('popstate', () => {if (catalog) render(true);});
+window.addEventListener('popstate', () => {
+  if (!catalog) return;
+  if (renderedRoute === location.pathname + location.search && !['#skills','#works'].includes(location.hash)) {
+    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    return;
+  }
+  render(true);
+});
 try {
   const response = await fetch('data/catalog.json');
   if (!response.ok) throw new Error('Catalog request failed');
