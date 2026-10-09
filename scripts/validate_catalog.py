@@ -72,6 +72,8 @@ def validate(catalog, web):
         for field in ["title", "summary", "description"]:
             text(demo, field, label)
         require(demo.get("type") in TYPES, label + ": unsupported media type")
+        if demo.get("relatedDemoId"):
+            require(demo["relatedDemoId"] in demo_ids and demo["relatedDemoId"] != demo.get("id"), label + ": invalid related demo reference")
         resource(demo.get("src"), label + ".src")
         for field in ["poster", "audio", "source", "download", "rights"]:
             if demo.get(field):

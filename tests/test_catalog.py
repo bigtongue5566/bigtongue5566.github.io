@@ -61,6 +61,13 @@ class CatalogMaintenanceTests(unittest.TestCase):
         self.catalog["skills"].append(copy.deepcopy(self.catalog["skills"][0]))
         self.assertTrue(any("duplicate id" in error for error in self.check(self.catalog)))
 
+    def test_companion_links_point_to_other_published_works(self):
+        demo = self.catalog["demos"][0]
+        demo["relatedDemoId"] = "missing-soundtrack"
+        self.assertTrue(any("related demo reference" in error for error in self.check(self.catalog)))
+        demo["relatedDemoId"] = demo["id"]
+        self.assertTrue(any("related demo reference" in error for error in self.check(self.catalog)))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -40,6 +40,12 @@ function skillRows(items) {
   </a>`).join('');
 }
 
+function groupedWorks(items) {
+  const groups = new Map();
+  items.forEach(demo => {if (!groups.has(demo.type)) groups.set(demo.type,[]); groups.get(demo.type).push(demo);});
+  return [...groups].map(([kind,entries]) => `<div class="work-group"><h3>${escape(mediaLabels[kind] || 'Demo')} <span>${entries.length} 件作品</span></h3><div class="work-list">${entries.map(demo => feature(demo,true)).join('')}</div></div>`).join('');
+}
+
 function updateDirectory() {
   const query = filterState.search.trim().toLocaleLowerCase();
   const visible = catalog.skills.filter(skill => (!filterState.category || skill.category === filterState.category) &&
@@ -57,7 +63,7 @@ function home() {
     <div class="hero-note"><span>ORIGINAL WORKS · REUSABLE SKILLS</span><span>MADE TO CREATE SOMETHING REAL</span></div>
   </section>
   <div class="shell">
-    <section class="section reveal" id="works" aria-label="展示作品"><div class="section-label"><span><span class="number">01 /</span> ${featured ? 'FEATURED WORK' : 'WORKS'}</span><span>${catalog.demos.length} ${catalog.demos.length === 1 ? 'WORK' : 'WORKS'}</span></div>${featured ? feature(featured) : '<p class="empty">作品將陸續加入。</p>'}${catalog.demos.length > 1 ? `<div class="work-list">${catalog.demos.filter(demo => demo.id !== featured.id).map(demo => feature(demo, true)).join('')}</div>` : ''}</section>
+    <section class="section reveal" id="works" aria-label="展示作品"><div class="section-label"><span><span class="number">01 /</span> ${featured ? 'FEATURED WORK' : 'WORKS'}</span><span>${catalog.demos.length} ${catalog.demos.length === 1 ? 'WORK' : 'WORKS'}</span></div>${featured ? feature(featured) : '<p class="empty">作品將陸續加入。</p>'}${catalog.demos.length > 1 ? groupedWorks(catalog.demos.filter(demo => demo.id !== featured.id)) : ''}</section>
     <section class="section directory reveal" id="skills" aria-labelledby="skills-title"><div class="section-label"><span><span class="number">02 /</span> THE SKILLS</span><span>EXPLORE · CREATE · SHARE</span></div><div class="directory-head"><h2 id="skills-title">已公開的 Skills</h2><div class="controls"><label class="visually-hidden" for="search">搜尋 Skill</label><input type="search" id="search" placeholder="搜尋名稱或功能" value="${escape(filterState.search)}"><label class="visually-hidden" for="category">選擇分類</label><select id="category"><option value="">所有分類</option>${categories.map(category => `<option value="${escape(category)}" ${filterState.category === category ? 'selected' : ''}>${escape(category)}</option>`).join('')}</select></div></div><p class="result-count" id="result-count" role="status" aria-live="polite"></p><div id="skill-rows"></div></section>
     <div class="open-note"><span>看見成果，再選擇適合你的 Skill。</span>${external(catalog.site.github, '查看全部開源專案 ↗')}</div>
   </div>`;
@@ -86,8 +92,10 @@ const mediaRenderers = {
 
 function demoPage(demo) {
   const media = mediaRenderers[demo.type];
+  const companion = demos.get(demo.relatedDemoId);
+  const companionLink = companion ? `<a href="${route('demo',companion.id)}" data-route>${companion.type === 'audio' ? '聆聽本片配樂' : '觀看搭配影片'} ↗</a>` : external(demo.audio, '獨立配樂 ↗');
   app.innerHTML = `<div class="shell detail"><a class="back" href="./#works" data-home-anchor="works">← 所有作品</a><div class="detail-heading"><div><p class="eyebrow">${escape(demo.type.toUpperCase())} / SKILL SHOWCASE</p><h1 id="page-title">${escape(demo.title)}</h1><p class="subtitle">${escape(demo.subtitle || demo.summary)}</p></div><div class="facts">${facts(demo)}</div></div>${media ? media(demo) : '<p class="empty">此作品格式尚未支援。</p>'}
-  <div class="player-controls">${['video','audio'].includes(demo.type) ? '<button class="cta" type="button" id="toggle-play">播放作品 ↗</button>' : external(demo.src, '在新頁面開啟 ↗', 'cta')}<div class="downloads">${external(demo.src, '下載／開啟作品 ↗')}${external(demo.audio, '獨立配樂 ↗')}${external(demo.download, '來源套件 ↗')}${external(demo.source, '製作專案 ↗')}</div></div>
+  <div class="player-controls">${['video','audio'].includes(demo.type) ? '<button class="cta" type="button" id="toggle-play">播放作品 ↗</button>' : external(demo.src, '在新頁面開啟 ↗', 'cta')}<div class="downloads">${companionLink}${external(demo.src, demo.type === 'audio' ? '下載音樂 ↗' : '下載／開啟作品 ↗')}${external(demo.download, '來源套件 ↗')}${external(demo.source, '製作專案 ↗')}</div></div>
   ${demo.chapters?.length && ['video','audio'].includes(demo.type) ? `<nav class="chapters" aria-label="選擇作品段落">${demo.chapters.map(chapter => `<button type="button" data-seek="${chapter.time}" aria-pressed="false"><span>${timecode(chapter.time)}</span>${escape(chapter.title)}</button>`).join('')}</nav>` : ''}
   <div class="detail-body"><div><h2>${escape(demo.summary)}</h2><p>${escape(demo.description)}</p></div><aside class="contributors"><h2>這件作品用到了</h2>${(demo.contributors ?? []).map(contributor => {const skill = skills.get(contributor.skillId); return skill ? `<a class="contributor" href="${route('skill', skill.id)}" data-route><strong>${escape(skill.name)} ↗</strong><span>${escape(contributor.role)}</span></a>` : '';}).join('')}<p class="credit">${escape(demo.credits || '')}</p><p class="credit">${external(demo.rights, '素材來源與授權 ↗')}</p></aside></div></div>`;
   const player = document.querySelector('#media');

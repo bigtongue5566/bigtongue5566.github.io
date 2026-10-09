@@ -17,10 +17,23 @@
       "repository": "https://github.com/bigtongue5566/edm-music-production",
       "license": "MIT",
       "artwork": "assets/music.svg",
-      "tags": ["EDM", "編曲", "混音", "MIDI"],
-      "capabilities": ["可設定片長、速度、大小調與和弦", "WAV 母帶、AAC、MIDI 與可選分軌", "音色來源與實際成品檢查"],
+      "tags": [
+        "EDM",
+        "編曲",
+        "混音",
+        "MIDI"
+      ],
+      "capabilities": [
+        "可設定片長、速度、大小調與和弦",
+        "WAV 母帶、AAC、MIDI 與可選分軌",
+        "音色來源與實際成品檢查"
+      ],
       "usage": "用 $edm-music-production 製作一首 90 秒的旋律型 EDM，有柔和開場、兩段高潮與自然收尾。",
-      "demoIds": ["form-and-frequency", "form-and-frequency-music"]
+      "demoIds": [
+        "form-and-frequency-music",
+        "digital-pulse-music",
+        "neon-drift-music"
+      ]
     },
     {
       "id": "motion-graphics-video",
@@ -31,10 +44,23 @@
       "repository": "https://github.com/bigtongue5566/motion-graphics-video",
       "license": "MIT",
       "artwork": "assets/motion.svg",
-      "tags": ["動態圖形", "品牌影片", "EDM", "MP4"],
-      "capabilities": ["查證內容、標誌、配色與素材來源", "共用音畫時間表，製作連續動態圖形", "完成影片、獨立配樂與編碼檢查"],
+      "tags": [
+        "動態圖形",
+        "品牌影片",
+        "EDM",
+        "MP4"
+      ],
+      "capabilities": [
+        "查證內容、標誌、配色與素材來源",
+        "共用音畫時間表，製作連續動態圖形",
+        "完成影片、獨立配樂與編碼檢查"
+      ],
       "usage": "用 $motion-graphics-video 製作一支 90 秒的原創動態圖形 Demo，讓 EDM 與畫面同步。",
-      "demoIds": ["form-and-frequency"]
+      "demoIds": [
+        "form-and-frequency",
+        "digital-pulse",
+        "neon-drift"
+      ]
     }
   ],
   "demos": [
@@ -51,22 +77,179 @@
       "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/form-and-frequency",
       "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip",
       "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
-      "facts": ["90 SEC", "1080p", "128 BPM", "D MAJOR"],
+      "facts": [
+        "90 SEC",
+        "1080p",
+        "128 BPM",
+        "D MAJOR"
+      ],
       "credits": "圖形、動畫與新的旋律編曲為本次製作；電子音色由合成器產生。影片字型使用 OFL 授權的 Noto Sans CJK TC 與 Space Grotesk，來源及授權文件保留於專案。",
       "contributors": [
-        {"skillId": "edm-music-production", "role": "作曲、編曲與音訊製作"},
-        {"skillId": "motion-graphics-video", "role": "分鏡、動態圖形與音畫同步"}
+        {
+          "skillId": "edm-music-production",
+          "role": "作曲、編曲與音訊製作"
+        },
+        {
+          "skillId": "motion-graphics-video",
+          "role": "分鏡、動態圖形與音畫同步"
+        }
       ],
       "chapters": [
-        {"time": 0, "title": "起點"},
-        {"time": 15, "title": "聚集"},
-        {"time": 22.5, "title": "成形"},
-        {"time": 37.5, "title": "呼吸"},
-        {"time": 45, "title": "相遇"},
-        {"time": 52.5, "title": "回應"},
-        {"time": 67.5, "title": "展開"},
-        {"time": 75, "title": "平衡"},
-        {"time": 82.5, "title": "收束"}
+        {
+          "time": 0,
+          "title": "起點"
+        },
+        {
+          "time": 15,
+          "title": "聚集"
+        },
+        {
+          "time": 22.5,
+          "title": "成形"
+        },
+        {
+          "time": 37.5,
+          "title": "呼吸"
+        },
+        {
+          "time": 45,
+          "title": "相遇"
+        },
+        {
+          "time": 52.5,
+          "title": "回應"
+        },
+        {
+          "time": 67.5,
+          "title": "展開"
+        },
+        {
+          "time": 75,
+          "title": "平衡"
+        },
+        {
+          "time": 82.5,
+          "title": "收束"
+        }
+      ],
+      "relatedDemoId": "form-and-frequency-music"
+    },
+    {
+      "poster": "assets/digital-pulse.jpg",
+      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/digital-pulse",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-source.zip",
+      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
+      "credits": "本次製作的新旋律、編曲與程序化圖形；音色由合成器產生，未使用第三方錄音。影片採用已記錄來源的 OFL 字型。",
+      "facts": [
+        "60 SEC",
+        "1080p",
+        "128 BPM",
+        "F# MINOR"
+      ],
+      "chapters": [
+        {
+          "time": 0,
+          "title": "數位脈動"
+        },
+        {
+          "time": 7.5,
+          "title": "CONNECT"
+        },
+        {
+          "time": 15,
+          "title": "CHARGE"
+        },
+        {
+          "time": 22.5,
+          "title": "ACTIVATE"
+        },
+        {
+          "time": 37.5,
+          "title": "PAUSE"
+        },
+        {
+          "time": 45,
+          "title": "TRANSMIT"
+        },
+        {
+          "time": 56.25,
+          "title": "DIGITAL PULSE"
+        }
+      ],
+      "id": "digital-pulse",
+      "title": "數位脈動",
+      "subtitle": "Digital Pulse",
+      "summary": "訊號網格、光點與節拍一起啟動。",
+      "description": "60 秒原創動態圖形，搭配全新 Progressive House 配樂。動畫共用音樂段落時間，光點、網格或線條也回應實際聲音的能量。",
+      "type": "video",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-60s.mp4",
+      "relatedDemoId": "digital-pulse-music",
+      "contributors": [
+        {
+          "skillId": "motion-graphics-video",
+          "role": "分鏡、原創圖形、動畫與音畫同步"
+        },
+        {
+          "skillId": "edm-music-production",
+          "role": "新旋律、編曲與電子音色"
+        }
+      ]
+    },
+    {
+      "poster": "assets/neon-drift.jpg",
+      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/neon-drift",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-source.zip",
+      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/neon-drift/RIGHTS.md",
+      "credits": "本次製作的新旋律、編曲與程序化圖形；音色由合成器產生，未使用第三方錄音。影片採用已記錄來源的 OFL 字型。",
+      "facts": [
+        "60 SEC",
+        "1080p",
+        "96 BPM",
+        "A MAJOR"
+      ],
+      "chapters": [
+        {
+          "time": 0,
+          "title": "霓虹漫遊"
+        },
+        {
+          "time": 10,
+          "title": "CRUISE"
+        },
+        {
+          "time": 20,
+          "title": "FLOW"
+        },
+        {
+          "time": 35,
+          "title": "STILL"
+        },
+        {
+          "time": 40,
+          "title": "EXPLORE"
+        },
+        {
+          "time": 55,
+          "title": "NEON DRIFT"
+        }
+      ],
+      "id": "neon-drift",
+      "title": "霓虹漫遊",
+      "subtitle": "Neon Drift",
+      "summary": "霓虹地平線與復古合成器，帶出舒緩的旅程。",
+      "description": "60 秒原創動態圖形，搭配全新 Synthwave / Electronic 配樂。動畫共用音樂段落時間，光點、網格或線條也回應實際聲音的能量。",
+      "type": "video",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-60s.mp4",
+      "relatedDemoId": "neon-drift-music",
+      "contributors": [
+        {
+          "skillId": "motion-graphics-video",
+          "role": "分鏡、原創圖形、動畫與音畫同步"
+        },
+        {
+          "skillId": "edm-music-production",
+          "role": "新旋律、編曲與電子音色"
+        }
       ]
     },
     {
@@ -81,19 +264,165 @@
       "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/form-and-frequency",
       "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip",
       "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
-      "facts": ["90 SEC", "128 BPM", "D MAJOR", "ORIGINAL BGM"],
+      "facts": [
+        "90 SEC",
+        "128 BPM",
+        "D MAJOR",
+        "ORIGINAL BGM"
+      ],
       "credits": "為本次 Demo 製作新的旋律與編曲，電子音色由合成器產生；未使用第三方錄音或歌曲取樣。MIDI、來源紀錄與音訊檢查結果隨製作專案提供。",
-      "contributors": [{"skillId": "edm-music-production", "role": "作曲、編曲、音色、混音與母帶"}],
+      "contributors": [
+        {
+          "skillId": "edm-music-production",
+          "role": "作曲、編曲、音色、混音與母帶"
+        }
+      ],
       "chapters": [
-        {"time": 0, "title": "開場"},
-        {"time": 7.5, "title": "節奏"},
-        {"time": 15, "title": "鋪陳"},
-        {"time": 22.5, "title": "第一段高潮"},
-        {"time": 37.5, "title": "間奏"},
-        {"time": 45, "title": "再次鋪陳"},
-        {"time": 52.5, "title": "第二段高潮"},
-        {"time": 75, "title": "放緩"},
-        {"time": 82.5, "title": "收尾"}
+        {
+          "time": 0,
+          "title": "開場"
+        },
+        {
+          "time": 7.5,
+          "title": "節奏"
+        },
+        {
+          "time": 15,
+          "title": "鋪陳"
+        },
+        {
+          "time": 22.5,
+          "title": "第一段高潮"
+        },
+        {
+          "time": 37.5,
+          "title": "間奏"
+        },
+        {
+          "time": 45,
+          "title": "再次鋪陳"
+        },
+        {
+          "time": 52.5,
+          "title": "第二段高潮"
+        },
+        {
+          "time": 75,
+          "title": "放緩"
+        },
+        {
+          "time": 82.5,
+          "title": "收尾"
+        }
+      ],
+      "relatedDemoId": "form-and-frequency"
+    },
+    {
+      "poster": "assets/digital-pulse.jpg",
+      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/digital-pulse",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-source.zip",
+      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
+      "credits": "本次製作的新旋律、編曲與程序化圖形；音色由合成器產生，未使用第三方錄音。影片採用已記錄來源的 OFL 字型。",
+      "facts": [
+        "60 SEC",
+        "128 BPM",
+        "F# MINOR"
+      ],
+      "chapters": [
+        {
+          "time": 0,
+          "title": "數位脈動"
+        },
+        {
+          "time": 7.5,
+          "title": "CONNECT"
+        },
+        {
+          "time": 15,
+          "title": "CHARGE"
+        },
+        {
+          "time": 22.5,
+          "title": "ACTIVATE"
+        },
+        {
+          "time": 37.5,
+          "title": "PAUSE"
+        },
+        {
+          "time": 45,
+          "title": "TRANSMIT"
+        },
+        {
+          "time": 56.25,
+          "title": "DIGITAL PULSE"
+        }
+      ],
+      "id": "digital-pulse-music",
+      "title": "數位脈動・原創配樂",
+      "subtitle": "Digital Pulse — Original Soundtrack",
+      "summary": "Progressive House 原創電子配樂。",
+      "description": "獨立聆聽這首 60 秒的 Progressive House。新設計的旋律與音色、不同的鼓和低音律動，搭配完整開場、高潮、間奏與收尾；附 MIDI 與重現程式。",
+      "type": "audio",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse.m4a",
+      "relatedDemoId": "digital-pulse",
+      "contributors": [
+        {
+          "skillId": "edm-music-production",
+          "role": "作曲、編曲、合成音色、混音與母帶"
+        }
+      ]
+    },
+    {
+      "poster": "assets/neon-drift.jpg",
+      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/neon-drift",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-source.zip",
+      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/neon-drift/RIGHTS.md",
+      "credits": "本次製作的新旋律、編曲與程序化圖形；音色由合成器產生，未使用第三方錄音。影片採用已記錄來源的 OFL 字型。",
+      "facts": [
+        "60 SEC",
+        "96 BPM",
+        "A MAJOR"
+      ],
+      "chapters": [
+        {
+          "time": 0,
+          "title": "霓虹漫遊"
+        },
+        {
+          "time": 10,
+          "title": "CRUISE"
+        },
+        {
+          "time": 20,
+          "title": "FLOW"
+        },
+        {
+          "time": 35,
+          "title": "STILL"
+        },
+        {
+          "time": 40,
+          "title": "EXPLORE"
+        },
+        {
+          "time": 55,
+          "title": "NEON DRIFT"
+        }
+      ],
+      "id": "neon-drift-music",
+      "title": "霓虹漫遊・原創配樂",
+      "subtitle": "Neon Drift — Original Soundtrack",
+      "summary": "Synthwave / Electronic 原創電子配樂。",
+      "description": "獨立聆聽這首 60 秒的 Synthwave / Electronic。新設計的旋律與音色、不同的鼓和低音律動，搭配完整開場、高潮、間奏與收尾；附 MIDI 與重現程式。",
+      "type": "audio",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift.m4a",
+      "relatedDemoId": "neon-drift",
+      "contributors": [
+        {
+          "skillId": "edm-music-production",
+          "role": "作曲、編曲、合成音色、混音與母帶"
+        }
       ]
     }
   ]

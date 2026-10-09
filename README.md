@@ -10,6 +10,11 @@ The featured film, **Form & Frequency / 聲形之間**, is a newly produced 90-s
 original motion-and-music study. Its soundtrack has a separate audio Demo.
 One work can credit several Skills.
 
+The gallery also includes two new 60-second studies: **Digital Pulse / 數位脈動**
+(128 BPM Progressive House) and **Neon Drift / 霓虹漫遊** (96 BPM Synthwave).
+Each has a film and a standalone soundtrack. The directory currently presents
+three video Demos for the motion Skill and three audio Demos for the music Skill.
+
 ## Add a Skill
 
 Edit `docs/data/catalog.json`. Add an object to `skills`:
@@ -70,6 +75,8 @@ the participating Skill IDs to the Demo's `contributors`:
 Optional `audio`, `download`, `source`, and `rights` fields expose accompanying
 music, source archives, source code, and attribution. Change `site.featuredDemoId`
 to select the featured work. Additional works appear automatically.
+Use `relatedDemoId` to link a film and its standalone soundtrack without leaving
+the showcase player. It must point to another existing Demo.
 
 All media can live in this site or in a Skill's own GitHub Pages site. The central
 catalog links to the existing 90-second film to avoid duplicating large files.
