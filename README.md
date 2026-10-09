@@ -19,7 +19,7 @@ The gallery also includes the 90-second **Form & Frequency / 聲形之間** and 
 Each has a film and a standalone soundtrack. The directory currently presents
 four video Demos for the motion Skill and four audio Demos for the music Skill.
 The revised Form & Frequency uses 148 BPM Future Bass; the TSMC film uses restrained
-124 BPM Dub Techno. Playback assets carry content-hash version queries, and chapters
+124 BPM Minimal Piano House. Playback assets carry content-hash version queries, and chapters
 match the new musical timing. Source archives retain the actual notes and automation.
 
 The Blender Skill includes an interactive **Taipei 101 / Xinyi District** maquette,

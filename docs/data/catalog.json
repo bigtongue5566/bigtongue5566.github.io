@@ -13,7 +13,7 @@
       "name": "EDM 音樂製作",
       "category": "音樂",
       "summary": "依曲風重寫鼓、低音與音色，完成原創電子音樂。",
-      "description": "從曲風、律動、聲部角色與段落出發，完成原創合成、混音與母帶。展示作品包含 Future Bass、Drum & Bass、UK Garage 與 Dub Techno，可獨立播放並下載可重現來源。",
+      "description": "從曲風、律動、聲部角色與段落出發，完成原創合成、混音與母帶。展示作品包含 Future Bass、Drum & Bass、UK Garage 與 Minimal Piano House，可獨立播放並下載可重現來源。",
       "repository": "https://github.com/bigtongue5566/edm-music-production",
       "license": "MIT",
       "artwork": "assets/music.svg",
@@ -469,23 +469,23 @@
       "title": "台積電｜從設計到矽晶",
       "subtitle": "Silicon Explained — An Independent TSMC Introduction",
       "summary": "從晶圓代工、N2 到先進封裝，理解台積電的角色。",
-      "description": "90 秒獨立資料解說，以自行繪製的晶圓、電路、製程與封裝概念動畫介紹台積電，搭配原創 Dub Techno。每段畫面附來源編號，2025 年數據及量產時間皆對應官方資料；動畫不代表實際設備、晶片尺寸或產品結構。",
+      "description": "90 秒獨立資料解說，以原創晶圓、製程與封裝概念動畫介紹台積電，搭配低張力三和弦與取樣鋼琴電子配樂；每段保留官方資料來源編號與非官方標示。",
       "type": "video",
-      "poster": "assets/tsmc-explained.jpg?v=b572ac635db1",
-      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-90s.mp4?v=96683b141d78",
-      "audio": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a?v=14d744fbd81a",
+      "poster": "assets/tsmc-explained.jpg?v=c3ed6bb53c3f",
+      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-90s.mp4?v=1bab7ca35a29",
+      "audio": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a?v=0d68ff429573",
       "source": "https://github.com/bigtongue5566/motion-graphics-video/tree/main/examples/tsmc-explained",
-      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip?v=30384b73366c",
+      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip?v=b21c59133bf0",
       "rights": "https://github.com/bigtongue5566/motion-graphics-video/blob/main/examples/tsmc-explained/RIGHTS.md",
       "facts": [
         "90 SEC",
         "1080p",
-        "DUB TECHNO",
+        "PIANO HOUSE",
         "附資料來源",
         "非官方介紹"
       ],
       "editorialNote": "非官方、獨立製作，未獲台積電贊助或背書。畫面為原創概念示意，配樂為原創合成；公司名稱僅用來辨識介紹對象。",
-      "credits": "圖形與動畫沿用本作品的原創程序化設計，按新配樂重新渲染。配樂重寫鼓型、低音、音色與段落，由振盪器及產生的噪聲合成，未使用第三方錄音。字型使用已記錄來源的 OFL 字型。",
+      "credits": "原創圖形、動畫、作曲與電子打擊／低音；鋼琴使用 GeneralUser GS 2.0.3，由 FluidSynth 演奏。音源版本、SHA-256、官方授權與樣本來源說明附於來源套件。字型沿用已記錄的 OFL 字型。",
       "contributors": [
         {
           "skillId": "motion-graphics-video",
@@ -624,28 +624,28 @@
         }
       ],
       "relatedDemoId": "tsmc-explained-music",
-      "revision": "2026-10-10-multi-style"
+      "revision": "2026-10-10-soft-piano-sync"
     },
     {
       "id": "tsmc-explained-music",
       "title": "矽晶脈動・原創配樂",
       "subtitle": "Silicon Explained — Original Soundtrack",
-      "summary": "124 BPM Dub Techno：深色和弦、延遲與留白。",
-      "description": "90 秒原創 Dub Techno 配樂。穩定四拍鼓、低密度打擊與短和弦，透過三次逐步變暗的延遲與緩慢濾波演化展開；以聲響空間陪伴資料解說，省略前景旋律。 可獨立播放；來源套件附 MIDI、完整合成程式、和聲與 automation 資料。",
+      "summary": "124 BPM Minimal Piano House：柔和鋼琴三和弦與清楚拍點。",
+      "description": "90 秒原創 Minimal Piano House：124 BPM、D 小調，以 Dm／Gm 三和弦、低音域取樣鋼琴與稀疏電子節奏製作；主擊清楚，保留留白。可獨立播放並下載 MIDI、程式與音源授權來源。",
       "type": "audio",
-      "poster": "assets/tsmc-explained.jpg?v=b572ac635db1",
-      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a?v=14d744fbd81a",
+      "poster": "assets/tsmc-explained.jpg?v=c3ed6bb53c3f",
+      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a?v=0d68ff429573",
       "source": "https://github.com/bigtongue5566/motion-graphics-video/tree/main/examples/tsmc-explained",
-      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip?v=30384b73366c",
+      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip?v=b21c59133bf0",
       "rights": "https://github.com/bigtongue5566/motion-graphics-video/blob/main/examples/tsmc-explained/RIGHTS.md",
       "facts": [
         "90 SEC",
         "124 BPM",
-        "DUB TECHNO",
+        "MINIMAL PIANO HOUSE",
         "D MINOR"
       ],
       "editorialNote": "本配樂為獨立原創作品，未獲台積電贊助或背書。",
-      "credits": "本版本重新創作的鼓型、低音、和聲與音色；聲音由振盪器及產生的噪聲合成，未使用第三方錄音。MIDI、合成程式、實際音符、濾波／延遲參數與成品檢查結果附於來源套件。",
+      "credits": "原創圖形、動畫、作曲與電子打擊／低音；鋼琴使用 GeneralUser GS 2.0.3，由 FluidSynth 演奏。音源版本、SHA-256、官方授權與樣本來源說明附於來源套件。字型沿用已記錄的 OFL 字型。",
       "contributors": [
         {
           "skillId": "edm-music-production",
@@ -687,7 +687,7 @@
         }
       ],
       "relatedDemoId": "tsmc-explained",
-      "revision": "2026-10-10-multi-style"
+      "revision": "2026-10-10-soft-piano-sync"
     },
     {
       "id": "taipei101-xinyi",
