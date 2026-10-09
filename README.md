@@ -5,8 +5,9 @@ for their actual work. The homepage starts with choosing a Skill.
 
 **[Browse Skills](https://bigtongue5566.github.io/)** · **[View works](https://bigtongue5566.github.io/?view=works)**
 
-The first entries are [EDM music production](https://github.com/bigtongue5566/edm-music-production)
-and [motion graphics video](https://github.com/bigtongue5566/motion-graphics-video).
+The directory includes [EDM music production](https://github.com/bigtongue5566/edm-music-production),
+[motion graphics video](https://github.com/bigtongue5566/motion-graphics-video),
+and [Blender landmark generator](https://github.com/bigtongue5566/blender-landmark-generator).
 The gallery's featured film is **台積電｜從設計到矽晶**, a 90-second independent, unofficial
 company introduction with original conceptual graphics and a new electronic soundtrack.
 Every company claim maps to an official source. The page exposes the complete references,
@@ -17,6 +18,13 @@ The gallery also includes the 90-second **Form & Frequency / 聲形之間** and 
 (128 BPM Progressive House) and **Neon Drift / 霓虹漫遊** (96 BPM Synthwave).
 Each has a film and a standalone soundtrack. The directory currently presents
 four video Demos for the motion Skill and four audio Demos for the music Skill.
+
+The Blender Skill includes an interactive **Taipei 101 / Xinyi District** maquette,
+with a separately reviewed TWTC Hall 1, four camera views and day/night lighting.
+Its self-contained viewer and GLB live in `docs/demos/taipei101/`; editable Blender
+source and reconstruction scripts are in `examples/taipei101/`. Interactive embeds
+allow downloads so visitors can save GLB, PNG or offline HTML; the full-page link
+also exposes the viewer outside the embedded layout.
 
 ## Add a Skill
 
@@ -104,6 +112,9 @@ embedding before using `interactive`; otherwise use `link`.
 - `https://bigtongue5566.github.io/?demo=form-and-frequency-music`
 - `https://bigtongue5566.github.io/?demo=tsmc-explained`
 - `https://bigtongue5566.github.io/?demo=tsmc-explained#references`
+- `https://bigtongue5566.github.io/?skill=blender-landmark-generator`
+- `https://bigtongue5566.github.io/?demo=taipei101-xinyi`
+- `https://bigtongue5566.github.io/demos/taipei101/index.html`
 
 Query-string routing works directly on GitHub Pages, including refreshes and
 shared links. Browser Back/Forward, keyboard navigation, media controls, and

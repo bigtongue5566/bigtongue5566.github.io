@@ -1,0 +1,26 @@
+{
+  "scene": "TAIPEI 101 · Xinyi District",
+  "units": "metres",
+  "axes": {
+    "X": "east",
+    "Y": "north",
+    "Z": "up"
+  },
+  "tower_tip_m": 508,
+  "tier_count": 8,
+  "approximate": true,
+  "reference_date": "2026-10-10",
+  "meshes": 109,
+  "vertices": 79058,
+  "glb_bytes": 5377828,
+  "landmarks": [
+    "taipei101",
+    "twtc",
+    "ticc",
+    "trade",
+    "hyatt",
+    "cityhall"
+  ],
+  "hall1_revision": "Covered barrel vault; seven-storey terraced trading floors; recessed south entrance",
+  "limits": "Exterior maquette; widths, facade details and surroundings approximate. No interiors."
+}

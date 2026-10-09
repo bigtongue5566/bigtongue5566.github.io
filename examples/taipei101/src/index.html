@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eeece4">
+  <title>TAIPEI 101 — 信義街區建築漫遊</title>
+  <meta name="description" content="旋轉、放大台北 101 與信義街區的三維建築沙盤。Blender Landmark Generator 示範，參考 Google Earth 與街景建立原創模型。">
+  <meta property="og:title" content="TAIPEI 101 — 信義街區建築漫遊">
+  <meta property="og:description" content="一座地標，一片街區。探索台北 101 的八段竹節塔身與周邊建築。">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23244540'/%3E%3Cpath d='M32 6v7m-6 2h12l-2 8h-8zm-3 11h18l-3 8H26zm-2 11h22l-3 8H24zm5 11h12v9H26' fill='%23eeece4' stroke='%23eeece4' stroke-width='2'/%3E%3C/svg%3E">
+  <style>/*__STYLE__*/</style>
+</head>
+<body data-mood="day">
+  <a class="skip" href="#viewport">跳到三維模型</a>
+  <header class="header">
+    <a class="brand" href="https://github.com/bigtongue5566/blender-landmark-generator" target="_blank" rel="noopener noreferrer" aria-label="Blender Landmark Generator GitHub">
+      <svg aria-hidden="true" viewBox="0 0 24 32"><path d="M12 1v4M8 7h8l-1 5H9zm-2 7h12l-2 5H8zm-1 7h14l-2 5H7zm4 7h6v3H9"/></svg>
+      <span>LANDMARK<br><strong>GENERATOR</strong></span>
+    </a>
+    <nav aria-label="網站導覽">
+      <button class="text-button" id="aboutBtn">關於模型</button>
+      <a class="text-button github" href="https://github.com/bigtongue5566/blender-landmark-generator" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main class="stage">
+    <div id="viewport" tabindex="0" role="region" aria-label="台北 101 互動三維模型" aria-describedby="instructions"></div>
+    <div id="landmarks" aria-hidden="true"></div>
+    <div class="intro">
+      <p class="eyebrow">01 / TAIWAN · TAIPEI</p>
+      <h1>TAIPEI<br><span>101</span><span class="title-dot" aria-hidden="true">.</span></h1>
+      <p class="subtitle">台北 101・信義街區</p>
+      <p class="description">從八段竹節，走進一座城市。</p>
+      <div class="height-note"><span>508</span><small>METRES<br>INTO THE SKY</small></div>
+    </div>
+
+    <div class="scene-tools">
+      <div class="moods" role="group" aria-label="光照時段">
+        <button data-mood="day" aria-pressed="true" class="active">日間</button>
+        <button data-mood="golden" aria-pressed="false">夕陽</button>
+        <button data-mood="night" aria-pressed="false">夜景</button>
+      </div>
+      <button id="panelToggle" class="settings-button" aria-expanded="false" aria-controls="settings" aria-label="場景設定">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16M9 4v6m6 4v6"/></svg>
+      </button>
+      <div id="settings" class="settings" hidden>
+        <div class="panel-heading"><span>場景設定</span><button id="closeSettings" aria-label="關閉場景設定">×</button></div>
+        <label><span>周邊建築</span><input id="surroundings" type="checkbox" checked></label>
+        <label><span>植栽</span><input id="vegetation" type="checkbox" checked></label>
+        <label><span>地標名稱</span><input id="labels" type="checkbox" checked></label>
+        <label><span>白模</span><input id="clay" type="checkbox"></label>
+        <label><span>自動環繞</span><input id="orbit" type="checkbox"></label>
+        <div class="panel-actions"><button id="capture">儲存畫面 ↗</button><a id="download" href="assets/taipei101.glb" download="Taipei101.glb">下載 GLB ↓</a></div>
+        <button id="offline" class="offline-button">下載離線網頁 ↓</button>
+      </div>
+    </div>
+
+    <div class="orientation" aria-hidden="true"><span id="compassNeedle">↑</span><b>N</b></div>
+    <div id="loading" role="status"><div class="loader-line"></div><strong>正在展開信義街區</strong><span>載入台北 101 三維模型</span></div>
+
+    <footer class="toolbar">
+      <div class="view-nav" role="group" aria-label="模型視角">
+        <button data-view="overview" class="active" aria-pressed="true"><small>01</small>全景</button>
+        <button data-view="tower" aria-pressed="false"><small>02</small>主塔</button>
+        <button data-view="district" aria-pressed="false"><small>03</small>世貿</button>
+        <button data-view="top" aria-pressed="false"><small>04</small>俯視</button>
+      </div>
+      <div class="toolbar-right"><p id="instructions"><span class="desktop-hint">拖曳旋轉 · 滾輪縮放 · 右鍵平移</span><span class="mobile-hint">拖曳旋轉 · 雙指縮放</span></p><button id="reset" aria-label="重設場景" title="重設場景">↺</button></div>
+    </footer>
+    <p class="edition"><span>BLENDER LANDMARK GENERATOR</span><span id="viewName">信義全景</span></p>
+  </main>
+
+  <dialog id="about" aria-labelledby="aboutTitle">
+    <button id="closeAbout" class="close-about" aria-label="關閉模型說明">×</button>
+    <p class="eyebrow">ABOUT THE MAQUETTE</p>
+    <h2 id="aboutTitle">一座地標，一片街區。</h2>
+    <p>以 Blender 建立的原創外觀沙盤。主塔保留八段向外展開的竹節、帷幕格線、圓形飾盤與 508 公尺尖塔。</p>
+    <p>周邊包含世貿一館、國際會議中心、國貿大樓、君悅飯店及市政府。道路、植栽和其他街廓以簡化幾何呈現。</p>
+    <p>世貿一館保留中央拱形覆蓋屋頂、綠色退台屋面及南側入口；切到「世貿」可近看。</p>
+    <p class="model-limit">依 Earth 與街景判讀外觀；棟體寬深、立面細節及周邊高度為近似，非測繪或官方模型。模型不含室內。</p>
+    <div class="source-list">
+      <a href="https://earth.google.com/web/search/Taipei+101/@25.03395,121.56447,90a,1600d,35y,0h,55t,0r" target="_blank" rel="noopener noreferrer"><span>Google Earth · 街廓與屋頂</span><small>影像 2018 / 11 ↗</small></a>
+      <a href="https://www.google.com/maps/@?api=1&amp;map_action=pano&amp;pano=DJx8RfyhF9l9h6cosRiC3g&amp;viewpoint=25.0323288,121.5653816&amp;heading=319&amp;pitch=21&amp;fov=75" target="_blank" rel="noopener noreferrer"><span>Google Maps · 松智路街景</span><small>影像 2025 / 01 ↗</small></a>
+      <a href="https://www.cylee.com/project/Taipei-101?lang=tw" target="_blank" rel="noopener noreferrer"><span>李祖原聯合建築師事務所</span><small>建築設計與高度 ↗</small></a>
+      <a href="https://www.skyscrapercenter.com/building/taipei-101/117" target="_blank" rel="noopener noreferrer"><span>Council on Vertical Urbanism</span><small>508 公尺高度資料 ↗</small></a>
+      <a href="https://www.twtc.com.tw/about" target="_blank" rel="noopener noreferrer"><span>台北世貿中心 · 一館資料</span><small>七層展覽大樓 ↗</small></a>
+    </div>
+    <a class="about-cta" href="https://github.com/bigtongue5566/blender-landmark-generator" target="_blank" rel="noopener noreferrer">查看 Blender Landmark Generator ↗</a>
+    <small class="about-footnote">2026.10.10 建立 · Google 影像僅作觀察參考，未擷取原始 3D 網格或作為模型貼圖。</small>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script id="model-data" type="application/octet-stream">/*__MODEL__*/</script>
+  <script>/*__APP__*/</script>
+</body>
+</html>

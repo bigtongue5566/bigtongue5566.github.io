@@ -63,6 +63,35 @@
         "neon-drift",
         "tsmc-explained"
       ]
+    },
+    {
+      "id": "blender-landmark-generator",
+      "name": "Blender 地標建模",
+      "category": "3D 建模",
+      "summary": "結合 Google Earth 與街景，重建建築外觀並製作互動漫遊。",
+      "description": "參考 Google Earth 俯視與多角度 3D 影像、Google Maps 街景及照片，逐棟核對外輪廓、屋頂、退台、立面與入口。以 Blender 建立可編輯場景，交付 GLB、可離線開啟的互動 HTML 及可重建原始碼。",
+      "repository": "https://github.com/bigtongue5566/blender-landmark-generator",
+      "license": "未宣告授權",
+      "artwork": "demos/taipei101/assets/taipei101-preview.png",
+      "tags": [
+        "Blender",
+        "Google Earth",
+        "Google Maps",
+        "街景",
+        "建築",
+        "GLB",
+        "3D",
+        "互動漫遊"
+      ],
+      "capabilities": [
+        "逐棟多角度核對屋頂、退台與入口",
+        "可編輯 Blender 場景、GLB 與離線互動 HTML",
+        "比例與開口修正、實際幾何檢查及對照渲染"
+      ],
+      "usage": "用 $blender-landmark-generator 參考 Google Earth 與 Google Maps 街景，重建台北 101 與周邊街區。逐棟核對屋頂和退台，提供日間與夜間燈光、GLB、Blender 原檔及可離線開啟的互動 HTML。",
+      "demoIds": [
+        "taipei101-xinyi"
+      ]
     }
   ],
   "demos": [
@@ -648,6 +677,32 @@
         }
       ],
       "relatedDemoId": "tsmc-explained"
+    },
+    {
+      "id": "taipei101-xinyi",
+      "title": "台北 101・信義街區",
+      "subtitle": "Taipei 101 / Xinyi District",
+      "summary": "旋轉、放大一座地標與周邊街區，切換日間與夜景。",
+      "description": "原創 Blender 外觀沙盤，保留 101 的八段竹節、508 公尺尖塔及相連購物中心。周邊包括世貿一館、國際會議中心、國貿大樓、君悅飯店與市政府；一館中央拱頂、退台及入口經個別視角核對。可切換全景、主塔、世貿與俯視，近看夜間窗燈、塔身飾帶與街燈。尺寸及立面細節為近似，非官方或測繪模型。",
+      "type": "interactive",
+      "poster": "demos/taipei101/assets/taipei101-preview.png",
+      "src": "demos/taipei101/index.html",
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/taipei101",
+      "download": "demos/taipei101/assets/taipei101-source.zip",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/taipei101/RIGHTS.md",
+      "facts": [
+        "508 M",
+        "BLENDER",
+        "GLB",
+        "DAY / NIGHT"
+      ],
+      "credits": "模型、材質與預覽為本次原創製作。Google Earth 與街景僅作外觀觀察，未擷取原始 3D 網格或照片貼圖；Three.js 授權聲明隨作品保留。",
+      "contributors": [
+        {
+          "skillId": "blender-landmark-generator",
+          "role": "多視角外觀判讀、Blender 建模、幾何驗證與互動漫遊"
+        }
+      ]
     }
   ]
 }

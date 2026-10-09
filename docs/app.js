@@ -86,7 +86,7 @@ const mediaRenderers = {
   video: demo => `<div class="player"><video id="media" controls playsinline preload="metadata" poster="${escape(demo.poster || '')}" aria-label="${escape(demo.title)}"><source src="${escape(demo.src)}" type="video/mp4">${external(demo.src, '下載影片')}</video></div>`,
   audio: demo => `<div class="player audio-player">${demo.poster ? `<img src="${escape(demo.poster)}" alt="${escape(demo.title)}封面">` : ''}<audio id="media" controls preload="metadata" aria-label="${escape(demo.title)}"><source src="${escape(demo.src)}">${external(demo.src, '下載音樂')}</audio></div>`,
   image: demo => `<div class="player"><img src="${escape(demo.src)}" alt="${escape(demo.alt || demo.title)}"></div>`,
-  interactive: demo => `<div class="player"><iframe src="${escape(demo.src)}" title="${escape(demo.title)}互動示範" sandbox="allow-scripts allow-same-origin" loading="lazy" referrerpolicy="no-referrer"></iframe></div>`,
+  interactive: demo => `<div class="player"><iframe src="${escape(demo.src)}" title="${escape(demo.title)}互動示範" sandbox="allow-scripts allow-same-origin allow-downloads" loading="lazy" referrerpolicy="no-referrer"></iframe></div>`,
   link: demo => `<div class="player link-player">${demo.poster ? `<img src="${escape(demo.poster)}" alt="${escape(demo.title)}作品預覽">` : ''}${external(demo.src, '開啟作品 ↗', 'cta')}</div>`
 };
 
