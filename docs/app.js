@@ -11,10 +11,23 @@ const external = (url, title, css = '') => url ? `<a class="${css}" href="${esca
 const timecode = time => `${String(Math.floor(time / 60)).padStart(2, '0')}:${String(Math.floor(time % 60)).padStart(2, '0')}`;
 const facts = demo => (demo.facts ?? []).map(escape).join(' &nbsp;/&nbsp; ');
 const playable = demo => ['video', 'audio'].includes(demo.type);
+const mediaLabels = {video:'影片 Demo',audio:'音樂 Demo',image:'圖片 Demo',interactive:'互動 Demo',link:'作品 Demo'};
+
+function showLocation(kind, item) {
+  const section = kind === 'skill' ? 'skills' : kind === 'demo' ? 'works' : location.hash === '#skills' ? 'skills' : location.hash === '#works' ? 'works' : 'home';
+  document.querySelectorAll('[data-nav]').forEach(link => {if (link.dataset.nav === section) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');});
+  const breadcrumbs = document.querySelector('#breadcrumbs');
+  breadcrumbs.hidden = kind === 'home' && section === 'home';
+  if (breadcrumbs.hidden) return;
+  const group = section === 'skills' ? 'Skills 目錄' : '作品集';
+  const current = kind === 'skill' ? item.name : kind === 'demo' ? item.title : kind === 'error' ? '找不到項目' : group;
+  const type = kind === 'skill' ? 'Skill 介紹' : kind === 'demo' ? mediaLabels[item.type] || 'Demo' : kind === 'error' ? '頁面未找到' : '目錄';
+  breadcrumbs.innerHTML = `<ol><li><a href="./" data-route>首頁</a></li>${item ? `<li><a href="./#${section}" data-home-anchor="${section}">${group}</a></li>` : ''}<li aria-current="page" title="${escape(current)}">${escape(current)}</li></ol><span class="page-type">${escape(type)}</span>`;
+}
 
 function feature(demo, small = false) {
   return `<a class="feature${small ? ' compact' : ''}" href="${route('demo', demo.id)}" data-route>
-    <div class="feature-image"><img src="${escape(demo.poster || (demo.type === 'image' ? demo.src : 'assets/hero.svg'))}" alt="${escape(demo.title)}的作品預覽" loading="lazy"><span class="play-badge">${playable(demo) ? '播放作品' : '探索作品'} ↗</span></div>
+    <div class="feature-image"><img src="${escape(demo.poster || (demo.type === 'image' ? demo.src : 'assets/hero.svg'))}" alt="${escape(demo.title)}的作品預覽" loading="lazy"><span class="play-badge">${escape(mediaLabels[demo.type] || 'Demo')} · ${playable(demo) ? '播放' : '探索'} ↗</span></div>
     <div class="feature-copy"><div><h2>${escape(demo.title)}</h2><p>${escape(demo.subtitle || demo.summary)}</p></div><p class="facts">${facts(demo)}</p></div>
   </a>`;
 }
@@ -102,10 +115,10 @@ function render(focus = false) {
   const params = new URLSearchParams(location.search);
   const skill = params.get('skill');
   const demo = params.get('demo');
-  if (skill && skills.has(skill)) {skillPage(skills.get(skill)); document.title = `${skills.get(skill).name} — ${catalog.site.title}`;}
-  else if (demo && demos.has(demo)) {demoPage(demos.get(demo)); document.title = `${demos.get(demo).title} — ${catalog.site.title}`;}
-  else if (skill || demo) {app.innerHTML = '<div class="shell error"><h1 id="page-title">找不到這個項目</h1><p>它可能已更名，請從目錄選擇。</p><a href="./" data-route>回到展示站 ↗</a></div>'; document.title = `找不到項目 — ${catalog.site.title}`;}
-  else {home(); document.title = `${catalog.site.title} — ${catalog.site.owner}`;}
+  if (skill && skills.has(skill)) {skillPage(skills.get(skill)); document.title = `${skills.get(skill).name} — ${catalog.site.title}`; showLocation('skill',skills.get(skill));}
+  else if (demo && demos.has(demo)) {demoPage(demos.get(demo)); document.title = `${demos.get(demo).title} — ${catalog.site.title}`; showLocation('demo',demos.get(demo));}
+  else if (skill || demo) {app.innerHTML = '<div class="shell error"><h1 id="page-title">找不到這個項目</h1><p>它可能已更名，請從目錄選擇。</p><a href="./" data-route>回到展示站 ↗</a></div>'; document.title = `找不到項目 — ${catalog.site.title}`; showLocation('error');}
+  else {home(); document.title = `${catalog.site.title} — ${catalog.site.owner}`; showLocation('home');}
   app.setAttribute('aria-busy', 'false');
   animate();
   if (focus) {app.focus({preventScroll:true}); window.scrollTo({top:0, behavior:'instant'});}

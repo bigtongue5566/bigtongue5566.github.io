@@ -86,6 +86,8 @@ embedding before using `interactive`; otherwise use `link`.
 Query-string routing works directly on GitHub Pages, including refreshes and
 shared links. Browser Back/Forward, keyboard navigation, media controls, and
 reduced-motion preferences are supported.
+The sticky navigation highlights the current section; a breadcrumb names the
+current Skill or Demo. Video and audio works have distinct labels.
 
 ## Local preview and checks
 
