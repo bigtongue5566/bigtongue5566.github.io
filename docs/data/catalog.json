@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "site": {
-    "title": "Skill Showcase",
+    "title": "Skill Library",
     "owner": "bigtongue5566",
-    "description": "用作品認識 Skill，從音樂到動態圖形。",
+    "description": "挑選適合的 Skill，查看使用方式與實際作品。",
     "github": "https://github.com/bigtongue5566",
     "featuredDemoId": "form-and-frequency"
   },

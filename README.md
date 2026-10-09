@@ -1,12 +1,13 @@
-# Skill Showcase
+# Skill Library
 
-A public, expandable home for my published Skills and their actual work.
+A public, expandable directory for my published Skills, with a separate gallery
+for their actual work. The homepage starts with choosing a Skill.
 
-**[Visit the showcase](https://bigtongue5566.github.io/)**
+**[Browse Skills](https://bigtongue5566.github.io/)** · **[View works](https://bigtongue5566.github.io/?view=works)**
 
 The first entries are [EDM music production](https://github.com/bigtongue5566/edm-music-production)
 and [motion graphics video](https://github.com/bigtongue5566/motion-graphics-video).
-The featured film, **Form & Frequency / 聲形之間**, is a newly produced 90-second
+The gallery's featured film, **Form & Frequency / 聲形之間**, is a newly produced 90-second
 original motion-and-music study. Its soundtrack has a separate audio Demo.
 One work can credit several Skills.
 
@@ -74,7 +75,7 @@ the participating Skill IDs to the Demo's `contributors`:
 
 Optional `audio`, `download`, `source`, and `rights` fields expose accompanying
 music, source archives, source code, and attribution. Change `site.featuredDemoId`
-to select the featured work. Additional works appear automatically.
+to select the featured work on the gallery page. Additional works appear automatically.
 Use `relatedDemoId` to link a film and its standalone soundtrack without leaving
 the showcase player. It must point to another existing Demo.
 
@@ -85,6 +86,8 @@ embedding before using `interactive`; otherwise use `link`.
 
 ## Stable links
 
+- `https://bigtongue5566.github.io/` — Skill directory with search and categories
+- `https://bigtongue5566.github.io/?view=works` — separate Demo gallery
 - `https://bigtongue5566.github.io/?skill=edm-music-production`
 - `https://bigtongue5566.github.io/?skill=motion-graphics-video`
 - `https://bigtongue5566.github.io/?demo=form-and-frequency`
@@ -95,6 +98,10 @@ shared links. Browser Back/Forward, keyboard navigation, media controls, and
 reduced-motion preferences are supported.
 The sticky navigation highlights the current section; a breadcrumb names the
 current Skill or Demo. Video and audio works have distinct labels.
+Skill details link back to the Skill directory; Demo pages link back to the gallery.
+The former `/#skills` and `/#works` links resolve to their respective new pages.
+The homepage contains Skill entries; individual works appear on Skill detail
+pages and in the gallery.
 
 ## Local preview and checks
 
