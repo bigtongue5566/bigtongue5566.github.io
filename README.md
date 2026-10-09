@@ -15,9 +15,12 @@ claim-by-claim timestamps, checked dates and actual materials/rights record.
 One work can credit several Skills.
 
 The gallery also includes the 90-second **Form & Frequency / 聲形之間** and two 60-second studies: **Digital Pulse / 數位脈動**
-(128 BPM Progressive House) and **Neon Drift / 霓虹漫遊** (96 BPM Synthwave).
+(172 BPM Drum & Bass) and **Neon Drift / 霓虹漫遊** (132 BPM UK Garage).
 Each has a film and a standalone soundtrack. The directory currently presents
 four video Demos for the motion Skill and four audio Demos for the music Skill.
+The revised Form & Frequency uses 148 BPM Future Bass; the TSMC film uses restrained
+124 BPM Dub Techno. Playback assets carry content-hash version queries, and chapters
+match the new musical timing. Source archives retain the actual notes and automation.
 
 The Blender Skill includes an interactive **Taipei 101 / Xinyi District** maquette,
 with a separately reviewed TWTC Hall 1, four camera views and day/night lighting.

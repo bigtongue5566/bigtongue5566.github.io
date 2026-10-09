@@ -12,8 +12,8 @@
       "id": "edm-music-production",
       "name": "EDM 音樂製作",
       "category": "音樂",
-      "summary": "從旋律、編曲到完成音檔，製作原創 EDM。",
-      "description": "建立和聲與旋律，安排開場、鋪陳、高潮與間奏，完成音色、混音與母帶。適合獨立音樂、影片配樂，以及既有配樂的和諧與層次修正。",
+      "summary": "依曲風重寫鼓、低音與音色，完成原創電子音樂。",
+      "description": "從曲風、律動、聲部角色與段落出發，完成原創合成、混音與母帶。展示作品包含 Future Bass、Drum & Bass、UK Garage 與 Dub Techno，可獨立播放並下載可重現來源。",
       "repository": "https://github.com/bigtongue5566/edm-music-production",
       "license": "MIT",
       "artwork": "assets/music.svg",
@@ -28,7 +28,7 @@
         "WAV 母帶、AAC、MIDI 與可選分軌",
         "音色來源與實際成品檢查"
       ],
-      "usage": "用 $edm-music-production 製作一首 90 秒的旋律型 EDM，有柔和開場、兩段高潮與自然收尾。",
+      "usage": "用 $edm-music-production 製作一首 60 秒的 UK Garage，使用搖擺 two-step、電鋼琴和弦與短低音；交付 AAC、WAV、MIDI 與編曲來源。",
       "demoIds": [
         "form-and-frequency-music",
         "digital-pulse-music",
@@ -99,22 +99,22 @@
       "id": "form-and-frequency",
       "title": "聲形之間",
       "subtitle": "Form & Frequency",
-      "summary": "讓旋律、節拍與幾何形狀一起流動。",
-      "description": "一支 90 秒的原創動態圖形與 Melodic House 作品。合成鍵盤、低音、旋律與鼓組帶動畫面的聚集、流動與展開；頻譜變形回應實際配樂的起伏。",
+      "summary": "半拍鼓、起伏和弦與幾何形狀一起展開。",
+      "description": "90 秒原創 Future Bass 配樂。以玻璃感鍵盤開場，切分 poly-saw 和弦與半拍鼓推進兩段高潮，再以留白收尾。和弦採七和弦與九和弦配置，主題、低音與濾波起伏均重新編寫。 影片按新配樂重新輸出，幾何脈衝跟隨實際大鼓，能量與頻譜回應完成版音訊。",
       "type": "video",
-      "poster": "assets/form-and-frequency.jpg",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-90s.mp4",
-      "audio": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency.m4a",
+      "poster": "assets/form-and-frequency.jpg?v=37aaad8b0e72",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-90s.mp4?v=d26f44b1090b",
+      "audio": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency.m4a?v=6b456863eae2",
       "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/form-and-frequency",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip?v=97c0b77f0c47",
       "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
       "facts": [
         "90 SEC",
         "1080p",
-        "128 BPM",
-        "D MAJOR"
+        "FUTURE BASS",
+        "148 BPM"
       ],
-      "credits": "圖形、動畫與新的旋律編曲為本次製作；電子音色由合成器產生。影片字型使用 OFL 授權的 Noto Sans CJK TC 與 Space Grotesk，來源及授權文件保留於專案。",
+      "credits": "圖形與動畫沿用本作品的原創程序化設計，按新配樂重新渲染。配樂重寫鼓型、低音、音色與段落，由振盪器及產生的噪聲合成，未使用第三方錄音。字型使用已記錄來源的 OFL 字型。",
       "contributors": [
         {
           "skillId": "edm-music-production",
@@ -127,93 +127,94 @@
       ],
       "chapters": [
         {
-          "time": 0,
-          "title": "起點"
+          "time": 0.0,
+          "title": "聲形之間"
         },
         {
-          "time": 15,
-          "title": "聚集"
+          "time": 12.972973,
+          "title": "BUILD"
         },
         {
-          "time": 22.5,
-          "title": "成形"
+          "time": 19.459459,
+          "title": "RHYTHM"
         },
         {
-          "time": 37.5,
-          "title": "呼吸"
+          "time": 38.918919,
+          "title": "BREATHE"
         },
         {
-          "time": 45,
-          "title": "相遇"
-        },
-        {
-          "time": 52.5,
-          "title": "回應"
-        },
-        {
-          "time": 67.5,
-          "title": "展開"
-        },
-        {
-          "time": 75,
-          "title": "平衡"
-        },
-        {
-          "time": 82.5,
-          "title": "收束"
-        }
-      ],
-      "relatedDemoId": "form-and-frequency-music"
-    },
-    {
-      "poster": "assets/digital-pulse.jpg",
-      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/digital-pulse",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-source.zip",
-      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
-      "credits": "本次製作的新旋律、編曲與程序化圖形；音色由合成器產生，未使用第三方錄音。影片採用已記錄來源的 OFL 字型。",
-      "facts": [
-        "60 SEC",
-        "1080p",
-        "128 BPM",
-        "F# MINOR"
-      ],
-      "chapters": [
-        {
-          "time": 0,
-          "title": "數位脈動"
-        },
-        {
-          "time": 7.5,
+          "time": 45.405405,
           "title": "CONNECT"
         },
         {
-          "time": 15,
+          "time": 51.891892,
+          "title": "RESONATE"
+        },
+        {
+          "time": 64.864865,
+          "title": "EXPAND"
+        },
+        {
+          "time": 71.351351,
+          "title": "BALANCE"
+        },
+        {
+          "time": 77.837838,
+          "title": "FORM & FREQUENCY"
+        }
+      ],
+      "relatedDemoId": "form-and-frequency-music",
+      "revision": "2026-10-10-multi-style"
+    },
+    {
+      "poster": "assets/digital-pulse.jpg?v=7318d9a13f4f",
+      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/digital-pulse",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-source.zip?v=3f542dcfcc13",
+      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
+      "credits": "圖形與動畫沿用本作品的原創程序化設計，按新配樂重新渲染。配樂重寫鼓型、低音、音色與段落，由振盪器及產生的噪聲合成，未使用第三方錄音。字型使用已記錄來源的 OFL 字型。",
+      "facts": [
+        "60 SEC",
+        "1080p",
+        "DRUM & BASS",
+        "172 BPM"
+      ],
+      "chapters": [
+        {
+          "time": 0.0,
+          "title": "數位脈動"
+        },
+        {
+          "time": 5.581395,
+          "title": "CONNECT"
+        },
+        {
+          "time": 11.162791,
           "title": "CHARGE"
         },
         {
-          "time": 22.5,
+          "time": 16.744186,
           "title": "ACTIVATE"
         },
         {
-          "time": 37.5,
+          "time": 33.488372,
           "title": "PAUSE"
         },
         {
-          "time": 45,
+          "time": 39.069767,
           "title": "TRANSMIT"
         },
         {
-          "time": 56.25,
+          "time": 55.813953,
           "title": "DIGITAL PULSE"
         }
       ],
       "id": "digital-pulse",
       "title": "數位脈動",
       "subtitle": "Digital Pulse",
-      "summary": "訊號網格、光點與節拍一起啟動。",
-      "description": "60 秒原創動態圖形，搭配全新 Progressive House 配樂。動畫共用音樂段落時間，光點、網格或線條也回應實際聲音的能量。",
+      "summary": "快速碎拍與雙層低音，喚醒訊號網格。",
+      "description": "60 秒原創 Drum & Bass 配樂。快速的碎拍大鼓、第二與第四拍軍鼓、ghost notes 與帽鈸變化，搭配分開合成的 Reese 中低音和單聲道 sub。編曲由低音與節奏主導，保留稀疏的背景和聲。 影片按新配樂重新輸出，幾何脈衝跟隨實際大鼓，能量與頻譜回應完成版音訊。",
       "type": "video",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-60s.mp4",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-60s.mp4?v=eb155f4a22e7",
       "relatedDemoId": "digital-pulse-music",
       "contributors": [
         {
@@ -224,53 +225,54 @@
           "skillId": "edm-music-production",
           "role": "新旋律、編曲與電子音色"
         }
-      ]
+      ],
+      "revision": "2026-10-10-multi-style"
     },
     {
-      "poster": "assets/neon-drift.jpg",
+      "poster": "assets/neon-drift.jpg?v=0a53ed01d831",
       "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/neon-drift",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-source.zip",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-source.zip?v=dbc007a10e13",
       "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/neon-drift/RIGHTS.md",
-      "credits": "本次製作的新旋律、編曲與程序化圖形；音色由合成器產生，未使用第三方錄音。影片採用已記錄來源的 OFL 字型。",
+      "credits": "圖形與動畫沿用本作品的原創程序化設計，按新配樂重新渲染。配樂重寫鼓型、低音、音色與段落，由振盪器及產生的噪聲合成，未使用第三方錄音。字型使用已記錄來源的 OFL 字型。",
       "facts": [
         "60 SEC",
         "1080p",
-        "96 BPM",
-        "A MAJOR"
+        "UK GARAGE",
+        "132 BPM"
       ],
       "chapters": [
         {
-          "time": 0,
+          "time": 0.0,
           "title": "霓虹漫遊"
         },
         {
-          "time": 10,
+          "time": 7.272727,
           "title": "CRUISE"
         },
         {
-          "time": 20,
+          "time": 14.545455,
           "title": "FLOW"
         },
         {
-          "time": 35,
+          "time": 36.363636,
           "title": "STILL"
         },
         {
-          "time": 40,
+          "time": 43.636364,
           "title": "EXPLORE"
         },
         {
-          "time": 55,
+          "time": 54.545455,
           "title": "NEON DRIFT"
         }
       ],
       "id": "neon-drift",
       "title": "霓虹漫遊",
       "subtitle": "Neon Drift",
-      "summary": "霓虹地平線與復古合成器，帶出舒緩的旅程。",
-      "description": "60 秒原創動態圖形，搭配全新 Synthwave / Electronic 配樂。動畫共用音樂段落時間，光點、網格或線條也回應實際聲音的能量。",
+      "summary": "兩步節奏、搖擺鍵盤與霓虹地平線。",
+      "description": "60 秒原創 UK Garage 配樂。以搖擺的 two-step 鼓型、七／九和弦電鋼琴短音與風琴呼應，搭配切分低音和刻意留下的空隙。未使用人聲或第三方歌曲取樣。 影片按新配樂重新輸出，幾何脈衝跟隨實際大鼓，能量與頻譜回應完成版音訊。",
       "type": "video",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-60s.mp4",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-60s.mp4?v=3d808c34b338",
       "relatedDemoId": "neon-drift-music",
       "contributors": [
         {
@@ -281,27 +283,28 @@
           "skillId": "edm-music-production",
           "role": "新旋律、編曲與電子音色"
         }
-      ]
+      ],
+      "revision": "2026-10-10-multi-style"
     },
     {
       "id": "form-and-frequency-music",
       "title": "聲形之間・原創配樂",
       "subtitle": "Form & Frequency — Original Soundtrack",
-      "summary": "獨立聆聽影片中的 Melodic House 配樂。",
-      "description": "90 秒的原創旋律型 EDM，包含合成鍵盤、低音、旋律與鼓組，以及兩段高潮、間奏和淡出收尾。可直接播放音樂，也能下載 MIDI 與製作程式重現編曲。",
+      "summary": "148 BPM Future Bass：半拍鼓、切分和弦與柔和主題。",
+      "description": "90 秒原創 Future Bass 配樂。以玻璃感鍵盤開場，切分 poly-saw 和弦與半拍鼓推進兩段高潮，再以留白收尾。和弦採七和弦與九和弦配置，主題、低音與濾波起伏均重新編寫。 可獨立播放；來源套件附 MIDI、完整合成程式、和聲與 automation 資料。",
       "type": "audio",
-      "poster": "assets/music.svg",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency.m4a",
+      "poster": "assets/form-and-frequency.jpg?v=37aaad8b0e72",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency.m4a?v=6b456863eae2",
       "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/form-and-frequency",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip?v=97c0b77f0c47",
       "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
       "facts": [
         "90 SEC",
-        "128 BPM",
-        "D MAJOR",
-        "ORIGINAL BGM"
+        "148 BPM",
+        "FUTURE BASS",
+        "F MINOR"
       ],
-      "credits": "為本次 Demo 製作新的旋律與編曲，電子音色由合成器產生；未使用第三方錄音或歌曲取樣。MIDI、來源紀錄與音訊檢查結果隨製作專案提供。",
+      "credits": "本版本重新創作的鼓型、低音、和聲與音色；聲音由振盪器及產生的噪聲合成，未使用第三方錄音。MIDI、合成程式、實際音符、濾波／延遲參數與成品檢查結果附於來源套件。",
       "contributors": [
         {
           "skillId": "edm-music-production",
@@ -310,173 +313,179 @@
       ],
       "chapters": [
         {
-          "time": 0,
-          "title": "開場"
+          "time": 0.0,
+          "title": "聲音的起點"
         },
         {
-          "time": 7.5,
-          "title": "節奏"
+          "time": 6.486486,
+          "title": "開始律動"
         },
         {
-          "time": 15,
-          "title": "鋪陳"
+          "time": 12.972973,
+          "title": "聚集能量"
         },
         {
-          "time": 22.5,
-          "title": "第一段高潮"
+          "time": 19.459459,
+          "title": "節奏成形"
         },
         {
-          "time": 37.5,
-          "title": "間奏"
+          "time": 38.918919,
+          "title": "留一點空間"
         },
         {
-          "time": 45,
-          "title": "再次鋪陳"
+          "time": 45.405405,
+          "title": "讓聲音相遇"
         },
         {
-          "time": 52.5,
-          "title": "第二段高潮"
+          "time": 51.891892,
+          "title": "每一拍都有回應"
         },
         {
-          "time": 75,
-          "title": "放緩"
+          "time": 71.351351,
+          "title": "聲音有層次"
         },
         {
-          "time": 82.5,
-          "title": "收尾"
+          "time": 77.837838,
+          "title": "聲形之間"
         }
       ],
-      "relatedDemoId": "form-and-frequency"
+      "relatedDemoId": "form-and-frequency",
+      "revision": "2026-10-10-multi-style"
     },
     {
-      "poster": "assets/digital-pulse.jpg",
+      "poster": "assets/digital-pulse.jpg?v=7318d9a13f4f",
       "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/digital-pulse",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-source.zip",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-source.zip?v=3f542dcfcc13",
       "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
-      "credits": "本次製作的新旋律、編曲與程序化圖形；音色由合成器產生，未使用第三方錄音。影片採用已記錄來源的 OFL 字型。",
+      "credits": "本版本重新創作的鼓型、低音、和聲與音色；聲音由振盪器及產生的噪聲合成，未使用第三方錄音。MIDI、合成程式、實際音符、濾波／延遲參數與成品檢查結果附於來源套件。",
       "facts": [
         "60 SEC",
-        "128 BPM",
-        "F# MINOR"
+        "172 BPM",
+        "DRUM & BASS",
+        "E MINOR"
       ],
       "chapters": [
         {
-          "time": 0,
+          "time": 0.0,
           "title": "數位脈動"
         },
         {
-          "time": 7.5,
+          "time": 5.581395,
           "title": "CONNECT"
         },
         {
-          "time": 15,
+          "time": 11.162791,
           "title": "CHARGE"
         },
         {
-          "time": 22.5,
+          "time": 16.744186,
           "title": "ACTIVATE"
         },
         {
-          "time": 37.5,
+          "time": 33.488372,
           "title": "PAUSE"
         },
         {
-          "time": 45,
+          "time": 39.069767,
           "title": "TRANSMIT"
         },
         {
-          "time": 56.25,
+          "time": 55.813953,
           "title": "DIGITAL PULSE"
         }
       ],
       "id": "digital-pulse-music",
       "title": "數位脈動・原創配樂",
       "subtitle": "Digital Pulse — Original Soundtrack",
-      "summary": "Progressive House 原創電子配樂。",
-      "description": "獨立聆聽這首 60 秒的 Progressive House。新設計的旋律與音色、不同的鼓和低音律動，搭配完整開場、高潮、間奏與收尾；附 MIDI 與重現程式。",
+      "summary": "172 BPM Drum & Bass：碎拍、ghost notes 與 Reese 低音。",
+      "description": "60 秒原創 Drum & Bass 配樂。快速的碎拍大鼓、第二與第四拍軍鼓、ghost notes 與帽鈸變化，搭配分開合成的 Reese 中低音和單聲道 sub。編曲由低音與節奏主導，保留稀疏的背景和聲。 可獨立播放；來源套件附 MIDI、完整合成程式、和聲與 automation 資料。",
       "type": "audio",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse.m4a",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse.m4a?v=bf362fa1a3a8",
       "relatedDemoId": "digital-pulse",
       "contributors": [
         {
           "skillId": "edm-music-production",
           "role": "作曲、編曲、合成音色、混音與母帶"
         }
-      ]
+      ],
+      "revision": "2026-10-10-multi-style"
     },
     {
-      "poster": "assets/neon-drift.jpg",
+      "poster": "assets/neon-drift.jpg?v=0a53ed01d831",
       "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/neon-drift",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-source.zip",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-source.zip?v=dbc007a10e13",
       "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/neon-drift/RIGHTS.md",
-      "credits": "本次製作的新旋律、編曲與程序化圖形；音色由合成器產生，未使用第三方錄音。影片採用已記錄來源的 OFL 字型。",
+      "credits": "本版本重新創作的鼓型、低音、和聲與音色；聲音由振盪器及產生的噪聲合成，未使用第三方錄音。MIDI、合成程式、實際音符、濾波／延遲參數與成品檢查結果附於來源套件。",
       "facts": [
         "60 SEC",
-        "96 BPM",
-        "A MAJOR"
+        "132 BPM",
+        "UK GARAGE",
+        "C MINOR"
       ],
       "chapters": [
         {
-          "time": 0,
+          "time": 0.0,
           "title": "霓虹漫遊"
         },
         {
-          "time": 10,
+          "time": 7.272727,
           "title": "CRUISE"
         },
         {
-          "time": 20,
+          "time": 14.545455,
           "title": "FLOW"
         },
         {
-          "time": 35,
+          "time": 36.363636,
           "title": "STILL"
         },
         {
-          "time": 40,
+          "time": 43.636364,
           "title": "EXPLORE"
         },
         {
-          "time": 55,
+          "time": 54.545455,
           "title": "NEON DRIFT"
         }
       ],
       "id": "neon-drift-music",
       "title": "霓虹漫遊・原創配樂",
       "subtitle": "Neon Drift — Original Soundtrack",
-      "summary": "Synthwave / Electronic 原創電子配樂。",
-      "description": "獨立聆聽這首 60 秒的 Synthwave / Electronic。新設計的旋律與音色、不同的鼓和低音律動，搭配完整開場、高潮、間奏與收尾；附 MIDI 與重現程式。",
+      "summary": "132 BPM UK Garage：搖擺的 two-step、電鋼琴與短低音。",
+      "description": "60 秒原創 UK Garage 配樂。以搖擺的 two-step 鼓型、七／九和弦電鋼琴短音與風琴呼應，搭配切分低音和刻意留下的空隙。未使用人聲或第三方歌曲取樣。 可獨立播放；來源套件附 MIDI、完整合成程式、和聲與 automation 資料。",
       "type": "audio",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift.m4a",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift.m4a?v=ad951e9278f7",
       "relatedDemoId": "neon-drift",
       "contributors": [
         {
           "skillId": "edm-music-production",
           "role": "作曲、編曲、合成音色、混音與母帶"
         }
-      ]
+      ],
+      "revision": "2026-10-10-multi-style"
     },
     {
       "id": "tsmc-explained",
       "title": "台積電｜從設計到矽晶",
       "subtitle": "Silicon Explained — An Independent TSMC Introduction",
       "summary": "從晶圓代工、N2 到先進封裝，理解台積電的角色。",
-      "description": "90 秒獨立資料解說，以自行繪製的晶圓、電路、製程與封裝概念動畫介紹台積電，搭配全新原創 Melodic House。每段畫面附來源編號，2025 年數據及量產時間皆對應官方資料；動畫不代表實際設備、晶片尺寸或產品結構。",
+      "description": "90 秒獨立資料解說，以自行繪製的晶圓、電路、製程與封裝概念動畫介紹台積電，搭配原創 Dub Techno。每段畫面附來源編號，2025 年數據及量產時間皆對應官方資料；動畫不代表實際設備、晶片尺寸或產品結構。",
       "type": "video",
-      "poster": "assets/tsmc-explained.jpg",
-      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-90s.mp4",
-      "audio": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a",
+      "poster": "assets/tsmc-explained.jpg?v=b572ac635db1",
+      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-90s.mp4?v=96683b141d78",
+      "audio": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a?v=14d744fbd81a",
       "source": "https://github.com/bigtongue5566/motion-graphics-video/tree/main/examples/tsmc-explained",
-      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip",
+      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip?v=30384b73366c",
       "rights": "https://github.com/bigtongue5566/motion-graphics-video/blob/main/examples/tsmc-explained/RIGHTS.md",
       "facts": [
         "90 SEC",
         "1080p",
+        "DUB TECHNO",
         "附資料來源",
         "非官方介紹"
       ],
       "editorialNote": "非官方、獨立製作，未獲台積電贊助或背書。畫面為原創概念示意，配樂為原創合成；公司名稱僅用來辨識介紹對象。",
-      "credits": "圖形、動畫與配樂為本次製作。未置入官方 Logo、照片、官網圖表或第三方錄音。字型使用 OFL-1.1 授權的 Noto Sans CJK TC 與 Space Grotesk，原文授權、來源網址與雜湊收錄於來源套件。",
+      "credits": "圖形與動畫沿用本作品的原創程序化設計，按新配樂重新渲染。配樂重寫鼓型、低音、音色與段落，由振盪器及產生的噪聲合成，未使用第三方錄音。字型使用已記錄來源的 OFL 字型。",
       "contributors": [
         {
           "skillId": "motion-graphics-video",
@@ -489,35 +498,35 @@
       ],
       "chapters": [
         {
-          "time": 0,
+          "time": 0.0,
           "title": "從設計到矽晶"
         },
         {
-          "time": 8,
+          "time": 7.741935,
           "title": "一種專注的分工"
         },
         {
-          "time": 20,
+          "time": 19.354839,
           "title": "專業晶圓代工"
         },
         {
-          "time": 32,
+          "time": 30.967742,
           "title": "服務的廣度"
         },
         {
-          "time": 44,
+          "time": 42.580645,
           "title": "製程持續演進"
         },
         {
-          "time": 58,
+          "time": 56.129032,
           "title": "先進封裝"
         },
         {
-          "time": 70,
+          "time": 69.677419,
           "title": "不同的應用"
         },
         {
-          "time": 80,
+          "time": 79.354839,
           "title": "非官方・獨立介紹"
         }
       ],
@@ -567,7 +576,7 @@
       ],
       "claims": [
         {
-          "time": "00:08–00:20",
+          "time": "00:07.742–00:19.355",
           "text": "台積電於 1987 年成立；專注於製造客戶設計的晶片。",
           "sourceIds": [
             "S1",
@@ -575,7 +584,7 @@
           ]
         },
         {
-          "time": "00:20–00:32",
+          "time": "00:19.355–00:30.968",
           "text": "台積電提供專業晶圓代工；設計、製造與終端應用是本片自行繪製的概念流程。",
           "sourceIds": [
             "S1",
@@ -583,7 +592,7 @@
           ]
         },
         {
-          "time": "00:32–00:44",
+          "time": "00:30.968–00:42.581",
           "text": "2025 年：305 種製程技術、534 個客戶、12,682 種不同產品。",
           "sourceIds": [
             "S2",
@@ -591,7 +600,7 @@
           ]
         },
         {
-          "time": "00:44–00:58",
+          "time": "00:42.581–00:56.129",
           "text": "依台積電公告，N2 於 2025 年第四季開始量產，並使用 nanosheet 電晶體技術。",
           "sourceIds": [
             "S3",
@@ -599,14 +608,14 @@
           ]
         },
         {
-          "time": "00:58–01:10",
+          "time": "00:56.129–01:09.677",
           "text": "台積電的先進封裝技術可整合運算晶片與高頻寬記憶體；動畫為概念示意，不呈現實際產品結構。",
           "sourceIds": [
             "S4"
           ]
         },
         {
-          "time": "01:10–01:20",
+          "time": "01:09.677–01:19.355",
           "text": "終端應用包括高效能運算、智慧型手機、物聯網、車用及消費性電子。",
           "sourceIds": [
             "S1",
@@ -614,28 +623,29 @@
           ]
         }
       ],
-      "relatedDemoId": "tsmc-explained-music"
+      "relatedDemoId": "tsmc-explained-music",
+      "revision": "2026-10-10-multi-style"
     },
     {
       "id": "tsmc-explained-music",
       "title": "矽晶脈動・原創配樂",
       "subtitle": "Silicon Explained — Original Soundtrack",
-      "summary": "120 BPM、E 小調的原創科技感電子配樂。",
-      "description": "為台積電獨立介紹 Demo 全新製作的 90 秒 Melodic House。合成鍵盤、pluck、低音與四拍鼓配合影片段落；附可編輯 MIDI 與重現程式。公司資訊及逐段來源可在搭配影片頁核對。",
+      "summary": "124 BPM Dub Techno：深色和弦、延遲與留白。",
+      "description": "90 秒原創 Dub Techno 配樂。穩定四拍鼓、低密度打擊與短和弦，透過三次逐步變暗的延遲與緩慢濾波演化展開；以聲響空間陪伴資料解說，省略前景旋律。 可獨立播放；來源套件附 MIDI、完整合成程式、和聲與 automation 資料。",
       "type": "audio",
-      "poster": "assets/tsmc-explained.jpg",
-      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a",
+      "poster": "assets/tsmc-explained.jpg?v=b572ac635db1",
+      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a?v=14d744fbd81a",
       "source": "https://github.com/bigtongue5566/motion-graphics-video/tree/main/examples/tsmc-explained",
-      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip",
+      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip?v=30384b73366c",
       "rights": "https://github.com/bigtongue5566/motion-graphics-video/blob/main/examples/tsmc-explained/RIGHTS.md",
       "facts": [
         "90 SEC",
-        "120 BPM",
-        "E MINOR",
-        "原創 BGM"
+        "124 BPM",
+        "DUB TECHNO",
+        "D MINOR"
       ],
       "editorialNote": "本配樂為獨立原創作品，未獲台積電贊助或背書。",
-      "credits": "圖形、動畫與配樂為本次製作。未置入官方 Logo、照片、官網圖表或第三方錄音。字型使用 OFL-1.1 授權的 Noto Sans CJK TC 與 Space Grotesk，原文授權、來源網址與雜湊收錄於來源套件。",
+      "credits": "本版本重新創作的鼓型、低音、和聲與音色；聲音由振盪器及產生的噪聲合成，未使用第三方錄音。MIDI、合成程式、實際音符、濾波／延遲參數與成品檢查結果附於來源套件。",
       "contributors": [
         {
           "skillId": "edm-music-production",
@@ -644,39 +654,40 @@
       ],
       "chapters": [
         {
-          "time": 0,
+          "time": 0.0,
           "title": "從設計到矽晶"
         },
         {
-          "time": 8,
+          "time": 7.741935,
           "title": "一種專注的分工"
         },
         {
-          "time": 20,
+          "time": 19.354839,
           "title": "專業晶圓代工"
         },
         {
-          "time": 32,
+          "time": 30.967742,
           "title": "服務的廣度"
         },
         {
-          "time": 44,
+          "time": 42.580645,
           "title": "製程持續演進"
         },
         {
-          "time": 58,
+          "time": 56.129032,
           "title": "先進封裝"
         },
         {
-          "time": 70,
+          "time": 69.677419,
           "title": "不同的應用"
         },
         {
-          "time": 80,
+          "time": 79.354839,
           "title": "非官方・獨立介紹"
         }
       ],
-      "relatedDemoId": "tsmc-explained"
+      "relatedDemoId": "tsmc-explained",
+      "revision": "2026-10-10-multi-style"
     },
     {
       "id": "taipei101-xinyi",
