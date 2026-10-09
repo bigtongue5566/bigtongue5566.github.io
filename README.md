@@ -125,6 +125,12 @@ reduced-motion preferences are supported.
 The sticky navigation highlights the current section; a breadcrumb names the
 current Skill or Demo. Video and audio works have distinct labels.
 Skill details link back to the Skill directory; Demo pages link back to the gallery.
+The header includes an accessible light/dark switch shared across all routes.
+The first visit follows the system theme; a manual choice is saved locally and
+used on later visits. Unsaved preferences follow system changes, and saved
+choices synchronize across tabs. The switch also works with keyboard input
+and when browser storage is unavailable. Theme initialization runs before CSS
+to avoid a flash; native audio/video controls follow the selected color scheme.
 The former `/#skills` and `/#works` links resolve to their respective new pages.
 The homepage contains Skill entries; individual works appear on Skill detail
 pages and in the gallery.
