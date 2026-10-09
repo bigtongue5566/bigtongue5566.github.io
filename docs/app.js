@@ -166,7 +166,7 @@ window.addEventListener('popstate', () => {
   render(true);
 });
 try {
-  const response = await fetch('data/catalog.json');
+  const response = await fetch('data/catalog.json', {cache:'no-cache'});
   if (!response.ok) throw new Error('Catalog request failed');
   catalog = await response.json();
   if (catalog.schemaVersion !== 1 || !Array.isArray(catalog.skills) || !Array.isArray(catalog.demos)) throw new Error('Unsupported catalog');
