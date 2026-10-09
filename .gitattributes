@@ -1,0 +1,10 @@
+* text=auto
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+LICENSE text eol=lf
+docs/assets/*-OFL.txt -text -whitespace

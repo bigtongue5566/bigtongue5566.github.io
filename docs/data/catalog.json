@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "title": "Skill Showcase",
+    "owner": "bigtongue5566",
+    "description": "用作品認識 Skill，從音樂到動態圖形。",
+    "github": "https://github.com/bigtongue5566",
+    "featuredDemoId": "form-and-frequency"
+  },
+  "skills": [
+    {
+      "id": "edm-music-production",
+      "name": "EDM 音樂製作",
+      "category": "音樂",
+      "summary": "從旋律、編曲到完成音檔，製作原創 EDM。",
+      "description": "建立和聲與旋律，安排開場、鋪陳、高潮與間奏，完成音色、混音與母帶。適合獨立音樂、影片配樂，以及既有配樂的和諧與層次修正。",
+      "repository": "https://github.com/bigtongue5566/edm-music-production",
+      "license": "MIT",
+      "artwork": "assets/music.svg",
+      "tags": ["EDM", "編曲", "混音", "MIDI"],
+      "capabilities": ["可設定片長、速度、大小調與和弦", "WAV 母帶、AAC、MIDI 與可選分軌", "音色來源與實際成品檢查"],
+      "usage": "用 $edm-music-production 製作一首 90 秒的旋律型 EDM，有柔和開場、兩段高潮與自然收尾。",
+      "demoIds": ["form-and-frequency", "form-and-frequency-music"]
+    },
+    {
+      "id": "motion-graphics-video",
+      "name": "動態圖形影片",
+      "category": "影像",
+      "summary": "讓敘事、圖形動作與配樂一起推進。",
+      "description": "製作可播放的公司介紹、科技形象與產品解說影片。從資料與品牌研究、分鏡、向量動畫到 EDM 同步，交付完整 MP4 與獨立配樂。",
+      "repository": "https://github.com/bigtongue5566/motion-graphics-video",
+      "license": "MIT",
+      "artwork": "assets/motion.svg",
+      "tags": ["動態圖形", "品牌影片", "EDM", "MP4"],
+      "capabilities": ["查證內容、標誌、配色與素材來源", "共用音畫時間表，製作連續動態圖形", "完成影片、獨立配樂與編碼檢查"],
+      "usage": "用 $motion-graphics-video 製作一支 90 秒的原創動態圖形 Demo，讓 EDM 與畫面同步。",
+      "demoIds": ["form-and-frequency"]
+    }
+  ],
+  "demos": [
+    {
+      "id": "form-and-frequency",
+      "title": "聲形之間",
+      "subtitle": "Form & Frequency",
+      "summary": "讓旋律、節拍與幾何形狀一起流動。",
+      "description": "一支 90 秒的原創動態圖形與 Melodic House 作品。合成鍵盤、低音、旋律與鼓組帶動畫面的聚集、流動與展開；頻譜變形回應實際配樂的起伏。",
+      "type": "video",
+      "poster": "assets/form-and-frequency.jpg",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-90s.mp4",
+      "audio": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency.m4a",
+      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/form-and-frequency",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip",
+      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
+      "facts": ["90 SEC", "1080p", "128 BPM", "D MAJOR"],
+      "credits": "圖形、動畫與新的旋律編曲為本次製作；電子音色由合成器產生。影片字型使用 OFL 授權的 Noto Sans CJK TC 與 Space Grotesk，來源及授權文件保留於專案。",
+      "contributors": [
+        {"skillId": "edm-music-production", "role": "作曲、編曲與音訊製作"},
+        {"skillId": "motion-graphics-video", "role": "分鏡、動態圖形與音畫同步"}
+      ],
+      "chapters": [
+        {"time": 0, "title": "起點"},
+        {"time": 15, "title": "聚集"},
+        {"time": 22.5, "title": "成形"},
+        {"time": 37.5, "title": "呼吸"},
+        {"time": 45, "title": "相遇"},
+        {"time": 52.5, "title": "回應"},
+        {"time": 67.5, "title": "展開"},
+        {"time": 75, "title": "平衡"},
+        {"time": 82.5, "title": "收束"}
+      ]
+    },
+    {
+      "id": "form-and-frequency-music",
+      "title": "聲形之間・原創配樂",
+      "subtitle": "Form & Frequency — Original Soundtrack",
+      "summary": "獨立聆聽影片中的 Melodic House 配樂。",
+      "description": "90 秒的原創旋律型 EDM，包含合成鍵盤、低音、旋律與鼓組，以及兩段高潮、間奏和淡出收尾。可直接播放音樂，也能下載 MIDI 與製作程式重現編曲。",
+      "type": "audio",
+      "poster": "assets/music.svg",
+      "src": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency.m4a",
+      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/form-and-frequency",
+      "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip",
+      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
+      "facts": ["90 SEC", "128 BPM", "D MAJOR", "ORIGINAL BGM"],
+      "credits": "為本次 Demo 製作新的旋律與編曲，電子音色由合成器產生；未使用第三方錄音或歌曲取樣。MIDI、來源紀錄與音訊檢查結果隨製作專案提供。",
+      "contributors": [{"skillId": "edm-music-production", "role": "作曲、編曲、音色、混音與母帶"}],
+      "chapters": [
+        {"time": 0, "title": "開場"},
+        {"time": 7.5, "title": "節奏"},
+        {"time": 15, "title": "鋪陳"},
+        {"time": 22.5, "title": "第一段高潮"},
+        {"time": 37.5, "title": "間奏"},
+        {"time": 45, "title": "再次鋪陳"},
+        {"time": 52.5, "title": "第二段高潮"},
+        {"time": 75, "title": "放緩"},
+        {"time": 82.5, "title": "收尾"}
+      ]
+    }
+  ]
+}
