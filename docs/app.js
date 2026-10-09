@@ -115,6 +115,7 @@ function render(focus = false) {
 document.addEventListener('click', event => {
   const link = event.target.closest('a[data-route],a[data-home-anchor]');
   if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  if (!catalog) return;
   event.preventDefault();
   history.pushState(null, '', link.href);
   render(true);
