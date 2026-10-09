@@ -71,6 +71,8 @@ def validate(catalog, web):
         label = "demo " + str(demo.get("id"))
         for field in ["title", "summary", "description"]:
             text(demo, field, label)
+        if "editorialNote" in demo:
+            text(demo, "editorialNote", label)
         require(demo.get("type") in TYPES, label + ": unsupported media type")
         if demo.get("relatedDemoId"):
             require(demo["relatedDemoId"] in demo_ids and demo["relatedDemoId"] != demo.get("id"), label + ": invalid related demo reference")
@@ -101,6 +103,34 @@ def validate(catalog, web):
                 if isinstance(time, (int,float)):
                     previous = time
                 text(chapter, "title", label + ".chapter")
+        references = demo.get("references", [])
+        require(isinstance(references, list), label + ".references must be an array")
+        source_ids = set()
+        if isinstance(references, list):
+            for ref in references:
+                if not isinstance(ref, dict):
+                    errors.append(label + ": source reference must be an object")
+                    continue
+                for field in ["id", "title", "publisher", "scope", "checkedDate"]:
+                    text(ref, field, label + ".reference")
+                identifier = ref.get("id")
+                require(isinstance(identifier, str) and bool(re.fullmatch(r"[A-Z][0-9]+", identifier)), label + ": reference ID must use a letter and number")
+                if isinstance(identifier, str):
+                    require(identifier not in source_ids, label + ": duplicate reference ID")
+                    source_ids.add(identifier)
+                resource(ref.get("url"), label + ".reference.url")
+                require(bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(ref.get("checkedDate", "")))), label + ": source check date must use YYYY-MM-DD")
+        claims = demo.get("claims", [])
+        require(isinstance(claims, list), label + ".claims must be an array")
+        if isinstance(claims, list):
+            for claim in claims:
+                if not isinstance(claim, dict):
+                    errors.append(label + ": claim must be an object")
+                    continue
+                for field in ["time", "text"]:
+                    text(claim, field, label + ".claim")
+                citations = claim.get("sourceIds")
+                require(isinstance(citations, list) and bool(citations) and all(isinstance(id, str) and id in source_ids for id in citations), label + ": claim must cite existing source references")
     return errors
 
 

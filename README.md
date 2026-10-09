@@ -7,14 +7,16 @@ for their actual work. The homepage starts with choosing a Skill.
 
 The first entries are [EDM music production](https://github.com/bigtongue5566/edm-music-production)
 and [motion graphics video](https://github.com/bigtongue5566/motion-graphics-video).
-The gallery's featured film, **Form & Frequency / 聲形之間**, is a newly produced 90-second
-original motion-and-music study. Its soundtrack has a separate audio Demo.
+The gallery's featured film is **台積電｜從設計到矽晶**, a 90-second independent, unofficial
+company introduction with original conceptual graphics and a new electronic soundtrack.
+Every company claim maps to an official source. The page exposes the complete references,
+claim-by-claim timestamps, checked dates and actual materials/rights record.
 One work can credit several Skills.
 
-The gallery also includes two new 60-second studies: **Digital Pulse / 數位脈動**
+The gallery also includes the 90-second **Form & Frequency / 聲形之間** and two 60-second studies: **Digital Pulse / 數位脈動**
 (128 BPM Progressive House) and **Neon Drift / 霓虹漫遊** (96 BPM Synthwave).
 Each has a film and a standalone soundtrack. The directory currently presents
-three video Demos for the motion Skill and three audio Demos for the music Skill.
+four video Demos for the motion Skill and four audio Demos for the music Skill.
 
 ## Add a Skill
 
@@ -79,6 +81,14 @@ to select the featured work on the gallery page. Additional works appear automat
 Use `relatedDemoId` to link a film and its standalone soundtrack without leaving
 the showcase player. It must point to another existing Demo.
 
+For researched Demos, optional `editorialNote`, `references` and `claims` add an
+independent-production notice and a reusable source section. Each reference contains
+`id`, `title`, `publisher`, `url`, `scope`, `checkedDate` and optional `dataYear`.
+Each claim has a readable `time` label such as `00:08–00:20`, `text` and a nonempty `sourceIds` list matching
+the reference IDs. Use `?demo=your-demo#references` to link directly to the source
+section. The validator rejects unknown IDs and unsafe URLs. Source citations do
+not imply permission to reproduce linked materials.
+
 All media can live in this site or in a Skill's own GitHub Pages site. The central
 catalog links to the existing 90-second film to avoid duplicating large files.
 Keep media sources public, retain licenses, and confirm external pages allow
@@ -92,6 +102,8 @@ embedding before using `interactive`; otherwise use `link`.
 - `https://bigtongue5566.github.io/?skill=motion-graphics-video`
 - `https://bigtongue5566.github.io/?demo=form-and-frequency`
 - `https://bigtongue5566.github.io/?demo=form-and-frequency-music`
+- `https://bigtongue5566.github.io/?demo=tsmc-explained`
+- `https://bigtongue5566.github.io/?demo=tsmc-explained#references`
 
 Query-string routing works directly on GitHub Pages, including refreshes and
 shared links. Browser Back/Forward, keyboard navigation, media controls, and

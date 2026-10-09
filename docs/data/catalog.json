@@ -5,7 +5,7 @@
     "owner": "bigtongue5566",
     "description": "挑選適合的 Skill，查看使用方式與實際作品。",
     "github": "https://github.com/bigtongue5566",
-    "featuredDemoId": "form-and-frequency"
+    "featuredDemoId": "tsmc-explained"
   },
   "skills": [
     {
@@ -32,7 +32,8 @@
       "demoIds": [
         "form-and-frequency-music",
         "digital-pulse-music",
-        "neon-drift-music"
+        "neon-drift-music",
+        "tsmc-explained-music"
       ]
     },
     {
@@ -59,7 +60,8 @@
       "demoIds": [
         "form-and-frequency",
         "digital-pulse",
-        "neon-drift"
+        "neon-drift",
+        "tsmc-explained"
       ]
     }
   ],
@@ -424,6 +426,228 @@
           "role": "作曲、編曲、合成音色、混音與母帶"
         }
       ]
+    },
+    {
+      "id": "tsmc-explained",
+      "title": "台積電｜從設計到矽晶",
+      "subtitle": "Silicon Explained — An Independent TSMC Introduction",
+      "summary": "從晶圓代工、N2 到先進封裝，理解台積電的角色。",
+      "description": "90 秒獨立資料解說，以自行繪製的晶圓、電路、製程與封裝概念動畫介紹台積電，搭配全新原創 Melodic House。每段畫面附來源編號，2025 年數據及量產時間皆對應官方資料；動畫不代表實際設備、晶片尺寸或產品結構。",
+      "type": "video",
+      "poster": "assets/tsmc-explained.jpg",
+      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-90s.mp4",
+      "audio": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a",
+      "source": "https://github.com/bigtongue5566/motion-graphics-video/tree/main/examples/tsmc-explained",
+      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip",
+      "rights": "https://github.com/bigtongue5566/motion-graphics-video/blob/main/examples/tsmc-explained/RIGHTS.md",
+      "facts": [
+        "90 SEC",
+        "1080p",
+        "附資料來源",
+        "非官方介紹"
+      ],
+      "editorialNote": "非官方、獨立製作，未獲台積電贊助或背書。畫面為原創概念示意，配樂為原創合成；公司名稱僅用來辨識介紹對象。",
+      "credits": "圖形、動畫與配樂為本次製作。未置入官方 Logo、照片、官網圖表或第三方錄音。字型使用 OFL-1.1 授權的 Noto Sans CJK TC 與 Space Grotesk，原文授權、來源網址與雜湊收錄於來源套件。",
+      "contributors": [
+        {
+          "skillId": "motion-graphics-video",
+          "role": "官方資料查證、分鏡、原創圖形與逐段來源標示"
+        },
+        {
+          "skillId": "edm-music-production",
+          "role": "全新原創作曲、電子音色、混音與母帶"
+        }
+      ],
+      "chapters": [
+        {
+          "time": 0,
+          "title": "從設計到矽晶"
+        },
+        {
+          "time": 8,
+          "title": "一種專注的分工"
+        },
+        {
+          "time": 20,
+          "title": "專業晶圓代工"
+        },
+        {
+          "time": 32,
+          "title": "服務的廣度"
+        },
+        {
+          "time": 44,
+          "title": "製程持續演進"
+        },
+        {
+          "time": 58,
+          "title": "先進封裝"
+        },
+        {
+          "time": 70,
+          "title": "不同的應用"
+        },
+        {
+          "time": 80,
+          "title": "非官方・獨立介紹"
+        }
+      ],
+      "references": [
+        {
+          "id": "S1",
+          "title": "台積電官方公司介紹",
+          "publisher": "台灣積體電路製造股份有限公司",
+          "url": "https://www.tsmc.com/chinese/aboutTSMC/company_profile",
+          "scope": "公司沿革、商業模式與終端應用",
+          "checkedDate": "2026-10-10",
+          "dataYear": 2025
+        },
+        {
+          "id": "S2",
+          "title": "TSMC 2025 Annual Report",
+          "publisher": "台灣積體電路製造股份有限公司",
+          "url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+          "scope": "2025 年服務規模及 N2 量產交叉核對",
+          "checkedDate": "2026-10-10",
+          "dataYear": 2025
+        },
+        {
+          "id": "S3",
+          "title": "2nm Technology",
+          "publisher": "台灣積體電路製造股份有限公司",
+          "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm",
+          "scope": "N2 量產時間及 nanosheet 電晶體技術",
+          "checkedDate": "2026-10-10"
+        },
+        {
+          "id": "S4",
+          "title": "CoWoS advanced packaging",
+          "publisher": "台灣積體電路製造股份有限公司",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+          "scope": "運算晶片與高頻寬記憶體整合概念",
+          "checkedDate": "2026-10-10"
+        },
+        {
+          "id": "R1",
+          "title": "Legal Notice and Trademark Information",
+          "publisher": "台灣積體電路製造股份有限公司",
+          "url": "https://www.tsmc.com/english/legal_and_trademark",
+          "scope": "素材與商標限制的參考；不是本片的素材使用授權",
+          "checkedDate": "2026-10-10"
+        }
+      ],
+      "claims": [
+        {
+          "time": "00:08–00:20",
+          "text": "台積電於 1987 年成立；專注於製造客戶設計的晶片。",
+          "sourceIds": [
+            "S1",
+            "S2"
+          ]
+        },
+        {
+          "time": "00:20–00:32",
+          "text": "台積電提供專業晶圓代工；設計、製造與終端應用是本片自行繪製的概念流程。",
+          "sourceIds": [
+            "S1",
+            "S2"
+          ]
+        },
+        {
+          "time": "00:32–00:44",
+          "text": "2025 年：305 種製程技術、534 個客戶、12,682 種不同產品。",
+          "sourceIds": [
+            "S2",
+            "S1"
+          ]
+        },
+        {
+          "time": "00:44–00:58",
+          "text": "依台積電公告，N2 於 2025 年第四季開始量產，並使用 nanosheet 電晶體技術。",
+          "sourceIds": [
+            "S3",
+            "S2"
+          ]
+        },
+        {
+          "time": "00:58–01:10",
+          "text": "台積電的先進封裝技術可整合運算晶片與高頻寬記憶體；動畫為概念示意，不呈現實際產品結構。",
+          "sourceIds": [
+            "S4"
+          ]
+        },
+        {
+          "time": "01:10–01:20",
+          "text": "終端應用包括高效能運算、智慧型手機、物聯網、車用及消費性電子。",
+          "sourceIds": [
+            "S1",
+            "S2"
+          ]
+        }
+      ],
+      "relatedDemoId": "tsmc-explained-music"
+    },
+    {
+      "id": "tsmc-explained-music",
+      "title": "矽晶脈動・原創配樂",
+      "subtitle": "Silicon Explained — Original Soundtrack",
+      "summary": "120 BPM、E 小調的原創科技感電子配樂。",
+      "description": "為台積電獨立介紹 Demo 全新製作的 90 秒 Melodic House。合成鍵盤、pluck、低音與四拍鼓配合影片段落；附可編輯 MIDI 與重現程式。公司資訊及逐段來源可在搭配影片頁核對。",
+      "type": "audio",
+      "poster": "assets/tsmc-explained.jpg",
+      "src": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained.m4a",
+      "source": "https://github.com/bigtongue5566/motion-graphics-video/tree/main/examples/tsmc-explained",
+      "download": "https://bigtongue5566.github.io/motion-graphics-video/media/tsmc-explained-source.zip",
+      "rights": "https://github.com/bigtongue5566/motion-graphics-video/blob/main/examples/tsmc-explained/RIGHTS.md",
+      "facts": [
+        "90 SEC",
+        "120 BPM",
+        "E MINOR",
+        "原創 BGM"
+      ],
+      "editorialNote": "本配樂為獨立原創作品，未獲台積電贊助或背書。",
+      "credits": "圖形、動畫與配樂為本次製作。未置入官方 Logo、照片、官網圖表或第三方錄音。字型使用 OFL-1.1 授權的 Noto Sans CJK TC 與 Space Grotesk，原文授權、來源網址與雜湊收錄於來源套件。",
+      "contributors": [
+        {
+          "skillId": "edm-music-production",
+          "role": "原創作曲、電子音色、混音與母帶"
+        }
+      ],
+      "chapters": [
+        {
+          "time": 0,
+          "title": "從設計到矽晶"
+        },
+        {
+          "time": 8,
+          "title": "一種專注的分工"
+        },
+        {
+          "time": 20,
+          "title": "專業晶圓代工"
+        },
+        {
+          "time": 32,
+          "title": "服務的廣度"
+        },
+        {
+          "time": 44,
+          "title": "製程持續演進"
+        },
+        {
+          "time": 58,
+          "title": "先進封裝"
+        },
+        {
+          "time": 70,
+          "title": "不同的應用"
+        },
+        {
+          "time": 80,
+          "title": "非官方・獨立介紹"
+        }
+      ],
+      "relatedDemoId": "tsmc-explained"
     }
   ]
 }

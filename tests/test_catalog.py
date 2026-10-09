@@ -68,6 +68,17 @@ class CatalogMaintenanceTests(unittest.TestCase):
         demo["relatedDemoId"] = demo["id"]
         self.assertTrue(any("related demo reference" in error for error in self.check(self.catalog)))
 
+    def test_sourced_demo_claims_require_valid_citations(self):
+        demo = self.catalog["demos"][0]
+        demo["references"] = [{"id":"S1", "title":"Company profile", "publisher":"Company", "scope":"Founding year", "checkedDate":"2026-10-10", "url":"https://example.org/profile"}]
+        demo["claims"] = [{"time":"00:08–00:20", "text":"Founded in a stated year", "sourceIds":["S1"]}]
+        self.assertEqual(self.check(self.catalog), [])
+        demo["claims"][0]["sourceIds"] = ["S9"]
+        self.assertTrue(any("claim must cite" in error for error in self.check(self.catalog)))
+        demo["claims"][0]["sourceIds"] = ["S1"]
+        demo["references"][0]["url"] = "javascript:alert(1)"
+        self.assertTrue(self.check(self.catalog))
+
 
 if __name__ == "__main__":
     unittest.main()

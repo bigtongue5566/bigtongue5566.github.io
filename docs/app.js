@@ -89,14 +89,21 @@ const mediaRenderers = {
   link: demo => `<div class="player link-player">${demo.poster ? `<img src="${escape(demo.poster)}" alt="${escape(demo.title)}作品預覽">` : ''}${external(demo.src, '開啟作品 ↗', 'cta')}</div>`
 };
 
+function sourceNotes(demo) {
+  if (!demo.references?.length) return '';
+  const claims = (demo.claims ?? []).map(claim => `<li><span class="claim-time">${escape(claim.time)}</span><div><p>${escape(claim.text)}</p><div class="claim-links">${claim.sourceIds.map(id => `<a href="#source-${escape(id)}">[${escape(id)}]</a>`).join(' ')}</div></div></li>`).join('');
+  const references = demo.references.map(ref => `<li id="source-${escape(ref.id)}"><span class="reference-id">[${escape(ref.id)}]</span><div>${external(ref.url, ref.title + ' ↗')}<p>${escape(ref.scope)}</p><span class="reference-meta">${escape(ref.publisher)} · 查核 ${escape(ref.checkedDate)}${ref.dataYear ? ` · ${escape(ref.dataYear)} 年資料` : ''}</span><div class="reference-url">${escape(ref.url)}</div></div></li>`).join('');
+  return `<section class="references" id="references" aria-labelledby="references-title"><h2 id="references-title">資料來源與逐段對照</h2><p class="reference-intro">畫面中的來源編號對應以下官方資料。文字為獨立整理；圖形為概念示意。</p>${claims ? `<ol class="claim-list">${claims}</ol>` : ''}<ol class="reference-list">${references}</ol></section>`;
+}
+
 function demoPage(demo) {
   const media = mediaRenderers[demo.type];
   const companion = demos.get(demo.relatedDemoId);
   const companionLink = companion ? `<a href="${route('demo',companion.id)}" data-route>${companion.type === 'audio' ? '聆聽本片配樂' : '觀看搭配影片'} ↗</a>` : external(demo.audio, '獨立配樂 ↗');
-  app.innerHTML = `<div class="shell detail"><a class="back" href="${worksRoute}" data-route>← 作品集</a><div class="detail-heading"><div><p class="eyebrow">${escape(demo.type.toUpperCase())} / SKILL LIBRARY</p><h1 id="page-title">${escape(demo.title)}</h1><p class="subtitle">${escape(demo.subtitle || demo.summary)}</p></div><div class="facts">${facts(demo)}</div></div>${media ? media(demo) : '<p class="empty">此作品格式尚未支援。</p>'}
-  <div class="player-controls">${['video','audio'].includes(demo.type) ? '<button class="cta" type="button" id="toggle-play">播放作品 ↗</button>' : external(demo.src, '在新頁面開啟 ↗', 'cta')}<div class="downloads">${companionLink}${external(demo.src, demo.type === 'audio' ? '下載音樂 ↗' : '下載／開啟作品 ↗')}${external(demo.download, '來源套件 ↗')}${external(demo.source, '製作專案 ↗')}</div></div>
+  app.innerHTML = `<div class="shell detail"><a class="back" href="${worksRoute}" data-route>← 作品集</a><div class="detail-heading"><div><p class="eyebrow">${escape(demo.type.toUpperCase())} / SKILL LIBRARY</p><h1 id="page-title">${escape(demo.title)}</h1><p class="subtitle">${escape(demo.subtitle || demo.summary)}</p></div><div class="facts">${facts(demo)}</div></div>${demo.editorialNote ? `<p class="editorial-note">${escape(demo.editorialNote)}</p>` : ''}${media ? media(demo) : '<p class="empty">此作品格式尚未支援。</p>'}
+  <div class="player-controls">${['video','audio'].includes(demo.type) ? '<button class="cta" type="button" id="toggle-play">播放作品 ↗</button>' : external(demo.src, '在新頁面開啟 ↗', 'cta')}<div class="downloads">${demo.references?.length ? '<a href="#references">資料來源 ↘</a>' : ''}${companionLink}${external(demo.src, demo.type === 'audio' ? '下載音樂 ↗' : '下載／開啟作品 ↗')}${external(demo.download, '來源套件 ↗')}${external(demo.source, '製作專案 ↗')}</div></div>
   ${demo.chapters?.length && ['video','audio'].includes(demo.type) ? `<nav class="chapters" aria-label="選擇作品段落">${demo.chapters.map(chapter => `<button type="button" data-seek="${chapter.time}" aria-pressed="false"><span>${timecode(chapter.time)}</span>${escape(chapter.title)}</button>`).join('')}</nav>` : ''}
-  <div class="detail-body"><div><h2>${escape(demo.summary)}</h2><p>${escape(demo.description)}</p></div><aside class="contributors"><h2>這件作品用到了</h2>${(demo.contributors ?? []).map(contributor => {const skill = skills.get(contributor.skillId); return skill ? `<a class="contributor" href="${route('skill', skill.id)}" data-route><strong>${escape(skill.name)} ↗</strong><span>${escape(contributor.role)}</span></a>` : '';}).join('')}<p class="credit">${escape(demo.credits || '')}</p><p class="credit">${external(demo.rights, '素材來源與授權 ↗')}</p></aside></div></div>`;
+  <div class="detail-body"><div><h2>${escape(demo.summary)}</h2><p>${escape(demo.description)}</p></div><aside class="contributors"><h2>這件作品用到了</h2>${(demo.contributors ?? []).map(contributor => {const skill = skills.get(contributor.skillId); return skill ? `<a class="contributor" href="${route('skill', skill.id)}" data-route><strong>${escape(skill.name)} ↗</strong><span>${escape(contributor.role)}</span></a>` : '';}).join('')}<p class="credit">${escape(demo.credits || '')}</p><p class="credit">${external(demo.rights, '素材來源與授權 ↗')}</p></aside></div>${sourceNotes(demo)}</div>`;
   const player = document.querySelector('#media');
   if (player) {
     const control = document.querySelector('#toggle-play');
@@ -137,7 +144,7 @@ function render(focus = false) {
   app.setAttribute('aria-busy', 'false');
   animate();
   if (focus) {app.focus({preventScroll:true}); window.scrollTo({top:0, behavior:'instant'});}
-  if (!skill && !demo && location.hash) {requestAnimationFrame(() => document.getElementById(location.hash.slice(1))?.scrollIntoView());}
+  if (location.hash) {requestAnimationFrame(() => document.getElementById(location.hash.slice(1))?.scrollIntoView());}
 }
 
 document.addEventListener('click', event => {
