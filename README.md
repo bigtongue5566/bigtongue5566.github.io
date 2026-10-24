@@ -5,7 +5,7 @@ for their actual work. The homepage starts with choosing a Skill.
 
 **[Browse Skills](https://bigtongue5566.github.io/)** · **[View works](https://bigtongue5566.github.io/?view=works)**
 
-The directory includes [EDM music production](https://github.com/bigtongue5566/edm-music-production),
+The directory includes [Electronic music production](https://github.com/bigtongue5566/electronic-music-production),
 [motion graphics video](https://github.com/bigtongue5566/motion-graphics-video),
 and [Blender landmark generator](https://github.com/bigtongue5566/blender-landmark-generator).
 The gallery's featured film is **台積電｜從設計到矽晶**, a 90-second independent, unofficial
@@ -109,7 +109,7 @@ embedding before using `interactive`; otherwise use `link`.
 
 - `https://bigtongue5566.github.io/` — Skill directory with search and categories
 - `https://bigtongue5566.github.io/?view=works` — separate Demo gallery
-- `https://bigtongue5566.github.io/?skill=edm-music-production`
+- `https://bigtongue5566.github.io/?skill=electronic-music-production`
 - `https://bigtongue5566.github.io/?skill=motion-graphics-video`
 - `https://bigtongue5566.github.io/?demo=form-and-frequency`
 - `https://bigtongue5566.github.io/?demo=form-and-frequency-music`
@@ -161,7 +161,7 @@ in `app.js` and the validator's supported types.
 The site code and original SVG artwork are [MIT licensed](LICENSE). Space Grotesk
 is included unmodified under OFL-1.1 with the exact upstream notice at
 `docs/assets/SpaceGrotesk-OFL.txt`; font source and fingerprint are documented
-in the film's [source record](https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/sources.json).
+in the film's [source record](https://github.com/bigtongue5566/electronic-music-production/blob/main/examples/form-and-frequency/sources.json).
 The film and thumbnail were created for this showcase and are documented in its
-[rights record](https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md).
+[rights record](https://github.com/bigtongue5566/electronic-music-production/blob/main/examples/form-and-frequency/RIGHTS.md).
 New Skills and Demos retain their individual licenses and credits.

@@ -9,26 +9,27 @@
   },
   "skills": [
     {
-      "id": "edm-music-production",
-      "name": "EDM 音樂製作",
+      "id": "electronic-music-production",
+      "name": "Electronic Music 電子音樂製作",
       "category": "音樂",
-      "summary": "依曲風重寫鼓、低音與音色，完成原創電子音樂。",
-      "description": "從曲風、律動、聲部角色與段落出發，完成原創合成、混音與母帶。展示作品包含 Future Bass、Drum & Bass、UK Garage 與 Minimal Piano House，可獨立播放並下載可重現來源。",
-      "repository": "https://github.com/bigtongue5566/edm-music-production",
+      "summary": "跨舞曲、氛圍與實驗電子，依音樂語法製作原創聲音。",
+      "description": "涵蓋舞曲、Ambient、Downtempo、實驗與混合方向。從節奏、音色、和聲、空間與曲式選工具；內建九個可執行合成草稿，其他子流派依研究採用相應 DAW 或實作，不把所有音樂套成 House。",
+      "repository": "https://github.com/bigtongue5566/electronic-music-production",
       "license": "MIT",
       "artwork": "assets/music.svg",
       "tags": [
-        "EDM",
+        "Electronic Music",
+        "Ambient",
+        "音色設計",
         "編曲",
-        "混音",
-        "MIDI"
+        "混音"
       ],
       "capabilities": [
-        "可設定片長、速度、大小調與和弦",
-        "WAV 母帶、AAC、MIDI 與可選分軌",
-        "音色來源與實際成品檢查"
+        "舞曲、無鼓聲景與實驗／混合風格製作指引",
+        "九個實際編曲起點；WAV、AAC、MIDI 與可選分軌",
+        "音源授權、可重建來源與實際成品檢查"
       ],
-      "usage": "用 $edm-music-production 製作一首 60 秒的 UK Garage，使用搖擺 two-step、電鋼琴和弦與短低音；交付 AAC、WAV、MIDI 與編曲來源。",
+      "usage": "用 $electronic-music-production 製作 60 秒無鼓 Ambient，讓原創 Drone 與聲景緩慢演變，交付母帶和可編輯來源。",
       "demoIds": [
         "form-and-frequency-music",
         "digital-pulse-music",
@@ -41,7 +42,7 @@
       "name": "動態圖形影片",
       "category": "影像",
       "summary": "讓敘事、圖形動作與配樂一起推進。",
-      "description": "製作可播放的公司介紹、科技形象與產品解說影片。從資料與品牌研究、分鏡、向量動畫到 EDM 同步，交付完整 MP4 與獨立配樂。",
+      "description": "製作可播放的公司介紹、科技形象與產品解說影片。從資料與品牌研究、分鏡、向量動畫到 電子配樂同步，交付完整 MP4 與獨立配樂。",
       "repository": "https://github.com/bigtongue5566/motion-graphics-video",
       "license": "MIT",
       "artwork": "assets/motion.svg",
@@ -103,11 +104,11 @@
       "description": "90 秒原創 Future Bass 配樂。以玻璃感鍵盤開場，切分 poly-saw 和弦與半拍鼓推進兩段高潮，再以留白收尾。和弦採七和弦與九和弦配置，主題、低音與濾波起伏均重新編寫。 影片按新配樂重新輸出，幾何脈衝跟隨實際大鼓，能量與頻譜回應完成版音訊。",
       "type": "video",
       "poster": "assets/form-and-frequency.jpg?v=37aaad8b0e72",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-90s.mp4?v=d26f44b1090b",
-      "audio": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency.m4a?v=6b456863eae2",
-      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/form-and-frequency",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip?v=97c0b77f0c47",
-      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
+      "src": "https://bigtongue5566.github.io/electronic-music-production/media/form-and-frequency-90s.mp4?v=d26f44b1090b",
+      "audio": "https://bigtongue5566.github.io/electronic-music-production/media/form-and-frequency.m4a?v=6b456863eae2",
+      "source": "https://github.com/bigtongue5566/electronic-music-production/tree/main/examples/form-and-frequency",
+      "download": "https://bigtongue5566.github.io/electronic-music-production/media/form-and-frequency-source.zip?v=97c0b77f0c47",
+      "rights": "https://github.com/bigtongue5566/electronic-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
       "facts": [
         "90 SEC",
         "1080p",
@@ -117,7 +118,7 @@
       "credits": "圖形與動畫沿用本作品的原創程序化設計，按新配樂重新渲染。配樂重寫鼓型、低音、音色與段落，由振盪器及產生的噪聲合成，未使用第三方錄音。字型使用已記錄來源的 OFL 字型。",
       "contributors": [
         {
-          "skillId": "edm-music-production",
+          "skillId": "electronic-music-production",
           "role": "作曲、編曲與音訊製作"
         },
         {
@@ -168,9 +169,9 @@
     },
     {
       "poster": "assets/digital-pulse.jpg?v=7318d9a13f4f",
-      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/digital-pulse",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-source.zip?v=3f542dcfcc13",
-      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
+      "source": "https://github.com/bigtongue5566/electronic-music-production/tree/main/examples/digital-pulse",
+      "download": "https://bigtongue5566.github.io/electronic-music-production/media/digital-pulse-source.zip?v=3f542dcfcc13",
+      "rights": "https://github.com/bigtongue5566/electronic-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
       "credits": "圖形與動畫沿用本作品的原創程序化設計，按新配樂重新渲染。配樂重寫鼓型、低音、音色與段落，由振盪器及產生的噪聲合成，未使用第三方錄音。字型使用已記錄來源的 OFL 字型。",
       "facts": [
         "60 SEC",
@@ -214,7 +215,7 @@
       "summary": "快速碎拍與雙層低音，喚醒訊號網格。",
       "description": "60 秒原創 Drum & Bass 配樂。快速的碎拍大鼓、第二與第四拍軍鼓、ghost notes 與帽鈸變化，搭配分開合成的 Reese 中低音和單聲道 sub。編曲由低音與節奏主導，保留稀疏的背景和聲。 影片按新配樂重新輸出，幾何脈衝跟隨實際大鼓，能量與頻譜回應完成版音訊。",
       "type": "video",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-60s.mp4?v=eb155f4a22e7",
+      "src": "https://bigtongue5566.github.io/electronic-music-production/media/digital-pulse-60s.mp4?v=eb155f4a22e7",
       "relatedDemoId": "digital-pulse-music",
       "contributors": [
         {
@@ -222,7 +223,7 @@
           "role": "分鏡、原創圖形、動畫與音畫同步"
         },
         {
-          "skillId": "edm-music-production",
+          "skillId": "electronic-music-production",
           "role": "新旋律、編曲與電子音色"
         }
       ],
@@ -230,9 +231,9 @@
     },
     {
       "poster": "assets/neon-drift.jpg?v=0a53ed01d831",
-      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/neon-drift",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-source.zip?v=dbc007a10e13",
-      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/neon-drift/RIGHTS.md",
+      "source": "https://github.com/bigtongue5566/electronic-music-production/tree/main/examples/neon-drift",
+      "download": "https://bigtongue5566.github.io/electronic-music-production/media/neon-drift-source.zip?v=dbc007a10e13",
+      "rights": "https://github.com/bigtongue5566/electronic-music-production/blob/main/examples/neon-drift/RIGHTS.md",
       "credits": "圖形與動畫沿用本作品的原創程序化設計，按新配樂重新渲染。配樂重寫鼓型、低音、音色與段落，由振盪器及產生的噪聲合成，未使用第三方錄音。字型使用已記錄來源的 OFL 字型。",
       "facts": [
         "60 SEC",
@@ -272,7 +273,7 @@
       "summary": "兩步節奏、搖擺鍵盤與霓虹地平線。",
       "description": "60 秒原創 UK Garage 配樂。以搖擺的 two-step 鼓型、七／九和弦電鋼琴短音與風琴呼應，搭配切分低音和刻意留下的空隙。未使用人聲或第三方歌曲取樣。 影片按新配樂重新輸出，幾何脈衝跟隨實際大鼓，能量與頻譜回應完成版音訊。",
       "type": "video",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-60s.mp4?v=3d808c34b338",
+      "src": "https://bigtongue5566.github.io/electronic-music-production/media/neon-drift-60s.mp4?v=3d808c34b338",
       "relatedDemoId": "neon-drift-music",
       "contributors": [
         {
@@ -280,7 +281,7 @@
           "role": "分鏡、原創圖形、動畫與音畫同步"
         },
         {
-          "skillId": "edm-music-production",
+          "skillId": "electronic-music-production",
           "role": "新旋律、編曲與電子音色"
         }
       ],
@@ -294,10 +295,10 @@
       "description": "90 秒原創 Future Bass 配樂。以玻璃感鍵盤開場，切分 poly-saw 和弦與半拍鼓推進兩段高潮，再以留白收尾。和弦採七和弦與九和弦配置，主題、低音與濾波起伏均重新編寫。 可獨立播放；來源套件附 MIDI、完整合成程式、和聲與 automation 資料。",
       "type": "audio",
       "poster": "assets/form-and-frequency.jpg?v=37aaad8b0e72",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency.m4a?v=6b456863eae2",
-      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/form-and-frequency",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/form-and-frequency-source.zip?v=97c0b77f0c47",
-      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
+      "src": "https://bigtongue5566.github.io/electronic-music-production/media/form-and-frequency.m4a?v=6b456863eae2",
+      "source": "https://github.com/bigtongue5566/electronic-music-production/tree/main/examples/form-and-frequency",
+      "download": "https://bigtongue5566.github.io/electronic-music-production/media/form-and-frequency-source.zip?v=97c0b77f0c47",
+      "rights": "https://github.com/bigtongue5566/electronic-music-production/blob/main/examples/form-and-frequency/RIGHTS.md",
       "facts": [
         "90 SEC",
         "148 BPM",
@@ -307,7 +308,7 @@
       "credits": "本版本重新創作的鼓型、低音、和聲與音色；聲音由振盪器及產生的噪聲合成，未使用第三方錄音。MIDI、合成程式、實際音符、濾波／延遲參數與成品檢查結果附於來源套件。",
       "contributors": [
         {
-          "skillId": "edm-music-production",
+          "skillId": "electronic-music-production",
           "role": "作曲、編曲、音色、混音與母帶"
         }
       ],
@@ -354,9 +355,9 @@
     },
     {
       "poster": "assets/digital-pulse.jpg?v=7318d9a13f4f",
-      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/digital-pulse",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse-source.zip?v=3f542dcfcc13",
-      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
+      "source": "https://github.com/bigtongue5566/electronic-music-production/tree/main/examples/digital-pulse",
+      "download": "https://bigtongue5566.github.io/electronic-music-production/media/digital-pulse-source.zip?v=3f542dcfcc13",
+      "rights": "https://github.com/bigtongue5566/electronic-music-production/blob/main/examples/digital-pulse/RIGHTS.md",
       "credits": "本版本重新創作的鼓型、低音、和聲與音色；聲音由振盪器及產生的噪聲合成，未使用第三方錄音。MIDI、合成程式、實際音符、濾波／延遲參數與成品檢查結果附於來源套件。",
       "facts": [
         "60 SEC",
@@ -400,11 +401,11 @@
       "summary": "172 BPM Drum & Bass：碎拍、ghost notes 與 Reese 低音。",
       "description": "60 秒原創 Drum & Bass 配樂。快速的碎拍大鼓、第二與第四拍軍鼓、ghost notes 與帽鈸變化，搭配分開合成的 Reese 中低音和單聲道 sub。編曲由低音與節奏主導，保留稀疏的背景和聲。 可獨立播放；來源套件附 MIDI、完整合成程式、和聲與 automation 資料。",
       "type": "audio",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/digital-pulse.m4a?v=bf362fa1a3a8",
+      "src": "https://bigtongue5566.github.io/electronic-music-production/media/digital-pulse.m4a?v=bf362fa1a3a8",
       "relatedDemoId": "digital-pulse",
       "contributors": [
         {
-          "skillId": "edm-music-production",
+          "skillId": "electronic-music-production",
           "role": "作曲、編曲、合成音色、混音與母帶"
         }
       ],
@@ -412,9 +413,9 @@
     },
     {
       "poster": "assets/neon-drift.jpg?v=0a53ed01d831",
-      "source": "https://github.com/bigtongue5566/edm-music-production/tree/main/examples/neon-drift",
-      "download": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift-source.zip?v=dbc007a10e13",
-      "rights": "https://github.com/bigtongue5566/edm-music-production/blob/main/examples/neon-drift/RIGHTS.md",
+      "source": "https://github.com/bigtongue5566/electronic-music-production/tree/main/examples/neon-drift",
+      "download": "https://bigtongue5566.github.io/electronic-music-production/media/neon-drift-source.zip?v=dbc007a10e13",
+      "rights": "https://github.com/bigtongue5566/electronic-music-production/blob/main/examples/neon-drift/RIGHTS.md",
       "credits": "本版本重新創作的鼓型、低音、和聲與音色；聲音由振盪器及產生的噪聲合成，未使用第三方錄音。MIDI、合成程式、實際音符、濾波／延遲參數與成品檢查結果附於來源套件。",
       "facts": [
         "60 SEC",
@@ -454,11 +455,11 @@
       "summary": "132 BPM UK Garage：搖擺的 two-step、電鋼琴與短低音。",
       "description": "60 秒原創 UK Garage 配樂。以搖擺的 two-step 鼓型、七／九和弦電鋼琴短音與風琴呼應，搭配切分低音和刻意留下的空隙。未使用人聲或第三方歌曲取樣。 可獨立播放；來源套件附 MIDI、完整合成程式、和聲與 automation 資料。",
       "type": "audio",
-      "src": "https://bigtongue5566.github.io/edm-music-production/media/neon-drift.m4a?v=ad951e9278f7",
+      "src": "https://bigtongue5566.github.io/electronic-music-production/media/neon-drift.m4a?v=ad951e9278f7",
       "relatedDemoId": "neon-drift",
       "contributors": [
         {
-          "skillId": "edm-music-production",
+          "skillId": "electronic-music-production",
           "role": "作曲、編曲、合成音色、混音與母帶"
         }
       ],
@@ -492,7 +493,7 @@
           "role": "官方資料查證、分鏡、原創圖形與逐段來源標示"
         },
         {
-          "skillId": "edm-music-production",
+          "skillId": "electronic-music-production",
           "role": "全新原創作曲、電子音色、混音與母帶"
         }
       ],
@@ -648,7 +649,7 @@
       "credits": "原創圖形、動畫、作曲與電子打擊／低音；鋼琴使用 GeneralUser GS 2.0.3，由 FluidSynth 演奏。音源版本、SHA-256、官方授權與樣本來源說明附於來源套件。字型沿用已記錄的 OFL 字型。",
       "contributors": [
         {
-          "skillId": "edm-music-production",
+          "skillId": "electronic-music-production",
           "role": "原創作曲、電子音色、混音與母帶"
         }
       ],

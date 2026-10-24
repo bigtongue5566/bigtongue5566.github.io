@@ -128,7 +128,13 @@ function animate() {
 function render(focus = false) {
   document.querySelector('#media')?.pause();
   const params = new URLSearchParams(location.search);
-  const skill = params.get('skill');
+  let skill = params.get('skill');
+  if (skill === 'edm-music-production') {
+    skill = 'electronic-music-production';
+    const migrated = new URL(location.href);
+    migrated.searchParams.set('skill', skill);
+    history.replaceState(null, '', migrated.href);
+  }
   const demo = params.get('demo');
   // Preserve links to the former homepage sections while giving the gallery its own route.
   if (!skill && !demo && ['#skills','#works'].includes(location.hash)) {
