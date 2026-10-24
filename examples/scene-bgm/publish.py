@@ -135,6 +135,11 @@ def publish(build,local_outputs=None):
         z.write(p,'scene-bgm/'+p.relative_to(HERE).as_posix())
  for record in records:record['download']=resource(archive)
  catalog_path=SITE/'data/catalog.json';catalog=json.loads(catalog_path.read_text(encoding='utf-8'))
+ # Preserve reviewed site explanations when republishing generated media.
+ previous={d['id']:d for d in catalog['demos']}
+ for record in records:
+    for field in ('classification','breakdown'):
+      if field in previous.get(record['id'],{}):record[field]=previous[record['id']][field]
  ids=set(WORKS);catalog['demos']=records+[d for d in catalog['demos'] if d['id'] not in ids]
  collection=dict(id='scene-bgm',title='五個場景・五種聲音',date='2026-10-24',
    summary='五首全新原創 BGM：電競賽事、商業簡報、休閒遊戲、仙俠與戀愛時刻。每首一分鐘，附可編輯 MIDI、音源來源與重建程式。',demoIds=list(WORKS))

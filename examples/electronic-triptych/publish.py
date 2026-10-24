@@ -106,6 +106,11 @@ def publish(build):
     draw.text((45,556),"bigtongue5566  /  Skill Library",font=small,fill="#153E37")
     collection.save(media/"collection.jpg",quality=94)
     catalog_path=SITE/"data/catalog.json";catalog=json.loads(catalog_path.read_text(encoding="utf-8"))
+    # Preserve reviewed site explanations when republishing generated media.
+    previous={d["id"]:d for d in catalog["demos"]}
+    for record in records:
+        for field in ("classification","breakdown"):
+            if field in previous.get(record["id"],{}):record[field]=previous[record["id"]][field]
     new_ids={r["id"] for r in records}
     catalog["demos"]=records+[d for d in catalog["demos"] if d["id"] not in new_ids]
     collection_record={"id":"electronic-triptych","title":"聲音的三種時間",

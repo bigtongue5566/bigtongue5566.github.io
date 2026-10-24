@@ -15,6 +15,18 @@ const facts = demo => (demo.facts ?? []).map(escape).join(' &nbsp;/&nbsp; ');
 const playable = demo => ['video', 'audio'].includes(demo.type);
 const mediaLabels = {video:'影片 Demo',audio:'音樂 Demo',image:'圖片 Demo',interactive:'互動 Demo',link:'作品 Demo'};
 
+function classification(demo) {
+  const info = demo.classification;
+  if (!info) return '';
+  const label = demo.type === 'video' ? '配樂家族' : demo.type === 'interactive' ? '製作家族' : '家族';
+  return `<dl class="classification"><div><dt>${label}</dt><dd>${escape(info.family)}</dd></div><div><dt>方向</dt><dd>${escape(info.direction)}</dd></div></dl>`;
+}
+
+function compositionNotes(demo) {
+  if (!demo.breakdown?.length) return '';
+  return `<section class="composition-notes" id="composition" aria-labelledby="composition-title"><h2 id="composition-title">組成解析</h2>${demo.breakdown.map(item => `<div class="composition-part"><h3>${escape(item.title)}</h3><p>${escape(item.body)}</p></div>`).join('')}</section>`;
+}
+
 function showLocation(kind, item) {
   const section = ['demo','works'].includes(kind) ? 'works' : 'skills';
   document.querySelectorAll('[data-nav]').forEach(link => {if (link.dataset.nav === section) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');});
@@ -29,7 +41,7 @@ function showLocation(kind, item) {
 function feature(demo, small = false) {
   return `<a class="feature${small ? ' compact' : ''}" href="${route('demo', demo.id)}" data-route>
     <div class="feature-image"><img src="${escape(demo.poster || (demo.type === 'image' ? demo.src : 'assets/hero.svg'))}" alt="${escape(demo.title)}的作品預覽" loading="lazy"><span class="play-badge">${escape(mediaLabels[demo.type] || 'Demo')} · ${playable(demo) ? '播放' : '探索'} ↗</span></div>
-    <div class="feature-copy"><div><h2>${escape(demo.title)}</h2><p>${escape(demo.subtitle || demo.summary)}</p></div><p class="facts">${facts(demo)}</p></div>
+    <div class="feature-copy"><div><h2>${escape(demo.title)}</h2><p>${escape(demo.subtitle || demo.summary)}</p>${classification(demo)}</div><p class="facts">${facts(demo)}</p></div>
   </a>`;
 }
 
@@ -109,10 +121,10 @@ function demoPage(demo) {
   const media = mediaRenderers[demo.type];
   const companion = demos.get(demo.relatedDemoId);
   const companionLink = companion ? `<a href="${route('demo',companion.id)}" data-route>${companion.type === 'audio' ? '聆聽本片配樂' : '觀看搭配影片'} ↗</a>` : external(demo.audio, '獨立配樂 ↗');
-  app.innerHTML = `<div class="shell detail"><a class="back" href="${worksRoute}" data-route>← 作品集</a><div class="detail-heading"><div><p class="eyebrow">${escape(demo.type.toUpperCase())} / SKILL LIBRARY</p><h1 id="page-title">${escape(demo.title)}</h1><p class="subtitle">${escape(demo.subtitle || demo.summary)}</p></div><div class="facts">${facts(demo)}</div></div>${demo.editorialNote ? `<p class="editorial-note">${escape(demo.editorialNote)}</p>` : ''}${media ? media(demo) : '<p class="empty">此作品格式尚未支援。</p>'}
-  <div class="player-controls">${['video','audio'].includes(demo.type) ? '<button class="cta" type="button" id="toggle-play">播放作品 ↗</button>' : external(demo.src, '在新頁面開啟 ↗', 'cta')}<div class="downloads">${demo.references?.length ? '<a href="#references">資料來源 ↘</a>' : ''}${companionLink}${external(demo.src, demo.type === 'audio' ? '下載音樂 ↗' : '下載／開啟作品 ↗')}${external(demo.download, '來源套件 ↗')}${external(demo.source, '製作專案 ↗')}</div></div>
+  app.innerHTML = `<div class="shell detail"><a class="back" href="${worksRoute}" data-route>← 作品集</a><div class="detail-heading"><div><p class="eyebrow">${escape(demo.type.toUpperCase())} / SKILL LIBRARY</p><h1 id="page-title">${escape(demo.title)}</h1><p class="subtitle">${escape(demo.subtitle || demo.summary)}</p></div><div class="facts">${facts(demo)}</div></div><div class="detail-classification">${classification(demo)}</div>${demo.editorialNote ? `<p class="editorial-note">${escape(demo.editorialNote)}</p>` : ''}${media ? media(demo) : '<p class="empty">此作品格式尚未支援。</p>'}
+  <div class="player-controls">${['video','audio'].includes(demo.type) ? '<button class="cta" type="button" id="toggle-play">播放作品 ↗</button>' : external(demo.src, '在新頁面開啟 ↗', 'cta')}<div class="downloads">${demo.breakdown?.length ? '<a href="#composition">組成解析 ↘</a>' : ''}${demo.references?.length ? '<a href="#references">資料來源 ↘</a>' : ''}${companionLink}${external(demo.src, demo.type === 'audio' ? '下載音樂 ↗' : '下載／開啟作品 ↗')}${external(demo.download, '來源套件 ↗')}${external(demo.source, '製作專案 ↗')}</div></div>
   ${demo.chapters?.length && ['video','audio'].includes(demo.type) ? `<nav class="chapters" aria-label="選擇作品段落">${demo.chapters.map(chapter => `<button type="button" data-seek="${chapter.time}" aria-pressed="false"><span>${timecode(chapter.time)}</span>${escape(chapter.title)}</button>`).join('')}</nav>` : ''}
-  <div class="detail-body"><div><h2>${escape(demo.summary)}</h2><p>${escape(demo.description)}</p></div><aside class="contributors"><h2>這件作品用到了</h2>${(demo.contributors ?? []).map(contributor => {const skill = skills.get(contributor.skillId); return skill ? `<a class="contributor" href="${route('skill', skill.id)}" data-route><strong>${escape(skill.name)} ↗</strong><span>${escape(contributor.role)}</span></a>` : '';}).join('')}<p class="credit">${escape(demo.credits || '')}</p><p class="credit">${external(demo.rights, '素材來源與授權 ↗')}</p></aside></div>${sourceNotes(demo)}</div>`;
+  <div class="detail-body"><div><h2>${escape(demo.summary)}</h2><p>${escape(demo.description)}</p>${compositionNotes(demo)}</div><aside class="contributors"><h2>這件作品用到了</h2>${(demo.contributors ?? []).map(contributor => {const skill = skills.get(contributor.skillId); return skill ? `<a class="contributor" href="${route('skill', skill.id)}" data-route><strong>${escape(skill.name)} ↗</strong><span>${escape(contributor.role)}</span></a>` : '';}).join('')}<p class="credit">${escape(demo.credits || '')}</p><p class="credit">${external(demo.rights, '素材來源與授權 ↗')}</p></aside></div>${sourceNotes(demo)}</div>`;
   const player = document.querySelector('#media');
   if (player) {
     const control = document.querySelector('#toggle-play');

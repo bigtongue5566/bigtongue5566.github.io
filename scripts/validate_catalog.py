@@ -87,6 +87,21 @@ def validate(catalog, web):
             text(demo, field, label)
         if "editorialNote" in demo:
             text(demo, "editorialNote", label)
+        if "classification" in demo:
+            info = demo["classification"]
+            require(isinstance(info, dict), label + ".classification must be an object")
+            if isinstance(info, dict):
+                for field in ["family", "direction"]:
+                    text(info, field, label + ".classification")
+        if "breakdown" in demo:
+            parts = demo["breakdown"]
+            require(isinstance(parts, list) and bool(parts), label + ".breakdown must be a nonempty array")
+            if isinstance(parts, list):
+                for part in parts:
+                    require(isinstance(part, dict), label + ".breakdown entries must be objects")
+                    if isinstance(part, dict):
+                        for field in ["title", "body"]:
+                            text(part, field, label + ".breakdown")
         require(demo.get("type") in TYPES, label + ": unsupported media type")
         if demo.get("relatedDemoId"):
             require(demo["relatedDemoId"] in demo_ids and demo["relatedDemoId"] != demo.get("id"), label + ": invalid related demo reference")

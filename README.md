@@ -143,6 +143,24 @@ embedding before using `interactive`; otherwise use `link`.
 
 ## Stable links
 
+Every current Demo includes `classification: {family, direction}`. The shared
+card and detail renderers show these separately from medium, duration and use
+case. Video labels describe the soundtrack family; the interactive architectural
+work identifies its modelling family. Families are overlapping production routes,
+not a genre inferred from BPM alone. Companion films and audio use the same labels.
+
+The description area also displays `breakdown: [{title, body}, ...]` under
+「組成解析」. The 19 music/video entries explain actual rhythm, instrument roles,
+harmony, timed arrangement, mixing and sound sources; films additionally explain
+visual construction and synchronization. The architectural entry explains geometry,
+materials, lighting, interaction, reference limits and editable sources. Notes are
+based on production code and project metadata, and distinguish sampled instruments
+from original synthesis and live recordings. All text is escaped by the renderer.
+Both fields are optional for future entries and validated when present. Media
+publish scripts retain reviewed explanations for existing entries; review and
+update them when an arrangement changes. The original downloadable source bundles
+remain historical render snapshots; current publishing code is in this repository.
+
 - `https://bigtongue5566.github.io/` — Skill directory with search and categories
 - `https://bigtongue5566.github.io/?view=works` — separate Demo gallery
 - `https://bigtongue5566.github.io/?skill=electronic-music-production`
