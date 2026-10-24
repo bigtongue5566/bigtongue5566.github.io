@@ -1,0 +1,3 @@
+# Preserve the upstream notices byte-for-byte.
+fonts/SpaceGrotesk-OFL.txt -whitespace -text
+GeneralUser-GS-LICENSE.txt -whitespace -text

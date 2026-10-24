@@ -1,0 +1,76 @@
+{
+  "duration_seconds": 60,
+  "original_composition": true,
+  "composition": "Original bespoke score: Victory Circuit",
+  "style": "CINEMATIC D&B",
+  "pulse": "metric",
+  "bpm": 174,
+  "key": "D minor",
+  "meter": "4/4",
+  "tempo_note": "Quarter-note BPM",
+  "instrument_source": "Original oscillator/noise synthesis only",
+  "sampled_programs_zero_based": {},
+  "soundfont_source": null,
+  "soundfont_sha256": null,
+  "soundfont_license_file": null,
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 5.517241379310345,
+      "role": "intro",
+      "label": "就位"
+    },
+    {
+      "start": 5.517241379310345,
+      "end": 16.551724137931036,
+      "role": "build",
+      "label": "集結"
+    },
+    {
+      "start": 16.551724137931036,
+      "end": 27.586206896551726,
+      "role": "groove",
+      "label": "交鋒"
+    },
+    {
+      "start": 27.586206896551726,
+      "end": 30.344827586206897,
+      "role": "break",
+      "label": "屏息"
+    },
+    {
+      "start": 30.344827586206897,
+      "end": 46.896551724137936,
+      "role": "drop",
+      "label": "決勝"
+    },
+    {
+      "start": 46.896551724137936,
+      "end": 57.931034482758626,
+      "role": "drop",
+      "label": "全力推進"
+    },
+    {
+      "start": 57.931034482758626,
+      "end": 60,
+      "role": "outro",
+      "label": "落定"
+    }
+  ],
+  "note_events": 1051,
+  "unexpected_chord_conflicts": 0,
+  "harmonic_check_scope": "Actual note-on/chord membership; sampled release and reflections are not fully represented by MIDI gates",
+  "last_effective_onset": 57.931034483,
+  "musical_final_onset": 57.931034483,
+  "engine_files_sha256": {
+    "compose_edm.py": "0a4b7037a9c5fb85c829385d4b086ed9b8ccc0848e2af77289d6493395a25e48",
+    "continuity.py": "de0ae0e7c1988c2545594d70f6b43aeb58890c063c8b10d0afaf124dd1c77054",
+    "finish_music.py": "8402dd677c1d33da3efa5ef844cb9274c9bb8c01448e990107f6540481343837",
+    "harmonic_comfort.py": "0db528550fa9087fbdc4b15bf4e4e5aaf27e903cd9f3498700040277af4bb7e7",
+    "instruments.py": "a7bd2ac00c679ef5cb2f31310348902668d6bb2b004ae910caf792c090fb9cb4",
+    "projectlib.py": "ba44da2eadf062081a82e749fccad0b11dc75bacdc3e49208a6d7a9f981bf9b1",
+    "styles.py": "2fe68da19acb52399cdf5d304382c306c82767fc12eabca34cfafafe613eed9d"
+  },
+  "arrangement_source": "compose.py; five separate original arrangements, not relabeled presets",
+  "limits": "Objective QC does not certify musical style, taste or subjective listening quality."
+}

@@ -31,6 +31,11 @@
       ],
       "usage": "用 $electronic-music-production 製作 60 秒無鼓 Ambient，讓原創 Drone 與聲景緩慢演變，交付母帶和可編輯來源。",
       "demoIds": [
+        "victory-circuit",
+        "daybreak-proposal",
+        "cloudside-cafe",
+        "jade-wind-ascent",
+        "almost-yours",
         "still-current-music",
         "phase-index-music",
         "amber-hours-music",
@@ -102,6 +107,271 @@
     }
   ],
   "demos": [
+    {
+      "id": "victory-circuit",
+      "title": "決勝脈衝",
+      "subtitle": "Victory Circuit",
+      "summary": "為賽前開場與賽事精華製作，快速破拍、低音問答與主題回歸。",
+      "description": "174 BPM 電競賽事配樂。緊湊 kick/snare、ghost notes、Reese 中頻低音與獨立 sub 構成動能；圓潤合成器短句在兩小節動機上變奏，中段實際撤鼓後回歸，末段以主和弦和最後一擊結束。",
+      "type": "audio",
+      "poster": "demos/scene-bgm/victory-circuit-cover.jpg?v=fb7cb9b65fae",
+      "src": "demos/scene-bgm/victory-circuit.m4a?v=f481d3e353cf",
+      "facts": [
+        "電競賽事",
+        "60 SEC",
+        "174 BPM",
+        "CINEMATIC D&B"
+      ],
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/scene-bgm",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/scene-bgm/RIGHTS.md",
+      "credits": "原創編曲與電子聲音；全曲使用振盪器及噪聲合成，未使用取樣音源。封面為原創圖形。",
+      "chapters": [
+        {
+          "time": 0.0,
+          "title": "就位"
+        },
+        {
+          "time": 5.517241379310345,
+          "title": "集結"
+        },
+        {
+          "time": 16.551724137931036,
+          "title": "交鋒"
+        },
+        {
+          "time": 27.586206896551726,
+          "title": "屏息"
+        },
+        {
+          "time": 30.344827586206897,
+          "title": "決勝"
+        },
+        {
+          "time": 46.896551724137936,
+          "title": "全力推進"
+        },
+        {
+          "time": 57.931034482758626,
+          "title": "落定"
+        }
+      ],
+      "contributors": [
+        {
+          "skillId": "electronic-music-production",
+          "role": "原創旋律、情境編曲、音源渲染、混音與母帶"
+        }
+      ],
+      "revision": "2026-10-24-five-scene-bgm",
+      "download": "demos/scene-bgm/five-scenes-source.zip?v=17cd22111dba"
+    },
+    {
+      "id": "daybreak-proposal",
+      "title": "向光提案",
+      "subtitle": "Daybreak Proposal",
+      "summary": "乾淨明亮的簡報襯樂，鋼琴與悶音吉他接力，為口白留出空間。",
+      "description": "112 BPM 商業簡報 BGM。取樣鋼琴的簡短主題、悶音吉他的切分和弦、指彈貝斯與輕量電子鼓分工；中段移除 kick 與前景旋律，保留和聲呼吸，重返段落後變化旋律句尾。",
+      "type": "audio",
+      "poster": "demos/scene-bgm/daybreak-proposal-cover.jpg?v=2a678c6de969",
+      "src": "demos/scene-bgm/daybreak-proposal.m4a?v=b685e0ad27f7",
+      "facts": [
+        "商業簡報",
+        "60 SEC",
+        "112 BPM",
+        "CLEAN ELECTRONIC POP"
+      ],
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/scene-bgm",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/scene-bgm/RIGHTS.md",
+      "credits": "原創編曲與電子聲音；取樣樂器使用 GeneralUser GS 2.0.3／FluidSynth 2.6.1，曲目來源頁列出實際音色。封面為原創圖形。",
+      "chapters": [
+        {
+          "time": 0.0,
+          "title": "開題"
+        },
+        {
+          "time": 8.571428571428571,
+          "title": "展開"
+        },
+        {
+          "time": 25.714285714285715,
+          "title": "留白"
+        },
+        {
+          "time": 34.285714285714285,
+          "title": "前進"
+        },
+        {
+          "time": 51.42857142857143,
+          "title": "結語"
+        },
+        {
+          "time": 57.857142857142854,
+          "title": "定案"
+        }
+      ],
+      "contributors": [
+        {
+          "skillId": "electronic-music-production",
+          "role": "原創旋律、情境編曲、音源渲染、混音與母帶"
+        }
+      ],
+      "revision": "2026-10-24-five-scene-bgm",
+      "download": "demos/scene-bgm/five-scenes-source.zip?v=17cd22111dba"
+    },
+    {
+      "id": "cloudside-cafe",
+      "title": "雲朵補給站",
+      "subtitle": "Cloudside Cafe",
+      "summary": "像經營一座雲端小店，俏皮電子短句與撥弦弦樂輪流打招呼。",
+      "description": "104 BPM 休閒遊戲 BGM。撥奏弦樂、尼龍吉他、短小電子旋律與鬆散切分鼓形成輕巧律動；兩個主題交替問答，中段減少鼓與低音，最後以 C 大調短句收束。這版為有結尾的試聽曲，未標示無縫循環。",
+      "type": "audio",
+      "poster": "demos/scene-bgm/cloudside-cafe-cover.jpg?v=4ff001e6c573",
+      "src": "demos/scene-bgm/cloudside-cafe.m4a?v=4efea2ba587c",
+      "facts": [
+        "休閒遊戲",
+        "60 SEC",
+        "104 BPM",
+        "PLAYFUL GAME ELECTRONICA"
+      ],
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/scene-bgm",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/scene-bgm/RIGHTS.md",
+      "credits": "原創編曲與電子聲音；取樣樂器使用 GeneralUser GS 2.0.3／FluidSynth 2.6.1，曲目來源頁列出實際音色。封面為原創圖形。",
+      "chapters": [
+        {
+          "time": 0.0,
+          "title": "登入雲端"
+        },
+        {
+          "time": 9.23076923076923,
+          "title": "採集時光"
+        },
+        {
+          "time": 27.69230769230769,
+          "title": "小小發現"
+        },
+        {
+          "time": 36.92307692307692,
+          "title": "快樂補給"
+        },
+        {
+          "time": 55.38461538461538,
+          "title": "存檔"
+        }
+      ],
+      "contributors": [
+        {
+          "skillId": "electronic-music-production",
+          "role": "原創旋律、情境編曲、音源渲染、混音與母帶"
+        }
+      ],
+      "revision": "2026-10-24-five-scene-bgm",
+      "download": "demos/scene-bgm/five-scenes-source.zip?v=17cd22111dba"
+    },
+    {
+      "id": "jade-wind-ascent",
+      "title": "御風入雲",
+      "subtitle": "Jade Wind Ascent",
+      "summary": "五聲旋律越過雲海，長笛、箏式撥弦質地與稀疏低鼓構成仙俠景色。",
+      "description": "80 BPM 仙俠幻想混合配樂。主旋律限制於 D 大調五聲音階，以長笛取樣長句及 General MIDI Koto 撥弦交替，低量弦樂、原創風感噪聲與稀疏合成低鼓支撐空間。Koto 是箏式質地的近似選擇，非古箏或洞簫實錄。",
+      "type": "audio",
+      "poster": "demos/scene-bgm/jade-wind-ascent-cover.jpg?v=d5fa7ab72948",
+      "src": "demos/scene-bgm/jade-wind-ascent.m4a?v=24bc6bffa38c",
+      "facts": [
+        "仙俠",
+        "60 SEC",
+        "80 BPM",
+        "PENTATONIC FANTASY HYBRID"
+      ],
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/scene-bgm",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/scene-bgm/RIGHTS.md",
+      "credits": "原創編曲與電子聲音；取樣樂器使用 GeneralUser GS 2.0.3／FluidSynth 2.6.1，曲目來源頁列出實際音色。封面為原創圖形。",
+      "chapters": [
+        {
+          "time": 0.0,
+          "title": "山門"
+        },
+        {
+          "time": 12.0,
+          "title": "雲行"
+        },
+        {
+          "time": 24.0,
+          "title": "御風"
+        },
+        {
+          "time": 36.0,
+          "title": "遠峰"
+        },
+        {
+          "time": 48.0,
+          "title": "歸雲"
+        },
+        {
+          "time": 57.0,
+          "title": "餘韻"
+        }
+      ],
+      "contributors": [
+        {
+          "skillId": "electronic-music-production",
+          "role": "原創旋律、情境編曲、音源渲染、混音與母帶"
+        }
+      ],
+      "revision": "2026-10-24-five-scene-bgm",
+      "download": "demos/scene-bgm/five-scenes-source.zip?v=17cd22111dba"
+    },
+    {
+      "id": "almost-yours",
+      "title": "靠近的那一秒",
+      "subtitle": "Almost Yours",
+      "summary": "六八拍的柔和搖曳，取樣鋼琴、尼龍吉他與慢弦樂寫下靠近的片刻。",
+      "description": "以 72 quarter-note BPM 記拍的 6/8 戀愛配樂。柔和取樣鋼琴用長短句呼應，尼龍吉他以八分音符輕搖、慢弦樂漸入；沒有 kick、snare 或 hi-hat。中段讓旋律停下，再以新的回應與 F 大調終止收尾。",
+      "type": "audio",
+      "poster": "demos/scene-bgm/almost-yours-cover.jpg?v=b51d632821c9",
+      "src": "demos/scene-bgm/almost-yours.m4a?v=3c065f442177",
+      "facts": [
+        "戀愛時刻",
+        "60 SEC",
+        "72 BPM",
+        "6/8"
+      ],
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/scene-bgm",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/scene-bgm/RIGHTS.md",
+      "credits": "原創編曲與電子聲音；取樣樂器使用 GeneralUser GS 2.0.3／FluidSynth 2.6.1，曲目來源頁列出實際音色。封面為原創圖形。",
+      "chapters": [
+        {
+          "time": 0.0,
+          "title": "初見"
+        },
+        {
+          "time": 10.0,
+          "title": "並肩"
+        },
+        {
+          "time": 20.0,
+          "title": "心動"
+        },
+        {
+          "time": 35.0,
+          "title": "欲言又止"
+        },
+        {
+          "time": 40.0,
+          "title": "靠近"
+        },
+        {
+          "time": 55.0,
+          "title": "那一秒"
+        }
+      ],
+      "contributors": [
+        {
+          "skillId": "electronic-music-production",
+          "role": "原創旋律、情境編曲、音源渲染、混音與母帶"
+        }
+      ],
+      "revision": "2026-10-24-five-scene-bgm",
+      "download": "demos/scene-bgm/five-scenes-source.zip?v=17cd22111dba"
+    },
     {
       "title": "靜流",
       "subtitle": "Still Current",
@@ -1023,6 +1293,19 @@
     }
   ],
   "collections": [
+    {
+      "id": "scene-bgm",
+      "title": "五個場景・五種聲音",
+      "date": "2026-10-24",
+      "summary": "五首全新原創 BGM：電競賽事、商業簡報、休閒遊戲、仙俠與戀愛時刻。每首一分鐘，附可編輯 MIDI、音源來源與重建程式。",
+      "demoIds": [
+        "victory-circuit",
+        "daybreak-proposal",
+        "cloudside-cafe",
+        "jade-wind-ascent",
+        "almost-yours"
+      ]
+    },
     {
       "id": "electronic-triptych",
       "title": "聲音的三種時間",

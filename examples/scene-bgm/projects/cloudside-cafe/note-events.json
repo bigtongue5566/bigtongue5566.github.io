@@ -1,0 +1,3968 @@
+[
+  {
+    "stem": "pizzicato",
+    "time": 0.0,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 0.865384615,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 1.442307692,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 0.040384615,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 0.040384615,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 0.040384615,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "pizzicato",
+    "time": 2.596153846,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 3.461538462,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 4.182692308,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 2.348076923,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 2.348076923,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 2.348076923,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 2.451923077,
+    "duration": 0.2596153846153846,
+    "note": 79,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 3.028846154,
+    "duration": 0.28846153846153844,
+    "note": 76,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 3.75,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "pizzicato",
+    "time": 4.615384615,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 5.480769231,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 6.057692308,
+    "duration": 0.23076923076923075,
+    "note": 77,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 4.655769231,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 4.655769231,
+    "duration": 1.0384615384615383,
+    "note": 65,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 4.655769231,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "pizzicato",
+    "time": 7.211538462,
+    "duration": 0.23076923076923075,
+    "note": 77,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 8.076923077,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 8.798076923,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 6.963461538,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 6.963461538,
+    "duration": 1.0384615384615383,
+    "note": 65,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 6.963461538,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 7.067307692,
+    "duration": 0.2596153846153846,
+    "note": 81,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 7.644230769,
+    "duration": 0.28846153846153844,
+    "note": 77,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 8.365384615,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "pizzicato",
+    "time": 9.230769231,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 10.096153846,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 10.673076923,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 9.271153846,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 9.271153846,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 9.271153846,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 9.230769231,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 10.673076923,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 9.830769231,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 10.984615385,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 9.230769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 9.559615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 9.807692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 10.136538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 10.384615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 10.713461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 10.961538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 11.290384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 9.288461538,
+    "duration": 0.5192307692307692,
+    "note": 33,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 10.586538462,
+    "duration": 0.548076923076923,
+    "note": 33,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 11.826923077,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 12.692307692,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 13.413461538,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 11.578846154,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 11.578846154,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 11.578846154,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 11.682692308,
+    "duration": 0.2596153846153846,
+    "note": 81,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 12.259615385,
+    "duration": 0.28846153846153844,
+    "note": 76,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 12.980769231,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "drums",
+    "time": 11.538461538,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 12.548076923,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 13.125,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 12.138461538,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 13.292307692,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 11.538461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 11.867307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 12.115384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 12.444230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 12.692307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 13.021153846,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 13.269230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 13.598076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 11.596153846,
+    "duration": 0.5192307692307692,
+    "note": 33,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 12.894230769,
+    "duration": 0.548076923076923,
+    "note": 33,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 13.846153846,
+    "duration": 0.23076923076923075,
+    "note": 71,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 14.711538462,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 15.288461538,
+    "duration": 0.23076923076923075,
+    "note": 74,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 13.886538462,
+    "duration": 1.0384615384615383,
+    "note": 59,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 13.886538462,
+    "duration": 1.0384615384615383,
+    "note": 62,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 13.886538462,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 13.846153846,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 15.288461538,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 14.446153846,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 15.6,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 13.846153846,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 14.175,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 14.423076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 14.751923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 15.0,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 15.328846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 15.576923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 15.905769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 13.903846154,
+    "duration": 0.5192307692307692,
+    "note": 31,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 15.201923077,
+    "duration": 0.548076923076923,
+    "note": 31,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 16.442307692,
+    "duration": 0.23076923076923075,
+    "note": 74,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 17.307692308,
+    "duration": 0.23076923076923075,
+    "note": 71,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 18.028846154,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 16.194230769,
+    "duration": 1.0384615384615383,
+    "note": 59,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 16.194230769,
+    "duration": 1.0384615384615383,
+    "note": 62,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 16.194230769,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 16.298076923,
+    "duration": 0.2596153846153846,
+    "note": 79,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 16.875,
+    "duration": 0.28846153846153844,
+    "note": 74,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 17.596153846,
+    "duration": 0.4038461538461538,
+    "note": 71,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "drums",
+    "time": 16.153846154,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 17.163461538,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 17.740384615,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 16.753846154,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 17.907692308,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 16.153846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 16.482692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 16.730769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 17.059615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 17.307692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 17.636538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 17.884615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 18.213461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 16.211538462,
+    "duration": 0.5192307692307692,
+    "note": 31,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 17.509615385,
+    "duration": 0.548076923076923,
+    "note": 31,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 18.461538462,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 19.326923077,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 19.903846154,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 18.501923077,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 18.501923077,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 18.501923077,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 18.461538462,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 19.903846154,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 19.061538462,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 20.215384615,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 18.461538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 18.790384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 19.038461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 19.367307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 19.615384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 19.944230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 20.192307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 20.521153846,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 18.519230769,
+    "duration": 0.5192307692307692,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 19.817307692,
+    "duration": 0.548076923076923,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 21.057692308,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 21.923076923,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 22.644230769,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 20.809615385,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 20.809615385,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 20.809615385,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 20.913461538,
+    "duration": 0.2596153846153846,
+    "note": 79,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 21.490384615,
+    "duration": 0.28846153846153844,
+    "note": 76,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 22.211538462,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "drums",
+    "time": 20.769230769,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 21.778846154,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 22.355769231,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 21.369230769,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 22.523076923,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 20.769230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 21.098076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 21.346153846,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 21.675,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 21.923076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 22.251923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 22.5,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 22.828846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 20.826923077,
+    "duration": 0.5192307692307692,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 22.125,
+    "duration": 0.548076923076923,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 23.076923077,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 23.942307692,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 24.519230769,
+    "duration": 0.23076923076923075,
+    "note": 77,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 23.117307692,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 23.117307692,
+    "duration": 1.0384615384615383,
+    "note": 65,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 23.117307692,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 23.076923077,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 24.519230769,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 23.676923077,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 24.830769231,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 23.076923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 23.405769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 23.653846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 23.982692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 24.230769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 24.559615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 24.807692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 25.136538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 23.134615385,
+    "duration": 0.5192307692307692,
+    "note": 29,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 24.432692308,
+    "duration": 0.548076923076923,
+    "note": 29,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 25.673076923,
+    "duration": 0.23076923076923075,
+    "note": 77,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 26.538461538,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 27.259615385,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 25.425,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 25.425,
+    "duration": 1.0384615384615383,
+    "note": 65,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 25.425,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 25.528846154,
+    "duration": 0.2596153846153846,
+    "note": 81,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 26.105769231,
+    "duration": 0.28846153846153844,
+    "note": 77,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 26.826923077,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "drums",
+    "time": 25.384615385,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 26.394230769,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 26.971153846,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 25.984615385,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 27.138461538,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 25.384615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 25.713461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 25.961538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 26.290384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 26.538461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 26.867307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 27.115384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 27.444230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 25.442307692,
+    "duration": 0.5192307692307692,
+    "note": 29,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 26.740384615,
+    "duration": 0.548076923076923,
+    "note": 29,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 27.692307692,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 28.557692308,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 29.134615385,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 27.732692308,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 27.732692308,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 27.732692308,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "pizzicato",
+    "time": 30.288461538,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 31.153846154,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 31.875,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 30.040384615,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 30.040384615,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 30.040384615,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 30.144230769,
+    "duration": 0.2596153846153846,
+    "note": 81,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 30.721153846,
+    "duration": 0.28846153846153844,
+    "note": 76,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 31.442307692,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "pizzicato",
+    "time": 32.307692308,
+    "duration": 0.23076923076923075,
+    "note": 71,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 33.173076923,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 33.75,
+    "duration": 0.23076923076923075,
+    "note": 74,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 32.348076923,
+    "duration": 1.0384615384615383,
+    "note": 59,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 32.348076923,
+    "duration": 1.0384615384615383,
+    "note": 62,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 32.348076923,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "pizzicato",
+    "time": 34.903846154,
+    "duration": 0.23076923076923075,
+    "note": 74,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 35.769230769,
+    "duration": 0.23076923076923075,
+    "note": 71,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 36.490384615,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 50,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 34.655769231,
+    "duration": 1.0384615384615383,
+    "note": 59,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 34.655769231,
+    "duration": 1.0384615384615383,
+    "note": 62,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 34.655769231,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 34.759615385,
+    "duration": 0.2596153846153846,
+    "note": 79,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 35.336538462,
+    "duration": 0.28846153846153844,
+    "note": 74,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 36.057692308,
+    "duration": 0.4038461538461538,
+    "note": 71,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "pizzicato",
+    "time": 36.923076923,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 37.788461538,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 38.365384615,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 36.963461538,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 36.963461538,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 36.963461538,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 36.923076923,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 38.365384615,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 37.523076923,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 38.676923077,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 36.923076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 37.251923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 37.5,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 37.828846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 38.076923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 38.405769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 38.653846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 38.982692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 36.980769231,
+    "duration": 0.5192307692307692,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 38.278846154,
+    "duration": 0.548076923076923,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 39.519230769,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 40.384615385,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 41.105769231,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 39.271153846,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 39.271153846,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 39.271153846,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 39.375,
+    "duration": 0.2596153846153846,
+    "note": 79,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 39.951923077,
+    "duration": 0.28846153846153844,
+    "note": 76,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 40.673076923,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "drums",
+    "time": 39.230769231,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 40.240384615,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 40.817307692,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 39.830769231,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 40.984615385,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 39.230769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 39.559615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 39.807692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 40.136538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 40.384615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 40.713461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 40.961538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 41.290384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 39.288461538,
+    "duration": 0.5192307692307692,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 40.586538462,
+    "duration": 0.548076923076923,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 41.538461538,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 42.403846154,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 42.980769231,
+    "duration": 0.23076923076923075,
+    "note": 77,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 41.578846154,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 41.578846154,
+    "duration": 1.0384615384615383,
+    "note": 65,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 41.578846154,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 41.538461538,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 42.980769231,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 42.138461538,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 43.292307692,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 41.538461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 41.867307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 42.115384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 42.444230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 42.692307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 43.021153846,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 43.269230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 43.598076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 41.596153846,
+    "duration": 0.5192307692307692,
+    "note": 29,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 42.894230769,
+    "duration": 0.548076923076923,
+    "note": 29,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 44.134615385,
+    "duration": 0.23076923076923075,
+    "note": 77,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 45.0,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 45.721153846,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 43.886538462,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 43.886538462,
+    "duration": 1.0384615384615383,
+    "note": 65,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 43.886538462,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 43.990384615,
+    "duration": 0.2596153846153846,
+    "note": 81,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 44.567307692,
+    "duration": 0.28846153846153844,
+    "note": 77,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 45.288461538,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "drums",
+    "time": 43.846153846,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 44.855769231,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 45.432692308,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 44.446153846,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 45.6,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 43.846153846,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 44.175,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 44.423076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 44.751923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 45.0,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 45.328846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 45.576923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 45.905769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 43.903846154,
+    "duration": 0.5192307692307692,
+    "note": 29,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 45.201923077,
+    "duration": 0.548076923076923,
+    "note": 29,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 46.153846154,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 47.019230769,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 47.596153846,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 46.194230769,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 46.194230769,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 46.194230769,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 46.153846154,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 47.596153846,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 46.753846154,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 47.907692308,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 46.153846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 46.482692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 46.730769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 47.059615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 47.307692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 47.636538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 47.884615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 48.213461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 46.211538462,
+    "duration": 0.5192307692307692,
+    "note": 33,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 47.509615385,
+    "duration": 0.548076923076923,
+    "note": 33,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 48.75,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 49.615384615,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 50.336538462,
+    "duration": 0.23076923076923075,
+    "note": 81,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 48.501923077,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 48.501923077,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 48.501923077,
+    "duration": 1.0384615384615383,
+    "note": 69,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 48.605769231,
+    "duration": 0.2596153846153846,
+    "note": 81,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 49.182692308,
+    "duration": 0.28846153846153844,
+    "note": 76,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 49.903846154,
+    "duration": 0.4038461538461538,
+    "note": 72,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "drums",
+    "time": 48.461538462,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 49.471153846,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 50.048076923,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 49.061538462,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 50.215384615,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 48.461538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 48.790384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 49.038461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 49.367307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 49.615384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 49.944230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 50.192307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 50.521153846,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 48.519230769,
+    "duration": 0.5192307692307692,
+    "note": 33,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 49.817307692,
+    "duration": 0.548076923076923,
+    "note": 33,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 50.769230769,
+    "duration": 0.23076923076923075,
+    "note": 71,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 51.634615385,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 52.211538462,
+    "duration": 0.23076923076923075,
+    "note": 74,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 50.809615385,
+    "duration": 1.0384615384615383,
+    "note": 59,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 50.809615385,
+    "duration": 1.0384615384615383,
+    "note": 62,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 50.809615385,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 50.769230769,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 52.211538462,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 51.369230769,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 52.523076923,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 50.769230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 51.098076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 51.346153846,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 51.675,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 51.923076923,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 52.251923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 52.5,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 52.828846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 50.826923077,
+    "duration": 0.5192307692307692,
+    "note": 31,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 52.125,
+    "duration": 0.548076923076923,
+    "note": 31,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 53.365384615,
+    "duration": 0.23076923076923075,
+    "note": 74,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 54.230769231,
+    "duration": 0.23076923076923075,
+    "note": 71,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 54.951923077,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 53.117307692,
+    "duration": 1.0384615384615383,
+    "note": 59,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 53.117307692,
+    "duration": 1.0384615384615383,
+    "note": 62,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 53.117307692,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "lead",
+    "time": 53.221153846,
+    "duration": 0.2596153846153846,
+    "note": 79,
+    "velocity": 35,
+    "sounding_duration": 0.459625,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 53.798076923,
+    "duration": 0.28846153846153844,
+    "note": 74,
+    "velocity": 35,
+    "sounding_duration": 0.4884583333333333,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "lead",
+    "time": 54.519230769,
+    "duration": 0.4038461538461538,
+    "note": 71,
+    "velocity": 35,
+    "sounding_duration": 0.6038541666666667,
+    "source": "original synthesis",
+    "gain": 0.16
+  },
+  {
+    "stem": "drums",
+    "time": 53.076923077,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 54.086538462,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 54.663461538,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 53.676923077,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 54.830769231,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 53.076923077,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 53.405769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 53.653846154,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 53.982692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 54.230769231,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 54.559615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 54.807692308,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 55.136538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 53.134615385,
+    "duration": 0.5192307692307692,
+    "note": 31,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 54.432692308,
+    "duration": 0.548076923076923,
+    "note": 31,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 55.384615385,
+    "duration": 0.23076923076923075,
+    "note": 72,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 56.25,
+    "duration": 0.23076923076923075,
+    "note": 79,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 56.826923077,
+    "duration": 0.23076923076923075,
+    "note": 76,
+    "velocity": 66,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 55.425,
+    "duration": 1.0384615384615383,
+    "note": 60,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 55.425,
+    "duration": 1.0384615384615383,
+    "note": 64,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 55.425,
+    "duration": 1.0384615384615383,
+    "note": 67,
+    "velocity": 45,
+    "pan": 0.22,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "drums",
+    "time": 55.384615385,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 56.826923077,
+    "duration": 0.24,
+    "note": 36,
+    "velocity": 44,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 55.984615385,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 57.138461538,
+    "duration": 0.21,
+    "note": 38,
+    "velocity": 28,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 55.384615385,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 55.713461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 55.961538462,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 56.290384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 56.538461538,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 56.867307692,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 57.115384615,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 15,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "drums",
+    "time": 57.444230769,
+    "duration": 0.074,
+    "note": 42,
+    "velocity": 9,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "bass",
+    "time": 55.442307692,
+    "duration": 0.5192307692307692,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6392291666666666,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "bass",
+    "time": 56.740384615,
+    "duration": 0.548076923076923,
+    "note": 36,
+    "velocity": 68,
+    "sounding_duration": 0.6680833333333334,
+    "source": "original synthesis",
+    "gain": 0.31
+  },
+  {
+    "stem": "pizzicato",
+    "time": 57.692307692,
+    "duration": 0.75,
+    "note": 72,
+    "velocity": 58,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 57.692307692,
+    "duration": 0.75,
+    "note": 76,
+    "velocity": 58,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "pizzicato",
+    "time": 57.692307692,
+    "duration": 0.75,
+    "note": 79,
+    "velocity": 58,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 45
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 57.692307692,
+    "duration": 1.15,
+    "note": 60,
+    "velocity": 52,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 57.692307692,
+    "duration": 1.15,
+    "note": 64,
+    "velocity": 52,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 57.692307692,
+    "duration": 1.15,
+    "note": 67,
+    "velocity": 52,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "bass",
+    "time": 57.692307692,
+    "duration": 0.8,
+    "note": 36,
+    "velocity": 66,
+    "sounding_duration": 0.92,
+    "source": "original synthesis",
+    "gain": 0.3
+  }
+]

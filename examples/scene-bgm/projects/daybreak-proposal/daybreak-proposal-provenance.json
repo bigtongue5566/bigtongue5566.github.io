@@ -1,0 +1,59 @@
+{
+  "composition": "Original bespoke score: Daybreak Proposal",
+  "style": "CLEAN ELECTRONIC POP",
+  "bpm": 112,
+  "key": "D major",
+  "instrument_source": "Original oscillator/noise synthesis; GeneralUser GS 2.0.3 sampled instruments rendered by FluidSynth 2.6.1",
+  "soundfont_source": "https://github.com/mrbumpy409/GeneralUser-GS",
+  "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "soundfont_license_file": "GeneralUser-GS-LICENSE.txt",
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 8.571428571428571,
+      "role": "intro",
+      "label": "開題"
+    },
+    {
+      "start": 8.571428571428571,
+      "end": 25.714285714285715,
+      "role": "groove",
+      "label": "展開"
+    },
+    {
+      "start": 25.714285714285715,
+      "end": 34.285714285714285,
+      "role": "break",
+      "label": "留白"
+    },
+    {
+      "start": 34.285714285714285,
+      "end": 51.42857142857143,
+      "role": "groove",
+      "label": "前進"
+    },
+    {
+      "start": 51.42857142857143,
+      "end": 57.857142857142854,
+      "role": "build",
+      "label": "結語"
+    },
+    {
+      "start": 57.857142857142854,
+      "end": 60,
+      "role": "outro",
+      "label": "定案"
+    }
+  ],
+  "pulse": "metric",
+  "tempo_note": "Quarter-note BPM",
+  "midi_note": "GM instrument suggestions; MIDI playback will not reproduce the custom synthesized audio.",
+  "stem_note": "Float32 premaster stems share gain and fades; they are not separately loudness normalized.",
+  "meter": "4/4",
+  "sampled_programs_zero_based": {
+    "piano": 0,
+    "guitar": 28,
+    "finger-bass": 33
+  },
+  "musical_final_onset": 57.857142857
+}

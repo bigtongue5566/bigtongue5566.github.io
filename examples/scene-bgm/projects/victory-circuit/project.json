@@ -1,0 +1,67 @@
+{
+  "name": "決勝脈衝",
+  "slug": "victory-circuit",
+  "duration": 60,
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 5.517241379310345,
+      "role": "intro",
+      "label": "就位"
+    },
+    {
+      "start": 5.517241379310345,
+      "end": 16.551724137931036,
+      "role": "build",
+      "label": "集結"
+    },
+    {
+      "start": 16.551724137931036,
+      "end": 27.586206896551726,
+      "role": "groove",
+      "label": "交鋒"
+    },
+    {
+      "start": 27.586206896551726,
+      "end": 30.344827586206897,
+      "role": "break",
+      "label": "屏息"
+    },
+    {
+      "start": 30.344827586206897,
+      "end": 46.896551724137936,
+      "role": "drop",
+      "label": "決勝"
+    },
+    {
+      "start": 46.896551724137936,
+      "end": 57.931034482758626,
+      "role": "drop",
+      "label": "全力推進"
+    },
+    {
+      "start": 57.931034482758626,
+      "end": 60,
+      "role": "outro",
+      "label": "落定"
+    }
+  ],
+  "music": {
+    "style": "drum-and-bass",
+    "key": "D minor",
+    "bpm": 174,
+    "progression": [
+      "i",
+      "VI",
+      "III",
+      "VII"
+    ],
+    "seed": 24102026,
+    "pulse": "metric",
+    "harmonic_profile": "consonant",
+    "lufs": -15,
+    "true_peak": -2,
+    "soundfont": null,
+    "export_stems": false
+  }
+}

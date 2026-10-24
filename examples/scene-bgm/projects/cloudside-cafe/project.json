@@ -1,0 +1,55 @@
+{
+  "name": "雲朵補給站",
+  "slug": "cloudside-cafe",
+  "duration": 60,
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 9.23076923076923,
+      "role": "intro",
+      "label": "登入雲端"
+    },
+    {
+      "start": 9.23076923076923,
+      "end": 27.69230769230769,
+      "role": "groove",
+      "label": "採集時光"
+    },
+    {
+      "start": 27.69230769230769,
+      "end": 36.92307692307692,
+      "role": "break",
+      "label": "小小發現"
+    },
+    {
+      "start": 36.92307692307692,
+      "end": 55.38461538461538,
+      "role": "groove",
+      "label": "快樂補給"
+    },
+    {
+      "start": 55.38461538461538,
+      "end": 60,
+      "role": "outro",
+      "label": "存檔"
+    }
+  ],
+  "music": {
+    "style": "breakbeat",
+    "key": "C major",
+    "bpm": 104,
+    "progression": [
+      "I",
+      "IV",
+      "vi",
+      "V"
+    ],
+    "seed": 24102028,
+    "pulse": "metric",
+    "harmonic_profile": "consonant",
+    "lufs": -17,
+    "true_peak": -2,
+    "soundfont": null,
+    "export_stems": false
+  }
+}

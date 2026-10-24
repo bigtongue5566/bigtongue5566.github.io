@@ -1,0 +1,54 @@
+{
+  "name": "雲朵補給站",
+  "requested_seconds": 60,
+  "wav": {
+    "file": "cloudside-cafe-master.wav",
+    "duration_seconds": 60.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 3,
+    "samples": 2880000,
+    "integrated_lufs": -17.0,
+    "true_peak_dbfs": -2.0,
+    "loudness_range_lu": 4.1
+  },
+  "aac": {
+    "file": "cloudside-cafe.m4a",
+    "decoded_seconds": 60.01067,
+    "integrated_lufs": -17.0,
+    "true_peak_dbfs": -2.0,
+    "loudness_range_lu": 4.1
+  },
+  "micro_dynamics": {
+    "window_ms": 10,
+    "deep_trough_threshold_db_below_p95": -33.98,
+    "regions": [
+      {
+        "start": 9.23076923076923,
+        "end": 27.69230769230769,
+        "role": "groove",
+        "p10_to_p95_db": -39.37,
+        "longest_deep_trough_ms": 230,
+        "deep_trough_fraction": 0.11494
+      },
+      {
+        "start": 36.92307692307692,
+        "end": 55.38461538461538,
+        "role": "groove",
+        "p10_to_p95_db": -39.22,
+        "longest_deep_trough_ms": 230,
+        "deep_trough_fraction": 0.11605
+      }
+    ],
+    "interpretation": "Review with arrangement intent. These values do not certify listening quality."
+  },
+  "full_decode_errors": 0,
+  "mono_fold_down_db": -0.084,
+  "ending_rms_last_50ms": 0.0,
+  "unexpected_near_silent_seconds": [],
+  "bpm": 104,
+  "key": "C major",
+  "unexpected_chord_conflicts": 0,
+  "aac_sha256": "4efea2ba587c8d9454abba9e31bf06b620b705dc4714c1ffe7bb1f31ba359bf8",
+  "limits": "Objective QC does not certify listening quality."
+}

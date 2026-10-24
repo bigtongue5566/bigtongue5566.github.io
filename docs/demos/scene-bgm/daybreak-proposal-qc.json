@@ -1,0 +1,62 @@
+{
+  "name": "向光提案",
+  "requested_seconds": 60,
+  "wav": {
+    "file": "daybreak-proposal-master.wav",
+    "duration_seconds": 60.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 3,
+    "samples": 2880000,
+    "integrated_lufs": -18.1,
+    "true_peak_dbfs": -2.2,
+    "loudness_range_lu": 11.0
+  },
+  "aac": {
+    "file": "daybreak-proposal.m4a",
+    "decoded_seconds": 60.01067,
+    "integrated_lufs": -18.1,
+    "true_peak_dbfs": -2.2,
+    "loudness_range_lu": 11.0
+  },
+  "micro_dynamics": {
+    "window_ms": 10,
+    "deep_trough_threshold_db_below_p95": -33.98,
+    "regions": [
+      {
+        "start": 8.571428571428571,
+        "end": 25.714285714285715,
+        "role": "groove",
+        "p10_to_p95_db": -16.28,
+        "longest_deep_trough_ms": 0,
+        "deep_trough_fraction": 0.0
+      },
+      {
+        "start": 34.285714285714285,
+        "end": 51.42857142857143,
+        "role": "groove",
+        "p10_to_p95_db": -16.89,
+        "longest_deep_trough_ms": 0,
+        "deep_trough_fraction": 0.0
+      },
+      {
+        "start": 51.42857142857143,
+        "end": 57.857142857142854,
+        "role": "build",
+        "p10_to_p95_db": -15.12,
+        "longest_deep_trough_ms": 0,
+        "deep_trough_fraction": 0.0
+      }
+    ],
+    "interpretation": "Review with arrangement intent. These values do not certify listening quality."
+  },
+  "full_decode_errors": 0,
+  "mono_fold_down_db": -0.184,
+  "ending_rms_last_50ms": 0.0,
+  "unexpected_near_silent_seconds": [],
+  "bpm": 112,
+  "key": "D major",
+  "unexpected_chord_conflicts": 0,
+  "aac_sha256": "b685e0ad27f7755a2ed3780fd6ffd804df66f733a6e5015f0c5ba5b1d31e4c7c",
+  "limits": "Objective QC does not certify listening quality."
+}

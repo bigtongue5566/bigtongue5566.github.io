@@ -1,0 +1,37 @@
+{
+  "name": "御風入雲",
+  "requested_seconds": 60,
+  "wav": {
+    "file": "jade-wind-ascent-master.wav",
+    "duration_seconds": 60.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 3,
+    "samples": 2880000,
+    "integrated_lufs": -18.9,
+    "true_peak_dbfs": -3.5,
+    "loudness_range_lu": 3.3
+  },
+  "aac": {
+    "file": "jade-wind-ascent.m4a",
+    "decoded_seconds": 60.01067,
+    "integrated_lufs": -19.0,
+    "true_peak_dbfs": -3.5,
+    "loudness_range_lu": 3.3
+  },
+  "micro_dynamics": {
+    "window_ms": 10,
+    "deep_trough_threshold_db_below_p95": -33.98,
+    "regions": [],
+    "interpretation": "Review with arrangement intent. These values do not certify listening quality."
+  },
+  "full_decode_errors": 0,
+  "mono_fold_down_db": -0.071,
+  "ending_rms_last_50ms": 0.0,
+  "unexpected_near_silent_seconds": [],
+  "bpm": 80,
+  "key": "D major",
+  "unexpected_chord_conflicts": 0,
+  "aac_sha256": "24bc6bffa38c1dc29bb8e6d84c50af645bf90baa23b0d8cd2ee481cd449c4697",
+  "limits": "Objective QC does not certify listening quality."
+}

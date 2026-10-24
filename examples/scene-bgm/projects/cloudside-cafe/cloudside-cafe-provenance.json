@@ -1,0 +1,52 @@
+{
+  "composition": "Original bespoke score: Cloudside Cafe",
+  "style": "PLAYFUL GAME ELECTRONICA",
+  "bpm": 104,
+  "key": "C major",
+  "instrument_source": "Original oscillator/noise synthesis; GeneralUser GS 2.0.3 sampled instruments rendered by FluidSynth 2.6.1",
+  "soundfont_source": "https://github.com/mrbumpy409/GeneralUser-GS",
+  "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "soundfont_license_file": "GeneralUser-GS-LICENSE.txt",
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 9.23076923076923,
+      "role": "intro",
+      "label": "登入雲端"
+    },
+    {
+      "start": 9.23076923076923,
+      "end": 27.69230769230769,
+      "role": "groove",
+      "label": "採集時光"
+    },
+    {
+      "start": 27.69230769230769,
+      "end": 36.92307692307692,
+      "role": "break",
+      "label": "小小發現"
+    },
+    {
+      "start": 36.92307692307692,
+      "end": 55.38461538461538,
+      "role": "groove",
+      "label": "快樂補給"
+    },
+    {
+      "start": 55.38461538461538,
+      "end": 60,
+      "role": "outro",
+      "label": "存檔"
+    }
+  ],
+  "pulse": "metric",
+  "tempo_note": "Quarter-note BPM",
+  "midi_note": "GM instrument suggestions; MIDI playback will not reproduce the custom synthesized audio.",
+  "stem_note": "Float32 premaster stems share gain and fades; they are not separately loudness normalized.",
+  "meter": "4/4",
+  "sampled_programs_zero_based": {
+    "pizzicato": 45,
+    "nylon-guitar": 24
+  },
+  "musical_final_onset": 57.692307692
+}

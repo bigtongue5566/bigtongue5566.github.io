@@ -1,0 +1,74 @@
+{
+  "duration_seconds": 60,
+  "original_composition": true,
+  "composition": "Original bespoke score: Jade Wind Ascent",
+  "style": "PENTATONIC FANTASY HYBRID",
+  "pulse": "metric",
+  "bpm": 80,
+  "key": "D major",
+  "meter": "4/4",
+  "tempo_note": "Quarter-note BPM",
+  "instrument_source": "Original oscillator/noise synthesis; GeneralUser GS 2.0.3 sampled instruments rendered by FluidSynth 2.6.1",
+  "sampled_programs_zero_based": {
+    "flute": 73,
+    "koto": 107,
+    "strings": 48
+  },
+  "soundfont_source": "https://github.com/mrbumpy409/GeneralUser-GS",
+  "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "soundfont_license_file": "GeneralUser-GS-LICENSE.txt",
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "role": "intro",
+      "label": "山門"
+    },
+    {
+      "start": 12.0,
+      "end": 24.0,
+      "role": "texture",
+      "label": "雲行"
+    },
+    {
+      "start": 24.0,
+      "end": 36.0,
+      "role": "evolution",
+      "label": "御風"
+    },
+    {
+      "start": 36.0,
+      "end": 48.0,
+      "role": "evolution",
+      "label": "遠峰"
+    },
+    {
+      "start": 48.0,
+      "end": 57.0,
+      "role": "release",
+      "label": "歸雲"
+    },
+    {
+      "start": 57.0,
+      "end": 60,
+      "role": "outro",
+      "label": "餘韻"
+    }
+  ],
+  "note_events": 136,
+  "unexpected_chord_conflicts": 0,
+  "harmonic_check_scope": "Actual note-on/chord membership; sampled release and reflections are not fully represented by MIDI gates",
+  "last_effective_onset": 57.0,
+  "musical_final_onset": 57.0,
+  "engine_files_sha256": {
+    "compose_edm.py": "0a4b7037a9c5fb85c829385d4b086ed9b8ccc0848e2af77289d6493395a25e48",
+    "continuity.py": "de0ae0e7c1988c2545594d70f6b43aeb58890c063c8b10d0afaf124dd1c77054",
+    "finish_music.py": "8402dd677c1d33da3efa5ef844cb9274c9bb8c01448e990107f6540481343837",
+    "harmonic_comfort.py": "0db528550fa9087fbdc4b15bf4e4e5aaf27e903cd9f3498700040277af4bb7e7",
+    "instruments.py": "a7bd2ac00c679ef5cb2f31310348902668d6bb2b004ae910caf792c090fb9cb4",
+    "projectlib.py": "ba44da2eadf062081a82e749fccad0b11dc75bacdc3e49208a6d7a9f981bf9b1",
+    "styles.py": "2fe68da19acb52399cdf5d304382c306c82767fc12eabca34cfafafe613eed9d"
+  },
+  "arrangement_source": "compose.py; five separate original arrangements, not relabeled presets",
+  "limits": "Objective QC does not certify musical style, taste or subjective listening quality."
+}

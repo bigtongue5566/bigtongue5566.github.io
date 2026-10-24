@@ -1,0 +1,61 @@
+{
+  "composition": "Original bespoke score: Victory Circuit",
+  "style": "CINEMATIC D&B",
+  "bpm": 174,
+  "key": "D minor",
+  "instrument_source": "Original oscillator/noise synthesis only",
+  "soundfont_source": null,
+  "soundfont_sha256": null,
+  "soundfont_license_file": null,
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 5.517241379310345,
+      "role": "intro",
+      "label": "就位"
+    },
+    {
+      "start": 5.517241379310345,
+      "end": 16.551724137931036,
+      "role": "build",
+      "label": "集結"
+    },
+    {
+      "start": 16.551724137931036,
+      "end": 27.586206896551726,
+      "role": "groove",
+      "label": "交鋒"
+    },
+    {
+      "start": 27.586206896551726,
+      "end": 30.344827586206897,
+      "role": "break",
+      "label": "屏息"
+    },
+    {
+      "start": 30.344827586206897,
+      "end": 46.896551724137936,
+      "role": "drop",
+      "label": "決勝"
+    },
+    {
+      "start": 46.896551724137936,
+      "end": 57.931034482758626,
+      "role": "drop",
+      "label": "全力推進"
+    },
+    {
+      "start": 57.931034482758626,
+      "end": 60,
+      "role": "outro",
+      "label": "落定"
+    }
+  ],
+  "pulse": "metric",
+  "tempo_note": "Quarter-note BPM",
+  "midi_note": "GM instrument suggestions; MIDI playback will not reproduce the custom synthesized audio.",
+  "stem_note": "Float32 premaster stems share gain and fades; they are not separately loudness normalized.",
+  "meter": "4/4",
+  "sampled_programs_zero_based": {},
+  "musical_final_onset": 57.931034483
+}

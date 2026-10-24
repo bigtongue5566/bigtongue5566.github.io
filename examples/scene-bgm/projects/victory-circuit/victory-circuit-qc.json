@@ -1,0 +1,70 @@
+{
+  "name": "決勝脈衝",
+  "requested_seconds": 60,
+  "wav": {
+    "file": "victory-circuit-master.wav",
+    "duration_seconds": 60.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 3,
+    "samples": 2880000,
+    "integrated_lufs": -14.6,
+    "true_peak_dbfs": -2.0,
+    "loudness_range_lu": 2.7
+  },
+  "aac": {
+    "file": "victory-circuit.m4a",
+    "decoded_seconds": 60.01067,
+    "integrated_lufs": -14.7,
+    "true_peak_dbfs": -1.4,
+    "loudness_range_lu": 2.7
+  },
+  "micro_dynamics": {
+    "window_ms": 10,
+    "deep_trough_threshold_db_below_p95": -33.98,
+    "regions": [
+      {
+        "start": 5.517241379310345,
+        "end": 16.551724137931036,
+        "role": "build",
+        "p10_to_p95_db": -12.51,
+        "longest_deep_trough_ms": 0,
+        "deep_trough_fraction": 0.0
+      },
+      {
+        "start": 16.551724137931036,
+        "end": 27.586206896551726,
+        "role": "groove",
+        "p10_to_p95_db": -13.68,
+        "longest_deep_trough_ms": 0,
+        "deep_trough_fraction": 0.0
+      },
+      {
+        "start": 30.344827586206897,
+        "end": 46.896551724137936,
+        "role": "drop",
+        "p10_to_p95_db": -14.29,
+        "longest_deep_trough_ms": 0,
+        "deep_trough_fraction": 0.0
+      },
+      {
+        "start": 46.896551724137936,
+        "end": 57.931034482758626,
+        "role": "drop",
+        "p10_to_p95_db": -14.13,
+        "longest_deep_trough_ms": 0,
+        "deep_trough_fraction": 0.0
+      }
+    ],
+    "interpretation": "Review with arrangement intent. These values do not certify listening quality."
+  },
+  "full_decode_errors": 0,
+  "mono_fold_down_db": -0.331,
+  "ending_rms_last_50ms": 0.0,
+  "unexpected_near_silent_seconds": [],
+  "bpm": 174,
+  "key": "D minor",
+  "unexpected_chord_conflicts": 0,
+  "aac_sha256": "f481d3e353cff7002fc6f4d07bacb8fff119d695ba2fcd42338e2ed38ef841b4",
+  "limits": "Objective QC does not certify listening quality."
+}

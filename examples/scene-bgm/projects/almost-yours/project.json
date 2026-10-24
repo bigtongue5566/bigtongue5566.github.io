@@ -1,0 +1,61 @@
+{
+  "name": "靠近的那一秒",
+  "slug": "almost-yours",
+  "duration": 60,
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "role": "intro",
+      "label": "初見"
+    },
+    {
+      "start": 10.0,
+      "end": 20.0,
+      "role": "texture",
+      "label": "並肩"
+    },
+    {
+      "start": 20.0,
+      "end": 35.0,
+      "role": "groove",
+      "label": "心動"
+    },
+    {
+      "start": 35.0,
+      "end": 40.0,
+      "role": "break",
+      "label": "欲言又止"
+    },
+    {
+      "start": 40.0,
+      "end": 55.0,
+      "role": "evolution",
+      "label": "靠近"
+    },
+    {
+      "start": 55.0,
+      "end": 60,
+      "role": "outro",
+      "label": "那一秒"
+    }
+  ],
+  "music": {
+    "style": "downtempo",
+    "key": "F major",
+    "bpm": 72,
+    "progression": [
+      "I",
+      "vi",
+      "IV",
+      "V"
+    ],
+    "seed": 24102030,
+    "pulse": "metric",
+    "harmonic_profile": "consonant",
+    "lufs": -20,
+    "true_peak": -2,
+    "soundfont": null,
+    "export_stems": false
+  }
+}

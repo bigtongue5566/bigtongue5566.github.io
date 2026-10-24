@@ -1,0 +1,2182 @@
+[
+  {
+    "stem": "piano",
+    "time": 0.041666667,
+    "duration": 0.9166666666666667,
+    "note": 72,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 1.25,
+    "duration": 0.7916666666666666,
+    "note": 69,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 0.025,
+    "duration": 2.041666666666667,
+    "note": 41,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 2.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 2.525,
+    "duration": 2.041666666666667,
+    "note": 41,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 5.041666667,
+    "duration": 0.9166666666666667,
+    "note": 74,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 6.25,
+    "duration": 0.7916666666666666,
+    "note": 69,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 5.025,
+    "duration": 2.041666666666667,
+    "note": 38,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 7.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 7.525,
+    "duration": 2.041666666666667,
+    "note": 38,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 10.0,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 10.416666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 10.833333333,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 11.25,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 11.666666667,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 12.083333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 10.041666667,
+    "duration": 0.9166666666666667,
+    "note": 74,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 11.25,
+    "duration": 0.7916666666666666,
+    "note": 70,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 10.025,
+    "duration": 2.041666666666667,
+    "note": 34,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 12.5,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 12.916666667,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 13.333333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 13.75,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 14.166666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 14.583333333,
+    "duration": 0.21666666699999942,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 12.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 12.525,
+    "duration": 2.041666666666667,
+    "note": 34,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 15.0,
+    "duration": 0.5833333333333334,
+    "note": 52,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 15.416666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 15.833333333,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 16.25,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 16.666666667,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 17.083333333,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 15.041666667,
+    "duration": 0.9166666666666667,
+    "note": 72,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 16.25,
+    "duration": 0.7916666666666666,
+    "note": 67,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 15.025,
+    "duration": 2.041666666666667,
+    "note": 36,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 17.5,
+    "duration": 0.5833333333333334,
+    "note": 52,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 17.916666667,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 18.333333333,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 18.75,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 19.166666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 19.583333333,
+    "duration": 0.2166666670000012,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 17.833333333,
+    "duration": 1.5,
+    "note": 64,
+    "velocity": 52,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 17.525,
+    "duration": 2.041666666666667,
+    "note": 36,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 20.0,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 20.416666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 20.833333333,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 21.25,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 21.666666667,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 22.083333333,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 20.041666667,
+    "duration": 0.9166666666666667,
+    "note": 72,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 21.25,
+    "duration": 0.7916666666666666,
+    "note": 69,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 20.025,
+    "duration": 2.041666666666667,
+    "note": 41,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 20.0,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 20.0,
+    "duration": 2.291666666666667,
+    "note": 57,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 20.0,
+    "duration": 2.291666666666667,
+    "note": 60,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 22.5,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 22.916666667,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 23.333333333,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 23.75,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 24.166666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 24.583333333,
+    "duration": 0.2166666670000012,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 22.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 22.525,
+    "duration": 2.041666666666667,
+    "note": 41,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 22.5,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 22.5,
+    "duration": 2.291666666666667,
+    "note": 57,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 22.5,
+    "duration": 2.291666666666667,
+    "note": 60,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 25.0,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 25.416666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 25.833333333,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 26.25,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 26.666666667,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 27.083333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 25.041666667,
+    "duration": 0.9166666666666667,
+    "note": 74,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 26.25,
+    "duration": 0.7916666666666666,
+    "note": 69,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 25.025,
+    "duration": 2.041666666666667,
+    "note": 38,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 25.0,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 25.0,
+    "duration": 2.291666666666667,
+    "note": 57,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 25.0,
+    "duration": 2.291666666666667,
+    "note": 62,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 27.5,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 27.916666667,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 28.333333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 28.75,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 29.166666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 29.583333333,
+    "duration": 0.2166666670000012,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 27.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 27.525,
+    "duration": 2.041666666666667,
+    "note": 38,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 27.5,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 27.5,
+    "duration": 2.291666666666667,
+    "note": 57,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 27.5,
+    "duration": 2.291666666666667,
+    "note": 62,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 30.0,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 30.416666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 30.833333333,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 31.25,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 31.666666667,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 32.083333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 30.041666667,
+    "duration": 0.9166666666666667,
+    "note": 74,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 31.25,
+    "duration": 0.7916666666666666,
+    "note": 70,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 30.025,
+    "duration": 2.041666666666667,
+    "note": 34,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 30.0,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 30.0,
+    "duration": 2.291666666666667,
+    "note": 58,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 30.0,
+    "duration": 2.291666666666667,
+    "note": 62,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 32.5,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 32.916666667,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 33.333333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 33.75,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 34.166666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 34.583333333,
+    "duration": 0.2166666670000012,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 32.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 32.525,
+    "duration": 2.041666666666667,
+    "note": 34,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 32.5,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 32.5,
+    "duration": 2.291666666666667,
+    "note": 58,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 32.5,
+    "duration": 2.291666666666667,
+    "note": 62,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 35.0,
+    "duration": 0.5833333333333334,
+    "note": 52,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 35.416666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 35.833333333,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 36.25,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 36.666666667,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 37.083333333,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 35.025,
+    "duration": 2.041666666666667,
+    "note": 36,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 35.0,
+    "duration": 2.291666666666667,
+    "note": 52,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 35.0,
+    "duration": 2.291666666666667,
+    "note": 55,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 35.0,
+    "duration": 2.291666666666667,
+    "note": 60,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 37.5,
+    "duration": 0.5833333333333334,
+    "note": 52,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 37.916666667,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 38.333333333,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 38.75,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 39.166666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 39.583333333,
+    "duration": 0.2166666670000012,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 37.525,
+    "duration": 2.041666666666667,
+    "note": 36,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 37.5,
+    "duration": 2.291666666666667,
+    "note": 52,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 37.5,
+    "duration": 2.291666666666667,
+    "note": 55,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 37.5,
+    "duration": 2.291666666666667,
+    "note": 60,
+    "velocity": 37,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 40.0,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 40.416666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 40.833333333,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 41.25,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 41.666666667,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 42.083333333,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 40.041666667,
+    "duration": 0.9166666666666667,
+    "note": 72,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 41.25,
+    "duration": 0.7916666666666666,
+    "note": 69,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 40.025,
+    "duration": 2.041666666666667,
+    "note": 41,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 40.0,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 40.0,
+    "duration": 2.291666666666667,
+    "note": 57,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 40.0,
+    "duration": 2.291666666666667,
+    "note": 60,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 42.5,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 42.916666667,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 43.333333333,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 43.75,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 44.166666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 44.583333333,
+    "duration": 0.2166666670000012,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 42.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 42.525,
+    "duration": 2.041666666666667,
+    "note": 41,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 42.5,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 42.5,
+    "duration": 2.291666666666667,
+    "note": 57,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 42.5,
+    "duration": 2.291666666666667,
+    "note": 60,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 45.0,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 45.416666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 45.833333333,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 46.25,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 46.666666667,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 47.083333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 45.041666667,
+    "duration": 0.9166666666666667,
+    "note": 74,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 46.25,
+    "duration": 0.7916666666666666,
+    "note": 69,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 45.025,
+    "duration": 2.041666666666667,
+    "note": 38,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 45.0,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 45.0,
+    "duration": 2.291666666666667,
+    "note": 57,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 45.0,
+    "duration": 2.291666666666667,
+    "note": 62,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 47.5,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 47.916666667,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 48.333333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 48.75,
+    "duration": 0.5833333333333334,
+    "note": 57,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 49.166666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 49.583333333,
+    "duration": 0.2166666670000012,
+    "note": 57,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 47.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 47.525,
+    "duration": 2.041666666666667,
+    "note": 38,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 47.5,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 47.5,
+    "duration": 2.291666666666667,
+    "note": 57,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 47.5,
+    "duration": 2.291666666666667,
+    "note": 62,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 50.0,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 50.416666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 50.833333333,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 51.25,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 51.666666667,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 52.083333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 50.041666667,
+    "duration": 0.9166666666666667,
+    "note": 74,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 51.25,
+    "duration": 0.7916666666666666,
+    "note": 70,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 50.025,
+    "duration": 2.041666666666667,
+    "note": 34,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 50.0,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 50.0,
+    "duration": 2.291666666666667,
+    "note": 58,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 50.0,
+    "duration": 2.291666666666667,
+    "note": 62,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 52.5,
+    "duration": 0.5833333333333334,
+    "note": 53,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 52.916666667,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 53.333333333,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 53.75,
+    "duration": 0.5833333333333334,
+    "note": 58,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 54.166666667,
+    "duration": 0.5833333333333334,
+    "note": 62,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 54.583333333,
+    "duration": 0.2166666670000012,
+    "note": 58,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 52.833333333,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 52.525,
+    "duration": 2.041666666666667,
+    "note": 34,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 52.5,
+    "duration": 2.291666666666667,
+    "note": 53,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 52.5,
+    "duration": 2.291666666666667,
+    "note": 58,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 52.5,
+    "duration": 2.291666666666667,
+    "note": 62,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 55.0,
+    "duration": 0.5833333333333334,
+    "note": 52,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 55.416666667,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 55.833333333,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 56.25,
+    "duration": 0.5833333333333334,
+    "note": 60,
+    "velocity": 50,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 56.666666667,
+    "duration": 0.5833333333333334,
+    "note": 55,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "nylon-guitar",
+    "time": 57.083333333,
+    "duration": 0.2166666670000012,
+    "note": 60,
+    "velocity": 43,
+    "pan": 0.2,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 24
+  },
+  {
+    "stem": "piano",
+    "time": 55.041666667,
+    "duration": 0.9166666666666667,
+    "note": 72,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 56.25,
+    "duration": 0.7916666666666666,
+    "note": 67,
+    "velocity": 61,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 55.025,
+    "duration": 2.041666666666667,
+    "note": 36,
+    "velocity": 43,
+    "pan": -0.13,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "slow-strings",
+    "time": 55.0,
+    "duration": 2.291666666666667,
+    "note": 52,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 55.0,
+    "duration": 2.291666666666667,
+    "note": 55,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "slow-strings",
+    "time": 55.0,
+    "duration": 2.291666666666667,
+    "note": 60,
+    "velocity": 44,
+    "pan": 0.05,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 49
+  },
+  {
+    "stem": "piano",
+    "time": 57.5,
+    "duration": 1.6,
+    "note": 65,
+    "velocity": 54,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 57.5,
+    "duration": 1.6,
+    "note": 69,
+    "velocity": 54,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 57.5,
+    "duration": 1.6,
+    "note": 72,
+    "velocity": 54,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  },
+  {
+    "stem": "piano",
+    "time": 57.5,
+    "duration": 1.6500000000000001,
+    "note": 41,
+    "velocity": 53,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 0
+  }
+]

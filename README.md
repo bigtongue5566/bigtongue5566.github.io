@@ -14,7 +14,25 @@ Every company claim maps to an official source. The page exposes the complete re
 claim-by-claim timestamps, checked dates and actual materials/rights record.
 One work can credit several Skills.
 
-## New collection — 聲音的三種時間
+## New collection — 五個場景・五種聲音
+
+**[Listen to five new BGM demos](https://bigtongue5566.github.io/?view=works#scene-bgm)**
+
+| Work | Context | Music |
+| --- | --- | --- |
+| [決勝脈衝 / Victory Circuit](https://bigtongue5566.github.io/?demo=victory-circuit) | Esports event | 174 BPM cinematic Drum & Bass |
+| [向光提案 / Daybreak Proposal](https://bigtongue5566.github.io/?demo=daybreak-proposal) | Business presentation | 112 BPM clean electronic pop |
+| [雲朵補給站 / Cloudside Cafe](https://bigtongue5566.github.io/?demo=cloudside-cafe) | Casual game | 104 BPM playful electronica |
+| [御風入雲 / Jade Wind Ascent](https://bigtongue5566.github.io/?demo=jade-wind-ascent) | Xianxia fantasy | 80 BPM pentatonic hybrid |
+| [靠近的那一秒 / Almost Yours](https://bigtongue5566.github.io/?demo=almost-yours) | Romantic moment | 72 quarter-note BPM, 6/8 |
+
+All five are original 60-second audio works with distinct arrangements and
+written endings, cover art, chapters, editable MIDI and reproducible composition
+code. The [source package](examples/scene-bgm) records actual sampled instruments,
+licenses and completed-file QC. Sampled instruments use GeneralUser GS 2.0.3
+and FluidSynth 2.6.1; external build dependencies are acquired separately.
+
+## 聲音的三種時間
 
 **[Watch the three new films](https://bigtongue5566.github.io/?view=works#electronic-triptych)**
 
@@ -35,7 +53,7 @@ The gallery supports optional catalog `collections` with a date and valid demo I
 The gallery also includes the 90-second **Form & Frequency / 聲形之間** and two 60-second studies: **Digital Pulse / 數位脈動**
 (172 BPM Drum & Bass) and **Neon Drift / 霓虹漫遊** (132 BPM UK Garage).
 Each has a film and a standalone soundtrack. Together with the new collection,
-the directory presents seven video Demos for the motion Skill and seven audio Demos for the music Skill.
+the directory presents seven video Demos for the motion Skill and twelve audio Demos for the music Skill.
 The revised Form & Frequency uses 148 BPM Future Bass; the TSMC film uses restrained
 124 BPM Minimal Piano House. Playback assets carry content-hash version queries, and chapters
 match the new musical timing. Source archives retain the actual notes and automation.

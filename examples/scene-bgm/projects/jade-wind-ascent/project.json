@@ -1,0 +1,61 @@
+{
+  "name": "御風入雲",
+  "slug": "jade-wind-ascent",
+  "duration": 60,
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "role": "intro",
+      "label": "山門"
+    },
+    {
+      "start": 12.0,
+      "end": 24.0,
+      "role": "texture",
+      "label": "雲行"
+    },
+    {
+      "start": 24.0,
+      "end": 36.0,
+      "role": "evolution",
+      "label": "御風"
+    },
+    {
+      "start": 36.0,
+      "end": 48.0,
+      "role": "evolution",
+      "label": "遠峰"
+    },
+    {
+      "start": 48.0,
+      "end": 57.0,
+      "role": "release",
+      "label": "歸雲"
+    },
+    {
+      "start": 57.0,
+      "end": 60,
+      "role": "outro",
+      "label": "餘韻"
+    }
+  ],
+  "music": {
+    "style": "ambient",
+    "key": "D major",
+    "bpm": 80,
+    "progression": [
+      "I",
+      "vi",
+      "V",
+      "I"
+    ],
+    "seed": 24102029,
+    "pulse": "metric",
+    "harmonic_profile": "consonant",
+    "lufs": -19,
+    "true_peak": -2,
+    "soundfont": null,
+    "export_stems": false
+  }
+}

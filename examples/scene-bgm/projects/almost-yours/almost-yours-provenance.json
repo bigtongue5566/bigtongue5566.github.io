@@ -1,0 +1,59 @@
+{
+  "composition": "Original bespoke score: Almost Yours",
+  "style": "ROMANTIC ELECTROACOUSTIC",
+  "bpm": 72,
+  "key": "F major",
+  "instrument_source": "Original oscillator/noise synthesis; GeneralUser GS 2.0.3 sampled instruments rendered by FluidSynth 2.6.1",
+  "soundfont_source": "https://github.com/mrbumpy409/GeneralUser-GS",
+  "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "soundfont_license_file": "GeneralUser-GS-LICENSE.txt",
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "role": "intro",
+      "label": "初見"
+    },
+    {
+      "start": 10.0,
+      "end": 20.0,
+      "role": "texture",
+      "label": "並肩"
+    },
+    {
+      "start": 20.0,
+      "end": 35.0,
+      "role": "groove",
+      "label": "心動"
+    },
+    {
+      "start": 35.0,
+      "end": 40.0,
+      "role": "break",
+      "label": "欲言又止"
+    },
+    {
+      "start": 40.0,
+      "end": 55.0,
+      "role": "evolution",
+      "label": "靠近"
+    },
+    {
+      "start": 55.0,
+      "end": 60,
+      "role": "outro",
+      "label": "那一秒"
+    }
+  ],
+  "pulse": "metric",
+  "tempo_note": "Quarter-note BPM; six eighth notes per bar",
+  "midi_note": "GM instrument suggestions; MIDI playback will not reproduce the custom synthesized audio.",
+  "stem_note": "Float32 premaster stems share gain and fades; they are not separately loudness normalized.",
+  "meter": "6/8",
+  "sampled_programs_zero_based": {
+    "piano": 0,
+    "nylon-guitar": 24,
+    "slow-strings": 49
+  },
+  "musical_final_onset": 57.5
+}

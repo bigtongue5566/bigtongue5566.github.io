@@ -1,0 +1,1354 @@
+[
+  {
+    "stem": "flute",
+    "time": 0.1875,
+    "duration": 1.125,
+    "note": 62,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 1.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 0.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 0.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 1.0125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 2.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "flute",
+    "time": 3.1875,
+    "duration": 1.125,
+    "note": 62,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 4.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 6.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 6.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 7.0125,
+    "duration": 0.5249999999999999,
+    "note": 59,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 8.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "flute",
+    "time": 9.375,
+    "duration": 1.875,
+    "note": 62,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 9.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 9.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 10.0125,
+    "duration": 0.5249999999999999,
+    "note": 59,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 11.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "flute",
+    "time": 12.1875,
+    "duration": 1.125,
+    "note": 64,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 13.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 12.0,
+    "duration": 0.5249999999999999,
+    "note": 52,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 12.4125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 13.0125,
+    "duration": 0.5249999999999999,
+    "note": 52,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 14.25,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 12.0,
+    "duration": 2.7,
+    "note": 49,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 12.0,
+    "duration": 2.7,
+    "note": 52,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 12.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "flute",
+    "time": 15.1875,
+    "duration": 1.125,
+    "note": 64,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 16.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "strings",
+    "time": 15.0,
+    "duration": 2.7,
+    "note": 49,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 15.0,
+    "duration": 2.7,
+    "note": 52,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 15.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "koto",
+    "time": 18.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 18.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 19.0125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 20.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 18.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 18.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 18.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "flute",
+    "time": 21.375,
+    "duration": 1.875,
+    "note": 62,
+    "velocity": 67,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 21.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 21.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 22.0125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 23.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 21.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 21.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 21.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "flute",
+    "time": 24.1875,
+    "duration": 1.125,
+    "note": 62,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 25.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 24.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 24.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 25.0125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 26.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 24.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 24.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 24.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "drums",
+    "time": 24.0,
+    "duration": 0.24,
+    "note": 41,
+    "velocity": 36,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "flute",
+    "time": 27.1875,
+    "duration": 1.125,
+    "note": 62,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 28.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "strings",
+    "time": 27.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 27.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 27.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "koto",
+    "time": 30.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 30.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 31.0125,
+    "duration": 0.5249999999999999,
+    "note": 59,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 32.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 30.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 30.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 30.0,
+    "duration": 2.7,
+    "note": 59,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "drums",
+    "time": 30.0,
+    "duration": 0.24,
+    "note": 41,
+    "velocity": 36,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "flute",
+    "time": 33.375,
+    "duration": 1.875,
+    "note": 62,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 33.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 33.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 34.0125,
+    "duration": 0.5249999999999999,
+    "note": 59,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 35.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 64,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 33.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 33.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 33.0,
+    "duration": 2.7,
+    "note": 59,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "flute",
+    "time": 36.1875,
+    "duration": 1.125,
+    "note": 64,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 37.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 36.0,
+    "duration": 0.5249999999999999,
+    "note": 52,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 36.4125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 37.0125,
+    "duration": 0.5249999999999999,
+    "note": 52,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 38.25,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 36.0,
+    "duration": 2.7,
+    "note": 49,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 36.0,
+    "duration": 2.7,
+    "note": 52,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 36.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "drums",
+    "time": 36.0,
+    "duration": 0.24,
+    "note": 41,
+    "velocity": 36,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "flute",
+    "time": 39.1875,
+    "duration": 1.125,
+    "note": 64,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 40.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "strings",
+    "time": 39.0,
+    "duration": 2.7,
+    "note": 49,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 39.0,
+    "duration": 2.7,
+    "note": 52,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 39.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "koto",
+    "time": 42.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 42.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 43.0125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 44.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 42.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 42.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 42.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "drums",
+    "time": 42.0,
+    "duration": 0.24,
+    "note": 41,
+    "velocity": 36,
+    "source": "original noise/oscillator synthesis"
+  },
+  {
+    "stem": "flute",
+    "time": 45.375,
+    "duration": 1.875,
+    "note": 62,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 45.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 45.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 46.0125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 47.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 45.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 45.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 45.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "flute",
+    "time": 48.1875,
+    "duration": 1.125,
+    "note": 62,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 49.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 48.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 48.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 49.0125,
+    "duration": 0.5249999999999999,
+    "note": 57,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 50.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 48.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 48.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 48.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "flute",
+    "time": 51.1875,
+    "duration": 1.125,
+    "note": 62,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "flute",
+    "time": 52.6875,
+    "duration": 0.8250000000000001,
+    "note": 69,
+    "velocity": 73,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "strings",
+    "time": 51.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 51.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 51.0,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "koto",
+    "time": 54.0,
+    "duration": 0.5249999999999999,
+    "note": 50,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 54.4125,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 55.0125,
+    "duration": 0.5249999999999999,
+    "note": 59,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 56.25,
+    "duration": 0.5249999999999999,
+    "note": 54,
+    "velocity": 57,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 54.0,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 54.0,
+    "duration": 2.7,
+    "note": 54,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 54.0,
+    "duration": 2.7,
+    "note": 59,
+    "velocity": 39,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "flute",
+    "time": 57.0,
+    "duration": 1.7999999999999998,
+    "note": 62,
+    "velocity": 62,
+    "pan": -0.06,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 73
+  },
+  {
+    "stem": "koto",
+    "time": 57.0,
+    "duration": 0.65,
+    "note": 50,
+    "velocity": 52,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 57.0,
+    "duration": 0.65,
+    "note": 54,
+    "velocity": 52,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "koto",
+    "time": 57.0,
+    "duration": 0.65,
+    "note": 57,
+    "velocity": 52,
+    "pan": 0.23,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 107
+  },
+  {
+    "stem": "strings",
+    "time": 57.0,
+    "duration": 1.56,
+    "note": 50,
+    "velocity": 38,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 57.0,
+    "duration": 1.56,
+    "note": 54,
+    "velocity": 38,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  },
+  {
+    "stem": "strings",
+    "time": 57.0,
+    "duration": 1.56,
+    "note": 57,
+    "velocity": 38,
+    "pan": -0.1,
+    "source": "GeneralUser GS 2.0.3",
+    "program_zero_based": 48
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "name": "向光提案",
+  "slug": "daybreak-proposal",
+  "duration": 60,
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 8.571428571428571,
+      "role": "intro",
+      "label": "開題"
+    },
+    {
+      "start": 8.571428571428571,
+      "end": 25.714285714285715,
+      "role": "groove",
+      "label": "展開"
+    },
+    {
+      "start": 25.714285714285715,
+      "end": 34.285714285714285,
+      "role": "break",
+      "label": "留白"
+    },
+    {
+      "start": 34.285714285714285,
+      "end": 51.42857142857143,
+      "role": "groove",
+      "label": "前進"
+    },
+    {
+      "start": 51.42857142857143,
+      "end": 57.857142857142854,
+      "role": "build",
+      "label": "結語"
+    },
+    {
+      "start": 57.857142857142854,
+      "end": 60,
+      "role": "outro",
+      "label": "定案"
+    }
+  ],
+  "music": {
+    "style": "melodic-house",
+    "key": "D major",
+    "bpm": 112,
+    "progression": [
+      "I",
+      "V",
+      "vi",
+      "IV"
+    ],
+    "seed": 24102027,
+    "pulse": "metric",
+    "harmonic_profile": "consonant",
+    "lufs": -18,
+    "true_peak": -2,
+    "soundfont": null,
+    "export_stems": false
+  }
+}
