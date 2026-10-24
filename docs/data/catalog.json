@@ -42,22 +42,22 @@
       "name": "動態圖形影片",
       "category": "影像",
       "summary": "讓敘事、圖形動作與配樂一起推進。",
-      "description": "製作可播放的公司介紹、科技形象與產品解說影片。從資料與品牌研究、分鏡、向量動畫到 電子配樂同步，交付完整 MP4 與獨立配樂。",
+      "description": "製作可播放的公司介紹、科技形象、產品解說與事件年表。從資料與品牌研究、分鏡、向量動畫到舞曲、氛圍或實驗電子配樂同步，交付完整 MP4 與獨立配樂。",
       "repository": "https://github.com/bigtongue5566/motion-graphics-video",
       "license": "MIT",
       "artwork": "assets/motion.svg",
       "tags": [
         "動態圖形",
         "品牌影片",
-        "EDM",
+        "電子配樂",
         "MP4"
       ],
       "capabilities": [
         "查證內容、標誌、配色與素材來源",
-        "共用音畫時間表，製作連續動態圖形",
+        "共用音畫時間表，依拍點或自由時間製作動態圖形",
         "完成影片、獨立配樂與編碼檢查"
       ],
-      "usage": "用 $motion-graphics-video 製作一支 90 秒的原創動態圖形 Demo，讓 EDM 與畫面同步。",
+      "usage": "用 $motion-graphics-video 製作一支 90 秒的原創動態圖形 Demo，依敘事選擇電子配樂並與畫面同步。",
       "demoIds": [
         "form-and-frequency",
         "digital-pulse",
