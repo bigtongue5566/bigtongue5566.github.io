@@ -1,0 +1,146 @@
+[
+  {
+    "stem": "pad",
+    "time": 0.0,
+    "duration": 7.4,
+    "note": 62,
+    "velocity": 80,
+    "sounding_duration": 8.9
+  },
+  {
+    "stem": "pad",
+    "time": 0.0,
+    "duration": 7.4,
+    "note": 66,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "pad",
+    "time": 0.0,
+    "duration": 7.4,
+    "note": 69,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "bass",
+    "time": 0.0,
+    "duration": 7.4,
+    "note": 50,
+    "velocity": 80,
+    "sounding_duration": 8.9
+  },
+  {
+    "stem": "pad",
+    "time": 8.0,
+    "duration": 7.4,
+    "note": 62,
+    "velocity": 80,
+    "sounding_duration": 8.9
+  },
+  {
+    "stem": "pad",
+    "time": 8.0,
+    "duration": 7.4,
+    "note": 67,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "pad",
+    "time": 8.0,
+    "duration": 7.4,
+    "note": 71,
+    "velocity": 80,
+    "sounding_duration": 8.9
+  },
+  {
+    "stem": "bass",
+    "time": 8.0,
+    "duration": 7.4,
+    "note": 43,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "lead",
+    "time": 10.3,
+    "duration": 3.0,
+    "note": 83,
+    "velocity": 80,
+    "sounding_duration": 4.5
+  },
+  {
+    "stem": "pad",
+    "time": 16.0,
+    "duration": 7.4,
+    "note": 62,
+    "velocity": 80,
+    "sounding_duration": 8.9
+  },
+  {
+    "stem": "pad",
+    "time": 16.0,
+    "duration": 7.4,
+    "note": 66,
+    "velocity": 80,
+    "sounding_duration": 8.9
+  },
+  {
+    "stem": "pad",
+    "time": 16.0,
+    "duration": 7.4,
+    "note": 71,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "bass",
+    "time": 16.0,
+    "duration": 7.4,
+    "note": 47,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "lead",
+    "time": 18.3,
+    "duration": 3.0,
+    "note": 83,
+    "velocity": 80,
+    "sounding_duration": 4.5
+  },
+  {
+    "stem": "pad",
+    "time": 24.0,
+    "duration": 7.4,
+    "note": 62,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "pad",
+    "time": 24.0,
+    "duration": 7.4,
+    "note": 66,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "pad",
+    "time": 24.0,
+    "duration": 7.4,
+    "note": 69,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  },
+  {
+    "stem": "bass",
+    "time": 24.0,
+    "duration": 7.4,
+    "note": 50,
+    "velocity": 80,
+    "sounding_duration": 8.0
+  }
+]

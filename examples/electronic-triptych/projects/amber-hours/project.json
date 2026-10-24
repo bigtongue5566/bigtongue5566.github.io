@@ -1,0 +1,85 @@
+{
+  "name": "Amber Hours",
+  "slug": "amber-hours",
+  "duration": 32,
+  "music": {
+    "style": "downtempo",
+    "key": "F major",
+    "bpm": 90,
+    "progression": [
+      "I",
+      "vi",
+      "IV",
+      "I"
+    ],
+    "pulse": "metric",
+    "harmony_seconds": 8,
+    "seed": 24102026,
+    "harmonic_profile": "consonant",
+    "lufs": -18,
+    "true_peak": -2,
+    "soundfont": null,
+    "export_stems": false
+  },
+  "sections": [
+    {
+      "start": 0,
+      "end": 5.333333333333333,
+      "role": "intro",
+      "label": "First light"
+    },
+    {
+      "start": 5.333333333333333,
+      "end": 16,
+      "role": "groove",
+      "label": "Slow turn"
+    },
+    {
+      "start": 16,
+      "end": 26.666666666666668,
+      "role": "evolution",
+      "label": "Warmth"
+    },
+    {
+      "start": 26.666666666666668,
+      "end": 32,
+      "role": "outro",
+      "label": "Home"
+    }
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "brand": {
+    "primary": "#153E37",
+    "secondary": "#D79164",
+    "accent": "#B8D529",
+    "ink": "#171A17"
+  },
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5.333333333333333,
+      "chapter": "First light",
+      "music_role": "intro"
+    },
+    {
+      "start": 5.333333333333333,
+      "end": 16,
+      "chapter": "Slow turn",
+      "music_role": "groove"
+    },
+    {
+      "start": 16,
+      "end": 26.666666666666668,
+      "chapter": "Warmth",
+      "music_role": "groove"
+    },
+    {
+      "start": 26.666666666666668,
+      "end": 32,
+      "chapter": "Home",
+      "music_role": "outro"
+    }
+  ]
+}

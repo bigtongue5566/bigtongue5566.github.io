@@ -48,6 +48,20 @@ def validate(catalog, web):
                 found.add(value)
         return found
     skill_ids, demo_ids = ids(skills,"skills"), ids(demos,"demos")
+    collections = catalog.get("collections", [])
+    require(isinstance(collections, list), "collections must be an array")
+    if isinstance(collections, list):
+        ids(collections, "collections")
+        for collection in collections:
+            if not isinstance(collection, dict):
+                continue
+            for field in ["title", "summary", "date"]:
+                text(collection, field, "collection")
+            require(bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(collection.get("date", "")))), "collection.date must use YYYY-MM-DD")
+            references = collection.get("demoIds")
+            require(isinstance(references, list) and bool(references) and
+                    all(isinstance(id, str) and id in demo_ids for id in references),
+                    "collection: unknown or empty demo reference")
     if site.get("featuredDemoId"):
         require(site["featuredDemoId"] in demo_ids, "site.featuredDemoId must refer to an existing demo")
     for skill in skills:

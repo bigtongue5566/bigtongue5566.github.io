@@ -1,0 +1,46 @@
+{
+  "composition": "original electronic starter composition",
+  "style": "techno",
+  "bpm": 128.0,
+  "key": "D minor",
+  "instrument_source": "Original filtered harmonic pulse sequence, monophonic sub and synthesized drum/noise voices; 16-bar bespoke pattern/brightness progression",
+  "soundfont_source": null,
+  "soundfont_sha256": null,
+  "soundfont_license_file": null,
+  "sections": [
+    {
+      "start": 0,
+      "end": 3.75,
+      "role": "intro",
+      "label": "Index"
+    },
+    {
+      "start": 3.75,
+      "end": 11.25,
+      "role": "groove",
+      "label": "Lock"
+    },
+    {
+      "start": 11.25,
+      "end": 22.5,
+      "role": "evolution",
+      "label": "Shift"
+    },
+    {
+      "start": 22.5,
+      "end": 28.125,
+      "role": "groove",
+      "label": "Compress"
+    },
+    {
+      "start": 28.125,
+      "end": 30,
+      "role": "outro",
+      "label": "Resolve"
+    }
+  ],
+  "pulse": "metric",
+  "tempo_note": "quarter-note BPM",
+  "midi_note": "GM instrument suggestions; MIDI playback will not reproduce the custom synthesized audio.",
+  "stem_note": "Float32 premaster stems share gain and fades; they are not separately loudness normalized."
+}

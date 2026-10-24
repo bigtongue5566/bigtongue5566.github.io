@@ -1,0 +1,38 @@
+{
+  "work": "still-current",
+  "pulse": "free",
+  "last_compositional_onset": 24.0,
+  "visual_settle": 30.0,
+  "sections": [
+    {
+      "start": 0,
+      "end": 8,
+      "role": "intro",
+      "label": "Surface"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "role": "texture",
+      "label": "Confluence"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "role": "evolution",
+      "label": "Open water"
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "role": "release",
+      "label": "Still"
+    }
+  ],
+  "kicks": [],
+  "snares": [],
+  "tonal_onsets": [
+    10.3,
+    18.3
+  ]
+}

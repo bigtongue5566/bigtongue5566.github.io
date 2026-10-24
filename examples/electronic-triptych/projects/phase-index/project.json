@@ -1,0 +1,94 @@
+{
+  "name": "Phase Index",
+  "slug": "phase-index",
+  "duration": 30,
+  "music": {
+    "style": "techno",
+    "key": "D minor",
+    "bpm": 128,
+    "progression": [
+      "i"
+    ],
+    "pulse": "metric",
+    "harmony_seconds": 8,
+    "seed": 24102026,
+    "harmonic_profile": "consonant",
+    "lufs": -16,
+    "true_peak": -2,
+    "soundfont": null,
+    "export_stems": false
+  },
+  "sections": [
+    {
+      "start": 0,
+      "end": 3.75,
+      "role": "intro",
+      "label": "Index"
+    },
+    {
+      "start": 3.75,
+      "end": 11.25,
+      "role": "groove",
+      "label": "Lock"
+    },
+    {
+      "start": 11.25,
+      "end": 22.5,
+      "role": "evolution",
+      "label": "Shift"
+    },
+    {
+      "start": 22.5,
+      "end": 28.125,
+      "role": "groove",
+      "label": "Compress"
+    },
+    {
+      "start": 28.125,
+      "end": 30,
+      "role": "outro",
+      "label": "Resolve"
+    }
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "brand": {
+    "primary": "#153E37",
+    "secondary": "#D79164",
+    "accent": "#B8D529",
+    "ink": "#171A17"
+  },
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3.75,
+      "chapter": "Index",
+      "music_role": "intro"
+    },
+    {
+      "start": 3.75,
+      "end": 11.25,
+      "chapter": "Lock",
+      "music_role": "groove"
+    },
+    {
+      "start": 11.25,
+      "end": 22.5,
+      "chapter": "Shift",
+      "music_role": "groove"
+    },
+    {
+      "start": 22.5,
+      "end": 28.125,
+      "chapter": "Compress",
+      "music_role": "groove"
+    },
+    {
+      "start": 28.125,
+      "end": 30,
+      "chapter": "Resolve",
+      "music_role": "outro"
+    }
+  ]
+}

@@ -57,8 +57,10 @@ function updateDirectory() {
 
 function home() {
   const categories = [...new Set(catalog.skills.map(skill => skill.category))];
+  const latest = catalog.collections?.[0];
   app.innerHTML = `<div class="shell directory-home"><section id="skills" aria-labelledby="page-title">
     <div class="entry-intro"><p class="eyebrow">BY ${escape(catalog.site.owner)} / OPEN SOURCE SKILLS</p><h1 id="page-title">我的 Skills<span>.</span></h1><p>${escape(catalog.site.description)}</p></div>
+    ${latest ? `<a class="new-release" href="?view=works#${escape(latest.id)}" data-route><span class="release-label">NEW / ${escape(latest.date)}</span><span>${escape(latest.title)}<small>${escape(latest.summary)}</small></span><span aria-hidden="true">↗</span></a>` : ''}
     <div class="directory-head"><h2>Skills 目錄</h2><div class="controls"><label class="visually-hidden" for="search">搜尋 Skill</label><input type="search" id="search" placeholder="搜尋名稱或功能" value="${escape(filterState.search)}"><label class="visually-hidden" for="category">選擇分類</label><select id="category"><option value="">所有分類</option>${categories.map(category => `<option value="${escape(category)}" ${filterState.category === category ? 'selected' : ''}>${escape(category)}</option>`).join('')}</select></div></div><p class="result-count" id="result-count" role="status" aria-live="polite"></p><div id="skill-rows"></div>
     </section><div class="open-note"><span>選擇 Skill，了解它能完成什麼。</span>${external(catalog.site.github, '查看全部開源專案 ↗')}</div></div>`;
   document.querySelector('#search').addEventListener('input', event => {filterState.search = event.target.value; updateDirectory();});
@@ -66,10 +68,16 @@ function home() {
   updateDirectory();
 }
 
+function collectionSection(collection) {
+  const entries = collection.demoIds.map(id => demos.get(id)).filter(Boolean);
+  return `<section class="new-collection" id="${escape(collection.id)}" aria-labelledby="${escape(collection.id)}-title"><div class="section-label"><span>NEW WORKS / ${escape(collection.date)}</span><span>${entries.length} 件新作</span></div><h2 id="${escape(collection.id)}-title">${escape(collection.title)}</h2><p class="collection-intro">${escape(collection.summary)}</p><div class="collection-grid">${entries.map(demo => feature(demo)).join('')}</div></section>`;
+}
+
 function worksPage() {
   const featured = demos.get(catalog.site.featuredDemoId) || catalog.demos[0];
   app.innerHTML = `<div class="shell detail gallery"><a class="back" href="./" data-route>← Skills 目錄</a><div class="detail-heading"><div><p class="eyebrow">MADE WITH SKILLS / ORIGINAL WORKS</p><h1 id="page-title">作品集</h1><p class="subtitle">用成品看看 Skills 的能力，選擇作品播放完整 Demo。</p></div><div class="facts">${catalog.demos.length} 件作品</div></div>
-    ${featured ? `<div class="section-label"><span>精選作品</span><span>${escape(mediaLabels[featured.type] || 'Demo')}</span></div>${feature(featured)}` : '<p class="empty">作品將陸續加入。</p>'}${groupedWorks(catalog.demos.filter(demo => demo.id !== featured?.id))}</div>`;
+    ${(catalog.collections ?? []).map(collectionSection).join('')}
+    ${featured ? `<div class="section-label"><span>精選作品</span><span>${escape(mediaLabels[featured.type] || 'Demo')}</span></div>${feature(featured)}` : '<p class="empty">作品將陸續加入。</p>'}${groupedWorks(catalog.demos.filter(demo => demo.id !== featured?.id && !(catalog.collections ?? []).some(collection => collection.demoIds.includes(demo.id))))}</div>`;
 }
 
 function skillPage(skill) {

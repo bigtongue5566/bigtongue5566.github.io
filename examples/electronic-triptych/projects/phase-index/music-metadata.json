@@ -1,0 +1,705 @@
+{
+  "duration_seconds": 30.0,
+  "bpm": 128.0,
+  "key": "D minor",
+  "original_composition": true,
+  "pulse": "metric",
+  "tempo_note": "quarter-note BPM",
+  "style": "techno",
+  "starter_timbres": null,
+  "instrument_source": "Original filtered harmonic pulse sequence, monophonic sub and synthesized drum/noise voices; 16-bar bespoke pattern/brightness progression",
+  "soundfont_source": null,
+  "soundfont_sha256": null,
+  "soundfont_license_file": null,
+  "note_events": 291,
+  "unexpected_chord_conflicts": 0,
+  "consonance_check": {
+    "profile": "consonant",
+    "tracked_overlap_conflicts": [],
+    "tension_intent": null,
+    "limits": "Symbolic intervals do not certify comfortable timbre. Sampled release and FX tails still require audio review."
+  },
+  "limits": "Symbolic note and signal checks do not establish listening quality.",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 1.875,
+      "role": "intro",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 1.875,
+      "end": 3.75,
+      "role": "intro",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 3.75,
+      "end": 5.625,
+      "role": "groove",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 5.625,
+      "end": 7.5,
+      "role": "groove",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 7.5,
+      "end": 9.375,
+      "role": "groove",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 9.375,
+      "end": 11.25,
+      "role": "groove",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 11.25,
+      "end": 13.125,
+      "role": "evolution",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 13.125,
+      "end": 15.0,
+      "role": "evolution",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 15.0,
+      "end": 16.875,
+      "role": "evolution",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 16.875,
+      "end": 18.75,
+      "role": "evolution",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 18.75,
+      "end": 20.625,
+      "role": "evolution",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 20.625,
+      "end": 22.5,
+      "role": "evolution",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 22.5,
+      "end": 24.375,
+      "role": "groove",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 24.375,
+      "end": 26.25,
+      "role": "groove",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 26.25,
+      "end": 28.125,
+      "role": "groove",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    },
+    {
+      "start": 28.125,
+      "end": 30.0,
+      "role": "outro",
+      "name": "i",
+      "voices": [
+        62,
+        65,
+        69
+      ],
+      "root": 50,
+      "hook": [
+        77,
+        81,
+        86,
+        81
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "start": 0,
+      "end": 3.75,
+      "role": "intro",
+      "label": "Index"
+    },
+    {
+      "start": 3.75,
+      "end": 11.25,
+      "role": "groove",
+      "label": "Lock"
+    },
+    {
+      "start": 11.25,
+      "end": 22.5,
+      "role": "evolution",
+      "label": "Shift"
+    },
+    {
+      "start": 22.5,
+      "end": 28.125,
+      "role": "groove",
+      "label": "Compress"
+    },
+    {
+      "start": 28.125,
+      "end": 30,
+      "role": "outro",
+      "label": "Resolve"
+    }
+  ],
+  "composition": "Original commissioned showcase miniature",
+  "arrangement_source": "compose.py; custom arrangement, not an unchanged style preset",
+  "audio_import": {
+    "mode": "finished-audio-import",
+    "source_file": "phase-index-master.wav",
+    "source_sha256": "7a751bfd61532f6b15b7a6a49d19c7ae2cd6592f9fbf89066fb941bfb7e8662d",
+    "metadata_file": "music-metadata.json",
+    "metadata_sha256": "c6fcbb73a27f9fbf017146ac50bfd07182839b091f5cc8acd9a6880e0246f002",
+    "source_metadata": {
+      "duration_seconds": 30.0,
+      "bpm": 128.0,
+      "key": "D minor",
+      "original_composition": true,
+      "pulse": "metric",
+      "tempo_note": "quarter-note BPM",
+      "style": "techno",
+      "starter_timbres": null,
+      "instrument_source": "Original filtered harmonic pulse sequence, monophonic sub and synthesized drum/noise voices; 16-bar bespoke pattern/brightness progression",
+      "soundfont_source": null,
+      "soundfont_sha256": null,
+      "soundfont_license_file": null,
+      "note_events": 291,
+      "unexpected_chord_conflicts": 0,
+      "consonance_check": {
+        "profile": "consonant",
+        "tracked_overlap_conflicts": [],
+        "tension_intent": null,
+        "limits": "Symbolic intervals do not certify comfortable timbre. Sampled release and FX tails still require audio review."
+      },
+      "limits": "Symbolic note and signal checks do not establish listening quality.",
+      "harmony": [
+        {
+          "start": 0.0,
+          "end": 1.875,
+          "role": "intro",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 1.875,
+          "end": 3.75,
+          "role": "intro",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 3.75,
+          "end": 5.625,
+          "role": "groove",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 5.625,
+          "end": 7.5,
+          "role": "groove",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 7.5,
+          "end": 9.375,
+          "role": "groove",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 9.375,
+          "end": 11.25,
+          "role": "groove",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 11.25,
+          "end": 13.125,
+          "role": "evolution",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 13.125,
+          "end": 15.0,
+          "role": "evolution",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 15.0,
+          "end": 16.875,
+          "role": "evolution",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 16.875,
+          "end": 18.75,
+          "role": "evolution",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 18.75,
+          "end": 20.625,
+          "role": "evolution",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 20.625,
+          "end": 22.5,
+          "role": "evolution",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 22.5,
+          "end": 24.375,
+          "role": "groove",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 24.375,
+          "end": 26.25,
+          "role": "groove",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 26.25,
+          "end": 28.125,
+          "role": "groove",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        },
+        {
+          "start": 28.125,
+          "end": 30.0,
+          "role": "outro",
+          "name": "i",
+          "voices": [
+            62,
+            65,
+            69
+          ],
+          "root": 50,
+          "hook": [
+            77,
+            81,
+            86,
+            81
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 3.75,
+          "role": "intro",
+          "label": "Index"
+        },
+        {
+          "start": 3.75,
+          "end": 11.25,
+          "role": "groove",
+          "label": "Lock"
+        },
+        {
+          "start": 11.25,
+          "end": 22.5,
+          "role": "evolution",
+          "label": "Shift"
+        },
+        {
+          "start": 22.5,
+          "end": 28.125,
+          "role": "groove",
+          "label": "Compress"
+        },
+        {
+          "start": 28.125,
+          "end": 30,
+          "role": "outro",
+          "label": "Resolve"
+        }
+      ],
+      "composition": "Original commissioned showcase miniature",
+      "arrangement_source": "compose.py; custom arrangement, not an unchanged style preset"
+    },
+    "decoded_source_samples_48k": 1440000,
+    "output_samples_48k": 1440000,
+    "boundary_adjustment_samples": 0,
+    "processing": "48kHz stereo PCM conversion, <=40ms boundary trim/pad, AAC encoding; no gain/EQ/limiting/loudness normalization"
+  }
+}

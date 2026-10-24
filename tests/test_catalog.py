@@ -21,6 +21,15 @@ class CatalogMaintenanceTests(unittest.TestCase):
     def test_published_catalog(self):
         self.assertEqual(self.check(self.catalog), [])
 
+    def test_collection_references_and_dates_block_broken_release(self):
+        self.catalog["collections"] = [{"id":"new-works", "title":"New works", "summary":"A series",
+                                        "date":"2026-10-24", "demoIds":[self.catalog["demos"][0]["id"]]}]
+        self.assertEqual(self.check(self.catalog), [])
+        self.catalog["collections"][0]["demoIds"] = ["missing-work"]
+        self.assertTrue(any("collection:" in error for error in self.check(self.catalog)))
+        self.catalog["collections"][0]["date"] = "yesterday"
+        self.assertTrue(any("collection.date" in error for error in self.check(self.catalog)))
+
     def test_skill_with_new_category_and_no_demo(self):
         skill = copy.deepcopy(self.catalog["skills"][0])
         skill.update(id="example-tool", name="測試工具", category="新分類", demoIds=[])

@@ -1,0 +1,85 @@
+{
+  "name": "Still Current",
+  "slug": "still-current",
+  "duration": 32,
+  "music": {
+    "style": "ambient",
+    "key": "D major",
+    "bpm": 60,
+    "progression": [
+      "I",
+      "IV",
+      "vi",
+      "I"
+    ],
+    "pulse": "free",
+    "harmony_seconds": 8,
+    "seed": 24102026,
+    "harmonic_profile": "consonant",
+    "lufs": -20,
+    "true_peak": -2,
+    "soundfont": null,
+    "export_stems": false
+  },
+  "sections": [
+    {
+      "start": 0,
+      "end": 8,
+      "role": "intro",
+      "label": "Surface"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "role": "texture",
+      "label": "Confluence"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "role": "evolution",
+      "label": "Open water"
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "role": "release",
+      "label": "Still"
+    }
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "brand": {
+    "primary": "#153E37",
+    "secondary": "#D79164",
+    "accent": "#B8D529",
+    "ink": "#171A17"
+  },
+  "scenes": [
+    {
+      "start": 0,
+      "end": 8,
+      "chapter": "Surface",
+      "music_role": "intro"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "chapter": "Confluence",
+      "music_role": "break"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "chapter": "Open water",
+      "music_role": "groove"
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "chapter": "Still",
+      "music_role": "outro"
+    }
+  ]
+}

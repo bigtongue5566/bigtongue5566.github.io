@@ -1,0 +1,40 @@
+{
+  "composition": "original electronic starter composition",
+  "style": "downtempo",
+  "bpm": 90.0,
+  "key": "F major",
+  "instrument_source": "Original rounded additive keys, slow chord cushions, synthesized broken drums and sub; laid-back backbeats and alternating phrase answers; no vinyl or third-party samples",
+  "soundfont_source": null,
+  "soundfont_sha256": null,
+  "soundfont_license_file": null,
+  "sections": [
+    {
+      "start": 0,
+      "end": 5.333333333333333,
+      "role": "intro",
+      "label": "First light"
+    },
+    {
+      "start": 5.333333333333333,
+      "end": 16,
+      "role": "groove",
+      "label": "Slow turn"
+    },
+    {
+      "start": 16,
+      "end": 26.666666666666668,
+      "role": "evolution",
+      "label": "Warmth"
+    },
+    {
+      "start": 26.666666666666668,
+      "end": 32,
+      "role": "outro",
+      "label": "Home"
+    }
+  ],
+  "pulse": "metric",
+  "tempo_note": "quarter-note BPM",
+  "midi_note": "GM instrument suggestions; MIDI playback will not reproduce the custom synthesized audio.",
+  "stem_note": "Float32 premaster stems share gain and fades; they are not separately loudness normalized."
+}

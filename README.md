@@ -14,10 +14,28 @@ Every company claim maps to an official source. The page exposes the complete re
 claim-by-claim timestamps, checked dates and actual materials/rights record.
 One work can credit several Skills.
 
+## New collection — 聲音的三種時間
+
+**[Watch the three new films](https://bigtongue5566.github.io/?view=works#electronic-triptych)**
+
+| Work | Music | Duration | Watch / listen |
+| --- | --- | --- | --- |
+| 靜流 / Still Current | Free-time Ambient, no drums | 32 sec | [Film](https://bigtongue5566.github.io/?demo=still-current) · [Music](https://bigtongue5566.github.io/?demo=still-current-music) |
+| 相位索引 / Phase Index | 128 BPM Techno | 30 sec | [Film](https://bigtongue5566.github.io/?demo=phase-index) · [Music](https://bigtongue5566.github.io/?demo=phase-index-music) |
+| 琥珀時光 / Amber Hours | 90 BPM Downtempo | 32 sec | [Film](https://bigtongue5566.github.io/?demo=amber-hours) · [Music](https://bigtongue5566.github.io/?demo=amber-hours-music) |
+
+Made on 2026-10-24 with three different original arrangements and visual systems:
+fluid contours, kinetic modules and a warm cut-paper record that unfolds and returns.
+All films are 1080p/30fps and have independent playable soundtracks. The
+[editable source](examples/electronic-triptych), source ZIP, licenses, actual note/cue
+events, frame/sample checks and encoded ending strips are published with the works.
+The homepage remains a Skill directory, with a compact new-release link to this collection.
+The gallery supports optional catalog `collections` with a date and valid demo IDs.
+
 The gallery also includes the 90-second **Form & Frequency / 聲形之間** and two 60-second studies: **Digital Pulse / 數位脈動**
 (172 BPM Drum & Bass) and **Neon Drift / 霓虹漫遊** (132 BPM UK Garage).
-Each has a film and a standalone soundtrack. The directory currently presents
-four video Demos for the motion Skill and four audio Demos for the music Skill.
+Each has a film and a standalone soundtrack. Together with the new collection,
+the directory presents seven video Demos for the motion Skill and seven audio Demos for the music Skill.
 The revised Form & Frequency uses 148 BPM Future Bass; the TSMC film uses restrained
 124 BPM Minimal Piano House. Playback assets carry content-hash version queries, and chapters
 match the new musical timing. Source archives retain the actual notes and automation.
@@ -140,9 +158,9 @@ pages and in the gallery.
 No package install or build tool is required. With Python 3.12:
 
 ```powershell
-python -X utf8 scripts/validate_catalog.py
-python -X utf8 -m unittest discover -s tests -v
-python -m http.server 9158 --bind 127.0.0.1 --directory docs
+uv run --no-project python -X utf8 scripts/validate_catalog.py
+uv run --no-project python -X utf8 -m unittest discover -s tests -v
+uv run --no-project python -m http.server 9158 --bind 127.0.0.1 --directory docs
 ```
 
 Open `http://127.0.0.1:9158/` in a browser. Opening `index.html` as a `file:` URL

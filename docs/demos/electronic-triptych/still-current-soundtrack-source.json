@@ -1,0 +1,136 @@
+{
+  "mode": "finished-audio-import",
+  "source_file": "still-current-master.wav",
+  "source_sha256": "156aa398c87e43d3df686532cb4948ad7800e092baaf42b275d79d37c2a8c6c4",
+  "metadata_file": "music-metadata.json",
+  "metadata_sha256": "3e82b2c109a77f6cbfc5f083310191bfb7fa96d5d73edd2aace09c2fcb0cba98",
+  "source_metadata": {
+    "duration_seconds": 32.0,
+    "bpm": 60.0,
+    "key": "D major",
+    "original_composition": true,
+    "pulse": "free",
+    "tempo_note": "MIDI reference tempo only; no periodic beat",
+    "style": "ambient",
+    "starter_timbres": null,
+    "instrument_source": "Original additive cloud voices, slow harmonic amplitude modulation and filtered generated noise; no drums, samples or field recordings",
+    "soundfont_source": null,
+    "soundfont_sha256": null,
+    "soundfont_license_file": null,
+    "note_events": 18,
+    "unexpected_chord_conflicts": 0,
+    "consonance_check": {
+      "profile": "consonant",
+      "tracked_overlap_conflicts": [],
+      "tension_intent": null,
+      "limits": "Symbolic intervals do not certify comfortable timbre. Sampled release and FX tails still require audio review."
+    },
+    "limits": "Symbolic note and signal checks do not establish listening quality.",
+    "harmony": [
+      {
+        "start": 0.0,
+        "end": 8.0,
+        "role": "intro",
+        "name": "I",
+        "voices": [
+          50,
+          54,
+          57
+        ],
+        "root": 38,
+        "hook": [
+          66,
+          69,
+          74,
+          69
+        ]
+      },
+      {
+        "start": 8.0,
+        "end": 16.0,
+        "role": "texture",
+        "name": "IV",
+        "voices": [
+          50,
+          55,
+          59
+        ],
+        "root": 31,
+        "hook": [
+          62,
+          67,
+          71,
+          67
+        ]
+      },
+      {
+        "start": 16.0,
+        "end": 24.0,
+        "role": "evolution",
+        "name": "vi",
+        "voices": [
+          50,
+          54,
+          59
+        ],
+        "root": 35,
+        "hook": [
+          66,
+          71,
+          74,
+          71
+        ]
+      },
+      {
+        "start": 24.0,
+        "end": 32.0,
+        "role": "release",
+        "name": "I",
+        "voices": [
+          50,
+          54,
+          57
+        ],
+        "root": 38,
+        "hook": [
+          66,
+          69,
+          74,
+          69
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "start": 0,
+        "end": 8,
+        "role": "intro",
+        "label": "Surface"
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "role": "texture",
+        "label": "Confluence"
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "role": "evolution",
+        "label": "Open water"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "role": "release",
+        "label": "Still"
+      }
+    ],
+    "composition": "Original commissioned showcase miniature",
+    "arrangement_source": "compose.py; custom arrangement, not an unchanged style preset"
+  },
+  "decoded_source_samples_48k": 1536000,
+  "output_samples_48k": 1536000,
+  "boundary_adjustment_samples": 0,
+  "processing": "48kHz stereo PCM conversion, <=40ms boundary trim/pad, AAC encoding; no gain/EQ/limiting/loudness normalization"
+}

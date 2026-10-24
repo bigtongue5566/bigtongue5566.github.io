@@ -1,0 +1,12 @@
+{
+  "picture_packets_unchanged": true,
+  "picture_packet_hash": "SHA256=67be2241aba5d32a0f95838f58a2dcd611d098701fa83fda7a13d4b4a73ef7ac",
+  "background_colour_max_channel_error": 1,
+  "actual_last_event_seconds": 24.0,
+  "declared_last_event_seconds": 24.0,
+  "visual_settle_seconds": 30.0,
+  "duration_seconds": 32,
+  "cue_source": "actual composed note and percussion events; no inferred/fabricated beat grid",
+  "audio_master_sha256": "156aa398c87e43d3df686532cb4948ad7800e092baaf42b275d79d37c2a8c6c4",
+  "limits": "Decoded-frame, sample and symbolic-cue checks do not certify subjective listening quality."
+}

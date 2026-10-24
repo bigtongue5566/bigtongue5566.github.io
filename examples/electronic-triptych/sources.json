@@ -1,0 +1,32 @@
+{
+  "created": "2026-10-24",
+  "composition_and_graphics": "Original work created for bigtongue5566 Skill Library",
+  "recordings": "None; oscillator and generated-noise synthesis only",
+  "audio_engine_commit": "3e951db9996ae04ca78483d70fca2d0b24768a3a",
+  "video_pipeline_commit": "0cce192eb8739b0310b44f66b8dfe11a9c0ffc02",
+  "font": {
+    "name": "Space Grotesk",
+    "license": "SIL OFL 1.1",
+    "upstream": "https://github.com/floriankarsten/space-grotesk"
+  },
+  "files": {
+    "engine/arrangements.py": "b8850359a13747a0e887279a1acba22246ab53f391c14d93f00c24c4977c096e",
+    "engine/compose_edm.py": "0a4b7037a9c5fb85c829385d4b086ed9b8ccc0848e2af77289d6493395a25e48",
+    "engine/continuity.py": "de0ae0e7c1988c2545594d70f6b43aeb58890c063c8b10d0afaf124dd1c77054",
+    "engine/electronic_arrangements.py": "dbe5bd2f5860765dfe96946e3828fdc6eb905a40d8e42556d95d3210c5cade29",
+    "engine/finish_music.py": "8402dd677c1d33da3efa5ef844cb9274c9bb8c01448e990107f6540481343837",
+    "engine/harmonic_comfort.py": "0db528550fa9087fbdc4b15bf4e4e5aaf27e903cd9f3498700040277af4bb7e7",
+    "engine/instruments.py": "a7bd2ac00c679ef5cb2f31310348902668d6bb2b004ae910caf792c090fb9cb4",
+    "engine/LICENSE": "c608219e0cdaadc982886ea8853650ac589feead9f14ab3965ea18004d9ad536",
+    "engine/projectlib.py": "ba44da2eadf062081a82e749fccad0b11dc75bacdc3e49208a6d7a9f981bf9b1",
+    "engine/styles.py": "2fe68da19acb52399cdf5d304382c306c82767fc12eabca34cfafafe613eed9d",
+    "video_pipeline/continuity.py": "de0ae0e7c1988c2545594d70f6b43aeb58890c063c8b10d0afaf124dd1c77054",
+    "video_pipeline/finish_video.py": "767ebbee95e58c8a2173e8a189cf3ad9c8ffc0caa5ab363758ad4defdfa26f56",
+    "video_pipeline/instruments.py": "daa8ffed5da4637410bfc0aab28b911849d9c5619c960e337280b8fc5736e261",
+    "video_pipeline/LICENSE": "c608219e0cdaadc982886ea8853650ac589feead9f14ab3965ea18004d9ad536",
+    "video_pipeline/projectlib.py": "751c003c85c558a63fadacbdf2b0db998dc01318755adde5faafe312dcab60d0",
+    "video_pipeline/soundtrack.py": "c621d483077a19d358acc0917bf6b437203ed12906288e456efde156ca2d885c",
+    "fonts/SpaceGrotesk-OFL.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+    "fonts/SpaceGrotesk.ttf": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+  }
+}

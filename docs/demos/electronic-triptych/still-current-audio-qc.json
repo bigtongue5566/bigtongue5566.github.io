@@ -1,0 +1,37 @@
+{
+  "name": "Still Current",
+  "requested_seconds": 32,
+  "wav": {
+    "file": "still-current-master.wav",
+    "duration_seconds": 32.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 3,
+    "samples": 1536000,
+    "integrated_lufs": -19.8,
+    "true_peak_dbfs": -10.3,
+    "loudness_range_lu": 3.4
+  },
+  "aac": {
+    "file": "still-current.m4a",
+    "decoded_seconds": 32.0,
+    "integrated_lufs": -19.8,
+    "true_peak_dbfs": -10.3,
+    "loudness_range_lu": 3.4
+  },
+  "micro_dynamics": {
+    "window_ms": 10,
+    "deep_trough_threshold_db_below_p95": -33.98,
+    "regions": [],
+    "interpretation": "Review with arrangement intent. These values do not certify listening quality."
+  },
+  "full_decode_errors": 0,
+  "mono_fold_down_db": -0.007,
+  "ending_rms_last_50ms": 2.8e-05,
+  "unexpected_near_silent_seconds": [],
+  "bpm": 60.0,
+  "key": "D major",
+  "unexpected_chord_conflicts": 0,
+  "aac_sha256": "f42e74b0bca1cdc93b9b3061aafdfde6d6ab481e1ef523f8fb38d464de474ecb",
+  "limits": "Objective QC does not certify listening quality."
+}

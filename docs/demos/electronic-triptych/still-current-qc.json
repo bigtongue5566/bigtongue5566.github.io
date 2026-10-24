@@ -1,0 +1,28 @@
+{
+  "file": "still-current.mp4",
+  "duration_seconds": 32.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30.0,
+  "decoded_frames": 960,
+  "decode_errors": 0,
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "decoded_audio_seconds": 32.0,
+  "integrated_loudness_lufs": -19.8,
+  "true_peak_dbfs": -10.3,
+  "mono_fold_down_db": -0.007,
+  "micro_dynamics": {
+    "window_ms": 10,
+    "deep_trough_threshold_db_below_p95": -33.98,
+    "regions": [],
+    "interpretation": "Review with arrangement intent. These values do not certify listening quality."
+  },
+  "near_silent_regions": [],
+  "music_pulse": "free",
+  "audio_processing": "finished-audio-import",
+  "ending_rms_last_50ms": 2.8e-05,
+  "visual_samples_exported": 14,
+  "limits": "Signal checks and exported frames do not certify subjective music or design quality."
+}

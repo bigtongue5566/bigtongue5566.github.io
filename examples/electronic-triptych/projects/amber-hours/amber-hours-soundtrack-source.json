@@ -1,0 +1,560 @@
+{
+  "mode": "finished-audio-import",
+  "source_file": "amber-hours-master.wav",
+  "source_sha256": "b0f9504a72f90c1ecf7a93e0a51103e5f3ef6c0dfc843e5131a6bc8b32f413d0",
+  "metadata_file": "music-metadata.json",
+  "metadata_sha256": "7e7d47e7f158cfccdfc4aebe4e9f01cb1588603336de9123cffdf95a5370b178",
+  "source_metadata": {
+    "duration_seconds": 32.0,
+    "bpm": 90.0,
+    "key": "F major",
+    "original_composition": true,
+    "pulse": "metric",
+    "tempo_note": "quarter-note BPM",
+    "style": "downtempo",
+    "starter_timbres": null,
+    "instrument_source": "Original rounded additive keys, slow chord cushions, synthesized broken drums and sub; laid-back backbeats and alternating phrase answers; no vinyl or third-party samples",
+    "soundfont_source": null,
+    "soundfont_sha256": null,
+    "soundfont_license_file": null,
+    "note_events": 183,
+    "unexpected_chord_conflicts": 0,
+    "consonance_check": {
+      "profile": "consonant",
+      "tracked_overlap_conflicts": [],
+      "tension_intent": null,
+      "limits": "Symbolic intervals do not certify comfortable timbre. Sampled release and FX tails still require audio review."
+    },
+    "limits": "Symbolic note and signal checks do not establish listening quality.",
+    "harmony": [
+      {
+        "start": 0.0,
+        "end": 2.6666666666666665,
+        "role": "intro",
+        "name": "I",
+        "voices": [
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "hook": [
+          69,
+          72,
+          77,
+          72
+        ]
+      },
+      {
+        "start": 2.6666666666666665,
+        "end": 5.333333333333333,
+        "role": "intro",
+        "name": "vi",
+        "voices": [
+          53,
+          57,
+          62
+        ],
+        "root": 38,
+        "hook": [
+          69,
+          74,
+          77,
+          74
+        ]
+      },
+      {
+        "start": 5.333333333333333,
+        "end": 8.0,
+        "role": "groove",
+        "name": "IV",
+        "voices": [
+          53,
+          58,
+          62
+        ],
+        "root": 34,
+        "hook": [
+          65,
+          70,
+          74,
+          70
+        ]
+      },
+      {
+        "start": 8.0,
+        "end": 10.666666666666666,
+        "role": "groove",
+        "name": "I",
+        "voices": [
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "hook": [
+          69,
+          72,
+          77,
+          72
+        ]
+      },
+      {
+        "start": 10.666666666666666,
+        "end": 13.333333333333332,
+        "role": "groove",
+        "name": "I",
+        "voices": [
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "hook": [
+          69,
+          72,
+          77,
+          72
+        ]
+      },
+      {
+        "start": 13.333333333333332,
+        "end": 16.0,
+        "role": "groove",
+        "name": "vi",
+        "voices": [
+          53,
+          57,
+          62
+        ],
+        "root": 38,
+        "hook": [
+          69,
+          74,
+          77,
+          74
+        ]
+      },
+      {
+        "start": 16.0,
+        "end": 18.666666666666664,
+        "role": "evolution",
+        "name": "IV",
+        "voices": [
+          53,
+          58,
+          62
+        ],
+        "root": 34,
+        "hook": [
+          65,
+          70,
+          74,
+          70
+        ]
+      },
+      {
+        "start": 18.666666666666664,
+        "end": 21.333333333333332,
+        "role": "evolution",
+        "name": "I",
+        "voices": [
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "hook": [
+          69,
+          72,
+          77,
+          72
+        ]
+      },
+      {
+        "start": 21.333333333333332,
+        "end": 24.0,
+        "role": "evolution",
+        "name": "I",
+        "voices": [
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "hook": [
+          69,
+          72,
+          77,
+          72
+        ]
+      },
+      {
+        "start": 24.0,
+        "end": 26.666666666666664,
+        "role": "evolution",
+        "name": "vi",
+        "voices": [
+          53,
+          57,
+          62
+        ],
+        "root": 38,
+        "hook": [
+          69,
+          74,
+          77,
+          74
+        ]
+      },
+      {
+        "start": 26.666666666666664,
+        "end": 29.333333333333332,
+        "role": "outro",
+        "name": "I",
+        "voices": [
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "hook": [
+          69,
+          72,
+          77,
+          72
+        ]
+      },
+      {
+        "start": 29.333333333333332,
+        "end": 32.0,
+        "role": "outro",
+        "name": "I",
+        "voices": [
+          53,
+          57,
+          60
+        ],
+        "root": 41,
+        "hook": [
+          69,
+          72,
+          77,
+          72
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "start": 0,
+        "end": 5.333333333333333,
+        "role": "intro",
+        "label": "First light"
+      },
+      {
+        "start": 5.333333333333333,
+        "end": 16,
+        "role": "groove",
+        "label": "Slow turn"
+      },
+      {
+        "start": 16,
+        "end": 26.666666666666668,
+        "role": "evolution",
+        "label": "Warmth"
+      },
+      {
+        "start": 26.666666666666668,
+        "end": 32,
+        "role": "outro",
+        "label": "Home"
+      }
+    ],
+    "composition": "Original commissioned showcase miniature",
+    "arrangement_source": "compose.py; custom arrangement, not an unchanged style preset",
+    "audio_import": {
+      "mode": "finished-audio-import",
+      "source_file": "amber-hours-master.wav",
+      "source_sha256": "b0f9504a72f90c1ecf7a93e0a51103e5f3ef6c0dfc843e5131a6bc8b32f413d0",
+      "metadata_file": "music-metadata.json",
+      "metadata_sha256": "656eaadfed27ca1a257c0d2df91eda5872021a6db5062032bc7f5251d53c7e34",
+      "source_metadata": {
+        "duration_seconds": 32.0,
+        "bpm": 90.0,
+        "key": "F major",
+        "original_composition": true,
+        "pulse": "metric",
+        "tempo_note": "quarter-note BPM",
+        "style": "downtempo",
+        "starter_timbres": null,
+        "instrument_source": "Original rounded additive keys, slow chord cushions, synthesized broken drums and sub; laid-back backbeats and alternating phrase answers; no vinyl or third-party samples",
+        "soundfont_source": null,
+        "soundfont_sha256": null,
+        "soundfont_license_file": null,
+        "note_events": 183,
+        "unexpected_chord_conflicts": 0,
+        "consonance_check": {
+          "profile": "consonant",
+          "tracked_overlap_conflicts": [],
+          "tension_intent": null,
+          "limits": "Symbolic intervals do not certify comfortable timbre. Sampled release and FX tails still require audio review."
+        },
+        "limits": "Symbolic note and signal checks do not establish listening quality.",
+        "harmony": [
+          {
+            "start": 0.0,
+            "end": 2.6666666666666665,
+            "role": "intro",
+            "name": "I",
+            "voices": [
+              53,
+              57,
+              60
+            ],
+            "root": 41,
+            "hook": [
+              69,
+              72,
+              77,
+              72
+            ]
+          },
+          {
+            "start": 2.6666666666666665,
+            "end": 5.333333333333333,
+            "role": "intro",
+            "name": "vi",
+            "voices": [
+              53,
+              57,
+              62
+            ],
+            "root": 38,
+            "hook": [
+              69,
+              74,
+              77,
+              74
+            ]
+          },
+          {
+            "start": 5.333333333333333,
+            "end": 8.0,
+            "role": "groove",
+            "name": "IV",
+            "voices": [
+              53,
+              58,
+              62
+            ],
+            "root": 34,
+            "hook": [
+              65,
+              70,
+              74,
+              70
+            ]
+          },
+          {
+            "start": 8.0,
+            "end": 10.666666666666666,
+            "role": "groove",
+            "name": "I",
+            "voices": [
+              53,
+              57,
+              60
+            ],
+            "root": 41,
+            "hook": [
+              69,
+              72,
+              77,
+              72
+            ]
+          },
+          {
+            "start": 10.666666666666666,
+            "end": 13.333333333333332,
+            "role": "groove",
+            "name": "I",
+            "voices": [
+              53,
+              57,
+              60
+            ],
+            "root": 41,
+            "hook": [
+              69,
+              72,
+              77,
+              72
+            ]
+          },
+          {
+            "start": 13.333333333333332,
+            "end": 16.0,
+            "role": "groove",
+            "name": "vi",
+            "voices": [
+              53,
+              57,
+              62
+            ],
+            "root": 38,
+            "hook": [
+              69,
+              74,
+              77,
+              74
+            ]
+          },
+          {
+            "start": 16.0,
+            "end": 18.666666666666664,
+            "role": "evolution",
+            "name": "IV",
+            "voices": [
+              53,
+              58,
+              62
+            ],
+            "root": 34,
+            "hook": [
+              65,
+              70,
+              74,
+              70
+            ]
+          },
+          {
+            "start": 18.666666666666664,
+            "end": 21.333333333333332,
+            "role": "evolution",
+            "name": "I",
+            "voices": [
+              53,
+              57,
+              60
+            ],
+            "root": 41,
+            "hook": [
+              69,
+              72,
+              77,
+              72
+            ]
+          },
+          {
+            "start": 21.333333333333332,
+            "end": 24.0,
+            "role": "evolution",
+            "name": "I",
+            "voices": [
+              53,
+              57,
+              60
+            ],
+            "root": 41,
+            "hook": [
+              69,
+              72,
+              77,
+              72
+            ]
+          },
+          {
+            "start": 24.0,
+            "end": 26.666666666666664,
+            "role": "evolution",
+            "name": "vi",
+            "voices": [
+              53,
+              57,
+              62
+            ],
+            "root": 38,
+            "hook": [
+              69,
+              74,
+              77,
+              74
+            ]
+          },
+          {
+            "start": 26.666666666666664,
+            "end": 29.333333333333332,
+            "role": "outro",
+            "name": "I",
+            "voices": [
+              53,
+              57,
+              60
+            ],
+            "root": 41,
+            "hook": [
+              69,
+              72,
+              77,
+              72
+            ]
+          },
+          {
+            "start": 29.333333333333332,
+            "end": 32.0,
+            "role": "outro",
+            "name": "I",
+            "voices": [
+              53,
+              57,
+              60
+            ],
+            "root": 41,
+            "hook": [
+              69,
+              72,
+              77,
+              72
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "start": 0,
+            "end": 5.333333333333333,
+            "role": "intro",
+            "label": "First light"
+          },
+          {
+            "start": 5.333333333333333,
+            "end": 16,
+            "role": "groove",
+            "label": "Slow turn"
+          },
+          {
+            "start": 16,
+            "end": 26.666666666666668,
+            "role": "evolution",
+            "label": "Warmth"
+          },
+          {
+            "start": 26.666666666666668,
+            "end": 32,
+            "role": "outro",
+            "label": "Home"
+          }
+        ],
+        "composition": "Original commissioned showcase miniature",
+        "arrangement_source": "compose.py; custom arrangement, not an unchanged style preset"
+      },
+      "decoded_source_samples_48k": 1536000,
+      "output_samples_48k": 1536000,
+      "boundary_adjustment_samples": 0,
+      "processing": "48kHz stereo PCM conversion, <=40ms boundary trim/pad, AAC encoding; no gain/EQ/limiting/loudness normalization"
+    }
+  },
+  "decoded_source_samples_48k": 1536000,
+  "output_samples_48k": 1536000,
+  "boundary_adjustment_samples": 0,
+  "processing": "48kHz stereo PCM conversion, <=40ms boundary trim/pad, AAC encoding; no gain/EQ/limiting/loudness normalization"
+}

@@ -31,6 +31,9 @@
       ],
       "usage": "用 $electronic-music-production 製作 60 秒無鼓 Ambient，讓原創 Drone 與聲景緩慢演變，交付母帶和可編輯來源。",
       "demoIds": [
+        "still-current-music",
+        "phase-index-music",
+        "amber-hours-music",
         "form-and-frequency-music",
         "digital-pulse-music",
         "neon-drift-music",
@@ -59,6 +62,9 @@
       ],
       "usage": "用 $motion-graphics-video 製作一支 90 秒的原創動態圖形 Demo，依敘事選擇電子配樂並與畫面同步。",
       "demoIds": [
+        "still-current",
+        "phase-index",
+        "amber-hours",
         "form-and-frequency",
         "digital-pulse",
         "neon-drift",
@@ -96,6 +102,305 @@
     }
   ],
   "demos": [
+    {
+      "title": "靜流",
+      "subtitle": "Still Current",
+      "summary": "無鼓聲景，讓等高線隨質地緩慢匯流。",
+      "description": "32 秒原創 Ambient。緩慢的加法合成長音、泛音振幅變化與濾波噪聲形成聲景，沒有鼓或固定拍點。薄荷色等高線吸收暖色核心，擴張後回到安定狀態；動畫依秒數、和聲與質地變化編排。",
+      "poster": "demos/electronic-triptych/still-current-poster.jpg?v=34122de9e4fa",
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/electronic-triptych",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/electronic-triptych/RIGHTS.md",
+      "credits": "原創編曲、振盪器／噪聲合成與向量動畫；Space Grotesk 字型依 OFL 1.1 使用。來源套件含完整程式、音符、時間表、授權及實際成品檢查。",
+      "chapters": [
+        {
+          "time": 0,
+          "title": "Surface"
+        },
+        {
+          "time": 8,
+          "title": "Confluence"
+        },
+        {
+          "time": 16,
+          "title": "Open water"
+        },
+        {
+          "time": 24,
+          "title": "Still"
+        }
+      ],
+      "revision": "2026-10-24-electronic-triptych",
+      "id": "still-current",
+      "type": "video",
+      "src": "demos/electronic-triptych/still-current.mp4?v=0f18e9b44c26",
+      "audio": "demos/electronic-triptych/still-current.m4a?v=f42e74b0bca1",
+      "relatedDemoId": "still-current-music",
+      "facts": [
+        "32 SEC",
+        "1080p",
+        "AMBIENT",
+        "FREE TIME"
+      ],
+      "contributors": [
+        {
+          "skillId": "motion-graphics-video",
+          "role": "原創構圖、物件動畫、音畫 cue、合成與影片驗證"
+        },
+        {
+          "skillId": "electronic-music-production",
+          "role": "原創編曲、合成音色、混音與母帶"
+        }
+      ],
+      "download": "demos/electronic-triptych/sound-form-source.zip?v=2c2f282d0c27"
+    },
+    {
+      "title": "靜流・原創配樂",
+      "subtitle": "Still Current — Original Soundtrack",
+      "summary": "無鼓聲景，讓等高線隨質地緩慢匯流。",
+      "description": "32 秒原創 Ambient。緩慢的加法合成長音、泛音振幅變化與濾波噪聲形成聲景，沒有鼓或固定拍點。薄荷色等高線吸收暖色核心，擴張後回到安定狀態；動畫依秒數、和聲與質地變化編排。 可獨立播放；音符 MIDI 不包含完整合成音色，請以附帶程式重建。",
+      "poster": "demos/electronic-triptych/still-current-poster.jpg?v=34122de9e4fa",
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/electronic-triptych",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/electronic-triptych/RIGHTS.md",
+      "credits": "原創編曲、振盪器／噪聲合成與向量動畫；Space Grotesk 字型依 OFL 1.1 使用。來源套件含完整程式、音符、時間表、授權及實際成品檢查。",
+      "chapters": [
+        {
+          "time": 0,
+          "title": "Surface"
+        },
+        {
+          "time": 8,
+          "title": "Confluence"
+        },
+        {
+          "time": 16,
+          "title": "Open water"
+        },
+        {
+          "time": 24,
+          "title": "Still"
+        }
+      ],
+      "revision": "2026-10-24-electronic-triptych",
+      "id": "still-current-music",
+      "type": "audio",
+      "src": "demos/electronic-triptych/still-current.m4a?v=f42e74b0bca1",
+      "relatedDemoId": "still-current",
+      "facts": [
+        "32 SEC",
+        "AMBIENT",
+        "FREE TIME",
+        "ORIGINAL SYNTHESIS"
+      ],
+      "contributors": [
+        {
+          "skillId": "electronic-music-production",
+          "role": "獨立配樂、實際聲音合成、編曲與母帶"
+        }
+      ],
+      "download": "demos/electronic-triptych/sound-form-source.zip?v=2c2f282d0c27"
+    },
+    {
+      "title": "相位索引",
+      "subtitle": "Phase Index",
+      "summary": "機械脈衝與方塊重組，十六小節逐步變形。",
+      "description": "30 秒、128 BPM 原創 Techno。以單一和聲中心、濾波脈衝動機、合成鼓與低音推進，十六小節逐步增加明亮度和節奏層次。十六個實心模組組裝、旋轉與壓縮，並在最後一次有效起音合為單一標記。",
+      "poster": "demos/electronic-triptych/phase-index-poster.jpg?v=1668cdda1dd4",
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/electronic-triptych",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/electronic-triptych/RIGHTS.md",
+      "credits": "原創編曲、振盪器／噪聲合成與向量動畫；Space Grotesk 字型依 OFL 1.1 使用。來源套件含完整程式、音符、時間表、授權及實際成品檢查。",
+      "chapters": [
+        {
+          "time": 0,
+          "title": "Index"
+        },
+        {
+          "time": 3.75,
+          "title": "Lock"
+        },
+        {
+          "time": 11.25,
+          "title": "Shift"
+        },
+        {
+          "time": 22.5,
+          "title": "Compress"
+        },
+        {
+          "time": 28.125,
+          "title": "Resolve"
+        }
+      ],
+      "revision": "2026-10-24-electronic-triptych",
+      "id": "phase-index",
+      "type": "video",
+      "src": "demos/electronic-triptych/phase-index.mp4?v=59bfc857fc99",
+      "audio": "demos/electronic-triptych/phase-index.m4a?v=22c00fc12e20",
+      "relatedDemoId": "phase-index-music",
+      "facts": [
+        "30 SEC",
+        "1080p",
+        "TECHNO",
+        "128 BPM"
+      ],
+      "contributors": [
+        {
+          "skillId": "motion-graphics-video",
+          "role": "原創構圖、物件動畫、音畫 cue、合成與影片驗證"
+        },
+        {
+          "skillId": "electronic-music-production",
+          "role": "原創編曲、合成音色、混音與母帶"
+        }
+      ],
+      "download": "demos/electronic-triptych/sound-form-source.zip?v=2c2f282d0c27"
+    },
+    {
+      "title": "相位索引・原創配樂",
+      "subtitle": "Phase Index — Original Soundtrack",
+      "summary": "機械脈衝與方塊重組，十六小節逐步變形。",
+      "description": "30 秒、128 BPM 原創 Techno。以單一和聲中心、濾波脈衝動機、合成鼓與低音推進，十六小節逐步增加明亮度和節奏層次。十六個實心模組組裝、旋轉與壓縮，並在最後一次有效起音合為單一標記。 可獨立播放；音符 MIDI 不包含完整合成音色，請以附帶程式重建。",
+      "poster": "demos/electronic-triptych/phase-index-poster.jpg?v=1668cdda1dd4",
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/electronic-triptych",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/electronic-triptych/RIGHTS.md",
+      "credits": "原創編曲、振盪器／噪聲合成與向量動畫；Space Grotesk 字型依 OFL 1.1 使用。來源套件含完整程式、音符、時間表、授權及實際成品檢查。",
+      "chapters": [
+        {
+          "time": 0,
+          "title": "Index"
+        },
+        {
+          "time": 3.75,
+          "title": "Lock"
+        },
+        {
+          "time": 11.25,
+          "title": "Shift"
+        },
+        {
+          "time": 22.5,
+          "title": "Compress"
+        },
+        {
+          "time": 28.125,
+          "title": "Resolve"
+        }
+      ],
+      "revision": "2026-10-24-electronic-triptych",
+      "id": "phase-index-music",
+      "type": "audio",
+      "src": "demos/electronic-triptych/phase-index.m4a?v=22c00fc12e20",
+      "relatedDemoId": "phase-index",
+      "facts": [
+        "30 SEC",
+        "TECHNO",
+        "128 BPM",
+        "ORIGINAL SYNTHESIS"
+      ],
+      "contributors": [
+        {
+          "skillId": "electronic-music-production",
+          "role": "獨立配樂、實際聲音合成、編曲與母帶"
+        }
+      ],
+      "download": "demos/electronic-triptych/sound-form-source.zip?v=2c2f282d0c27"
+    },
+    {
+      "title": "琥珀時光",
+      "subtitle": "Amber Hours",
+      "summary": "慢速碎拍與暖鍵盤，紙片唱盤拆解再歸位。",
+      "description": "32 秒、90 BPM 原創 Downtempo。略為延後的 backbeat、切分鼓型、柔和合成鍵盤及低音交替呼應。暖色紙片唱盤隨實際鼓點與鍵盤起音活動，中段拆成三片再回到完整構圖；沒有使用黑膠或第三方歌曲取樣。",
+      "poster": "demos/electronic-triptych/amber-hours-poster.jpg?v=3f2b468206a1",
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/electronic-triptych",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/electronic-triptych/RIGHTS.md",
+      "credits": "原創編曲、振盪器／噪聲合成與向量動畫；Space Grotesk 字型依 OFL 1.1 使用。來源套件含完整程式、音符、時間表、授權及實際成品檢查。",
+      "chapters": [
+        {
+          "time": 0,
+          "title": "First light"
+        },
+        {
+          "time": 5.333333333333333,
+          "title": "Slow turn"
+        },
+        {
+          "time": 16,
+          "title": "Warmth"
+        },
+        {
+          "time": 26.666666666666668,
+          "title": "Home"
+        }
+      ],
+      "revision": "2026-10-24-electronic-triptych",
+      "id": "amber-hours",
+      "type": "video",
+      "src": "demos/electronic-triptych/amber-hours.mp4?v=3d1da17314bd",
+      "audio": "demos/electronic-triptych/amber-hours.m4a?v=732b0dceff73",
+      "relatedDemoId": "amber-hours-music",
+      "facts": [
+        "32 SEC",
+        "1080p",
+        "DOWNTEMPO",
+        "90 BPM"
+      ],
+      "contributors": [
+        {
+          "skillId": "motion-graphics-video",
+          "role": "原創構圖、物件動畫、音畫 cue、合成與影片驗證"
+        },
+        {
+          "skillId": "electronic-music-production",
+          "role": "原創編曲、合成音色、混音與母帶"
+        }
+      ],
+      "download": "demos/electronic-triptych/sound-form-source.zip?v=2c2f282d0c27"
+    },
+    {
+      "title": "琥珀時光・原創配樂",
+      "subtitle": "Amber Hours — Original Soundtrack",
+      "summary": "慢速碎拍與暖鍵盤，紙片唱盤拆解再歸位。",
+      "description": "32 秒、90 BPM 原創 Downtempo。略為延後的 backbeat、切分鼓型、柔和合成鍵盤及低音交替呼應。暖色紙片唱盤隨實際鼓點與鍵盤起音活動，中段拆成三片再回到完整構圖；沒有使用黑膠或第三方歌曲取樣。 可獨立播放；音符 MIDI 不包含完整合成音色，請以附帶程式重建。",
+      "poster": "demos/electronic-triptych/amber-hours-poster.jpg?v=3f2b468206a1",
+      "source": "https://github.com/bigtongue5566/bigtongue5566.github.io/tree/main/examples/electronic-triptych",
+      "rights": "https://github.com/bigtongue5566/bigtongue5566.github.io/blob/main/examples/electronic-triptych/RIGHTS.md",
+      "credits": "原創編曲、振盪器／噪聲合成與向量動畫；Space Grotesk 字型依 OFL 1.1 使用。來源套件含完整程式、音符、時間表、授權及實際成品檢查。",
+      "chapters": [
+        {
+          "time": 0,
+          "title": "First light"
+        },
+        {
+          "time": 5.333333333333333,
+          "title": "Slow turn"
+        },
+        {
+          "time": 16,
+          "title": "Warmth"
+        },
+        {
+          "time": 26.666666666666668,
+          "title": "Home"
+        }
+      ],
+      "revision": "2026-10-24-electronic-triptych",
+      "id": "amber-hours-music",
+      "type": "audio",
+      "src": "demos/electronic-triptych/amber-hours.m4a?v=732b0dceff73",
+      "relatedDemoId": "amber-hours",
+      "facts": [
+        "32 SEC",
+        "DOWNTEMPO",
+        "90 BPM",
+        "ORIGINAL SYNTHESIS"
+      ],
+      "contributors": [
+        {
+          "skillId": "electronic-music-production",
+          "role": "獨立配樂、實際聲音合成、編曲與母帶"
+        }
+      ],
+      "download": "demos/electronic-triptych/sound-form-source.zip?v=2c2f282d0c27"
+    },
     {
       "id": "form-and-frequency",
       "title": "聲形之間",
@@ -714,6 +1019,19 @@
           "skillId": "blender-landmark-generator",
           "role": "多視角外觀判讀、Blender 建模、幾何驗證與互動漫遊"
         }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "electronic-triptych",
+      "title": "聲音的三種時間",
+      "summary": "三支全新原創短片：自由流動的 Ambient、機械脈衝 Techno、暖色慢律動 Downtempo。每支附獨立配樂與可重建來源。",
+      "date": "2026-10-24",
+      "demoIds": [
+        "still-current",
+        "phase-index",
+        "amber-hours"
       ]
     }
   ]
